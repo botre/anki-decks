@@ -1,0 +1,13 @@
+#!/bin/bash
+
+set -e
+
+for FILE in ./src/*.md; do
+  echo "Found $FILE"
+  DECK=${FILE}
+  DECK=${DECK%.md}
+  DECK=${DECK/src/"decks"}
+  DECK=${DECK}".apkg"
+  mdanki "$FILE" "$DECK"
+  echo "Generated $DECK"
+done
