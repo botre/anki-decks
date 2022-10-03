@@ -1,5 +1,9 @@
 # IntelliJ IDEA
 
-## Open Problems tool window
+## Toggle Problems tool window
 
 ⌘ + 6
+
+## Toggle Terminal window
+
+⌥ + F12
