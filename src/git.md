@@ -100,6 +100,12 @@ This repository tracks all changes made to files in your project, building a his
 git restore
 ```
 
+## Show the list of files containing conflict markers
+
+```
+git diff --check
+```
+
 ## Soft reset
 
 Deleted changes only from the local repository.
