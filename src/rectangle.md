@@ -35,3 +35,11 @@
 ## Maximize
 
 ⌃ ⌥ ↵
+
+## Smaller
+
+⌃ ⌥ -
+
+## Larger
+
+⌃ ⌥ +
