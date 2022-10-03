@@ -27,3 +27,15 @@ Alt/meta key
 ## Key notation: `<M-...>`
 
 Alt/meta key
+
+## (Un)comment out selection in visual mode
+
+```
+gc
+```
+
+## (Un)comment the current line
+
+```
+gc^
+```
