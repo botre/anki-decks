@@ -26,6 +26,28 @@ Conveniently named reference to the latest commit of a branch.
 
 The most recent commit on a branch.
 
+## Checks out the previous branch
+
+```bash
+git checkout -
+```
+
+Shorthand for `git checkout @{-1}`
+
+## Downloads content from a remote repository and immediately updates the local repository to match that content
+
+```bash
+git pull
+```
+
+## Hard reset
+
+Delete changes from the working directory, local repository and staging area.
+
+```bash
+git reset --reset
+```
+
 ## HEAD
 
 The current (or "checked out") branch.
@@ -37,6 +59,16 @@ HEAD will be the parent of the next commit that is created.
 The "staging area" between the files you have on your filesystem (working tree) and your commit history.
 
 `git add` adds file contents to the index.
+
+## Mixed reset
+
+Delete changes from the local repository and staging area.
+
+It won't touch the working directory.
+
+```bash
+git reset --mixed
+```
 
 ## origin
 
@@ -62,9 +94,37 @@ A Git repository is the `.git` folder inside a project.
 
 This repository tracks all changes made to files in your project, building a history over time.
 
+## Restores specified paths in the working tree
+
+```bash
+git restore
+```
+
+## Soft reset
+
+Deleted changes only from the local repository.
+
+It won't touch the staging area and working directory.
+
+```bash
+git reset --soft
+```
+
+## Switches branch
+
+```bash
+git checkout
+```
+
 ## Tag
 
 A tag is ref that point to a specific commit in the git commit history.
+
+## Undoes local changes to the state of a repository
+
+```bash
+git reset
+```
 
 ## Updates remote refs along with associated objects
 
