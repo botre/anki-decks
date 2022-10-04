@@ -43,3 +43,7 @@
 ## Focus the address bar
 
 ⌘ + L
+
+## Open developer console
+
+⌘ + Option + J
