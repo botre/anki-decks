@@ -1,4 +1,4 @@
-# Chrome shortcuts
+# Chrome
 
 ## Open a new window
 
@@ -39,3 +39,7 @@
 ## Reload your current page, ignoring cached content
 
 ⌘ + Shift + r
+
+## Focus the address bar
+
+⌘ + L
