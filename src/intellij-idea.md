@@ -11,3 +11,7 @@
 ## Toggle Terminal window
 
 `⌥ + F12`
+
+## Navigate with the Select In popup
+
+`⌥ + F1`
