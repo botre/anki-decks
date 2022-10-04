@@ -16,18 +16,22 @@ Option/alt
 
 Control
 
-## Switch to the previous application
+## Switch to the previous application (AltTab)
 
-Press ⌘ + Tab
+Press `⌘ + Tab`
 
-## Open application switcher
+## Open application switcher (AltTab)
 
-Hold ⌘ + Tab
+Hold `⌘ + Tab`
 
 ## Close one application window
 
-⌘ + W
+`⌘ + W`
 
 ## Close all application windows
 
-⌘ + ⌥ + W
+`⌘ + ⌥ + W`
+
+## Lock screen
+
+`Control + ⌘ + Q`
