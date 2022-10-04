@@ -95,3 +95,7 @@ Paragraph (`p`)
 ## Text object ending at a period, exclamation point or question mark, followed by whitespace
 
 Sentence (`s`)
+
+## Enter normal mode using `<C>`
+
+`<C-[>`
