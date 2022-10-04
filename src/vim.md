@@ -75,3 +75,23 @@ caw
 ```text
 ciw
 ```
+
+## Jump to previous paragraph
+
+```text
+{
+```
+
+## Jump to next paragraph
+
+```text
+}
+```
+
+## Text object surrounded by empty lines
+
+Paragraph (`p`)
+
+## Text object ending at a period, exclamation point or question mark, followed by whitespace
+
+Sentence (`s`)
