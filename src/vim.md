@@ -63,3 +63,15 @@ yae
 ```text
 <leader>rn
 ```
+
+## Change the word, including trailing whitespace
+
+```text
+caw
+```
+
+## Change the word, excluding trailing whitespace
+
+```text
+ciw
+```
