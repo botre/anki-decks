@@ -52,6 +52,12 @@ cs"`
 yae
 ```
 
+## Change the entire content of the current buffer
+
+```text
+cae
+```
+
 ## Find usages
 
 ```text
@@ -99,3 +105,7 @@ Sentence (`s`)
 ## Enter normal mode using `<C>`
 
 `<C-[>`
+
+## Go to definition
+
+`gd`
