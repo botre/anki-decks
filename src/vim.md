@@ -30,18 +30,36 @@ Alt/meta key
 
 ## (Un)comment out selection in visual mode
 
-```
+```text
 gc
 ```
 
 ## (Un)comment the current line
 
-```
+```text
 gc^
 ```
 
 ## Replace surrounding " with `
 
-```
+```text
 cs"`
+```
+
+## Yank the entire content of the current buffer
+
+```text
+yae
+```
+
+## Find usages
+
+```text
+<leader>fu
+```
+
+## Rename element
+
+```text
+<leader>rn
 ```

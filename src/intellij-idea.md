@@ -2,12 +2,12 @@
 
 ## Add file to VCS
 
-⌥ + ⌘ + A
+`⌥ + ⌘ + A`
 
 ## Toggle Problems tool window
 
-⌘ + 6
+`⌘ + 6`
 
 ## Toggle Terminal window
 
-⌥ + F12
+`⌥ + F12`
