@@ -12,6 +12,14 @@
 
 `⌥ + F12`
 
+## Focus Terminal window
+
+`⌥ + F12`
+
+## Go back to editing file when Terminal is focused
+
+`Esc`
+
 ## Navigate with the Select In popup
 
 `⌥ + F1`
