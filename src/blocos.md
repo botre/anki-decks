@@ -36,6 +36,14 @@ Pedregulho
 
 Teia de aranha
 
+## Coral
+
+Coral
+
+## Coral Fan
+
+Gorgônia
+
 ## Deepslate
 
 Ardósia
@@ -56,6 +64,10 @@ Espeleotema
 
 Fogo
 
+## Frogspawn
+
+Ovos de sapo
+
 ## Glowstone
 
 Pedra luminosa
@@ -75,6 +87,10 @@ Gelo
 ## Lava
 
 Lava
+
+## Log
+
+Tronco
 
 ## Magma
 
@@ -112,6 +128,10 @@ Areia
 
 Arenito
 
+## Sea Pickle
+
+Pepino-do-mar
+
 ## Terracotta
 
 Terracota
@@ -120,6 +140,14 @@ Terracota
 
 Tufo
 
+## Turtle Egg
+
+Ovo de tartaruga
+
 ## Water
 
 Água
+
+## Wood
+
+Madeira
