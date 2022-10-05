@@ -2,15 +2,21 @@
 
 ## NERDTree: new
 
-`<C-n>`
+```text
+<C-n>
+```
 
 ## NERDTree: toggle
 
-`<C-t>`
+```text
+<C-t>
+```
 
 ## NERDTree: find
 
-`<C-f>`
+```text
+<C-f>
+```
 
 ## Key notation: `<S-...>`
 
