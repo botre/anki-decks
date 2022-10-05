@@ -115,3 +115,7 @@ Sentence (`s`)
 ## Go to definition
 
 `gd`
+
+## Yank single character
+
+`yl`
