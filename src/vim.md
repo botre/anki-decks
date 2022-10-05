@@ -133,3 +133,11 @@ Sentence (`s`)
 ## Search: previous result
 
 `N`
+
+## Auto-indent current line
+
+`==`
+
+## Enter visual block mode
+
+`<C-v>`
