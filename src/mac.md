@@ -55,3 +55,7 @@ Hold `⌘ + Tab`
 ## Lock screen
 
 `⌘ + Control + Q`
+
+## Key modifiers order
+
+Function > Control > Option/Alt > Command
