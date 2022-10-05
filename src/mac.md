@@ -63,3 +63,11 @@ Function > Control > Option/Alt > Command
 ## Open Raycast
 
 `⌥ + Space`
+
+## Screenshot: portion of the screen, save to desktop
+
+`⌘ + Shift + 4`
+
+## Screenshot: portion of the screen, save to clipboard
+
+`⌘ + Shift + 4 + Control`
