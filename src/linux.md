@@ -15,3 +15,11 @@ chmod +x filename.sh
 ## Set of standard operating system interfaces based on the Unix operating system
 
 POSIX
+
+## FZF: search directory
+
+Control + T
+
+## FZF: search history
+
+Control + R
