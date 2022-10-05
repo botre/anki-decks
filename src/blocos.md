@@ -68,6 +68,10 @@ Fogo
 
 Ovos de sapo
 
+## Fungus
+
+Fungo
+
 ## Glowstone
 
 Pedra luminosa
@@ -104,6 +108,10 @@ Pedregulho musgoso
 
 Barro
 
+## Mushroom
+
+Cogumelo
+
 ## Mycelium
 
 Micélio
@@ -120,6 +128,10 @@ Pedra
 
 Podzol
 
+## Roots
+
+Raízes
+
 ## Sand
 
 Areia
@@ -131,6 +143,10 @@ Arenito
 ## Sea Pickle
 
 Pepino-do-mar
+
+## Sprouts
+
+Brotos
 
 ## Terracotta
 
@@ -144,9 +160,17 @@ Tufo
 
 Ovo de tartaruga
 
+## Twisting Vines
+
+Trepadeiras retorcidas
+
 ## Water
 
 Água
+
+## Weeping Vines
+
+Trepadeiras choronas
 
 ## Wood
 
