@@ -119,3 +119,11 @@ Sentence (`s`)
 ## Yank single character
 
 `yl`
+
+## Search: next result
+
+`n`
+
+## Search: previous result
+
+`N`
