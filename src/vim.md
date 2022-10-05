@@ -76,6 +76,12 @@ cae
 <leader>rn
 ```
 
+## Rename file
+
+```text
+<leader>rf
+```
+
 ## Change the word, including trailing whitespace
 
 ```text
