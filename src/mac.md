@@ -59,3 +59,7 @@ Hold `⌘ + Tab`
 ## Key modifiers order
 
 Function > Control > Option/Alt > Command
+
+## Open Raycast
+
+`⌥ + Space`
