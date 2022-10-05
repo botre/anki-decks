@@ -64,6 +64,14 @@ Function > Control > Option/Alt > Command
 
 `⌥ + Space`
 
+## Open 1Password
+
+`⌥ + Shift + X`
+
+## Open 1Password Quick Access
+
+`⌥ + Shift + Space`
+
 ## Screenshot: portion of the screen, save to desktop
 
 `⌘ + Shift + 4`
