@@ -12,17 +12,37 @@ Shift
 
 Option/alt
 
+## Option
+
+⌥
+
+## Alt
+
+⌥
+
+## Control
+
+⌃
+
 ## ⌃
 
 Control
 
-## Switch to the previous application (AltTab)
+## Switch to the previous application
 
 Press `⌘ + Tab`
 
-## Open application switcher (AltTab)
+## Open application switcher
 
 Hold `⌘ + Tab`
+
+## Application switcher: next application
+
+`Tab`
+
+## Application switcher: previous application
+
+`Shift`
 
 ## Close one application window
 
@@ -34,4 +54,4 @@ Hold `⌘ + Tab`
 
 ## Lock screen
 
-`Control + ⌘ + Q`
+`⌘ + Control + Q`
