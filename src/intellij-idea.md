@@ -2,7 +2,7 @@
 
 ## Add file to VCS
 
-`⌥ + ⌘ + A`
+`⌘ + ⌥ + A`
 
 ## Toggle Problems tool window
 
