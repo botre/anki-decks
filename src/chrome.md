@@ -2,23 +2,27 @@
 
 ## Open a new window
 
-⌘ + n
+⌘ + N
 
 ## Open a new window in Incognito mode
 
-⌘ + Shift + n
+⌘ + Shift + N
 
 ## Open a new tab, and jump to it
 
-⌘ + t
+⌘ + T
 
 ## Open your home page in the current tab
 
-⌘ + Shift + h
+⌘ + Shift + H
+
+## Jump to the previous open tab
+
+⌘ + Option + ←
 
 ## Jump to the next open tab
 
-⌘ + Option + Right/Left arrow
+⌘ + Option + →
 
 ## Jump to a specific tab
 
@@ -30,15 +34,15 @@
 
 ## Close the current tab or pop-up
 
-⌘ + w
+⌘ + W
 
 ## Close the current window
 
-⌘ + Shift + w
+⌘ + Shift + W
 
 ## Reload your current page, ignoring cached content
 
-⌘ + Shift + r
+⌘ + Shift + R
 
 ## Focus the address bar
 
