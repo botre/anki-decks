@@ -8,19 +8,17 @@ git add
 
 ## Base
 
-The base is the branch off which changes are based.
+The branch off which changes are based.
 
 ## Branch
 
 A branch is a separate container or context for changes.
 
-Any changes that you make in the context of the currently active branch will be kept separate from all other branches.
-
 ## Branch head
 
 A head is a ref that points to the tip of a branch.
 
-Conveniently named reference to the latest commit of a branch.
+Conveniently named pointer to the latest commit of a branch.
 
 ## Branch tip
 
@@ -32,7 +30,11 @@ The most recent commit on a branch.
 git checkout -
 ```
 
-Shorthand for `git checkout @{-1}`
+Or
+
+```bash
+git checkout @{-1}
+```
 
 ## Downloads content from a remote repository and immediately updates the local repository to match that content
 
@@ -42,7 +44,11 @@ git pull
 
 ## Hard reset
 
-Delete changes from the working directory, local repository and staging area.
+Delete changes from:
+
+- local repository: yes
+- staging area: yes
+- working directory: yes
 
 ```bash
 git reset --reset
@@ -52,8 +58,6 @@ git reset --reset
 
 The current (or "checked out") branch.
 
-HEAD will be the parent of the next commit that is created.
-
 ## Index
 
 The "staging area" between the files you have on your filesystem (working tree) and your commit history.
@@ -62,9 +66,11 @@ The "staging area" between the files you have on your filesystem (working tree) 
 
 ## Mixed reset
 
-Delete changes from the local repository and staging area.
+Delete changes from:
 
-It won't touch the working directory.
+- local repository: yes
+- staging area: yes
+- working directory: no
 
 ```bash
 git reset --mixed
@@ -76,7 +82,7 @@ Shorthand name for the remote repository that a project was originally cloned fr
 
 ## Rebase
 
-To reapply a series of changes from a branch to a different base, and reset the head of that branch to the result.
+To reapply a series of changes from a branch to a different base.
 
 ## Records changes to the repository
 
@@ -90,9 +96,9 @@ A human-readable name that references a commit.
 
 ## Repository
 
-A Git repository is the `.git` folder inside a project.
+The `.git` folder inside a project.
 
-This repository tracks all changes made to files in your project, building a history over time.
+Tracks all changes made to files in the project, building a history over time.
 
 ## Restores specified paths in the working tree
 
@@ -102,15 +108,19 @@ git restore
 
 ## Show the list of files containing conflict markers
 
-```
+```bash
 git diff --check
 ```
 
+The `--check` flag warns if changes introduce conflict markers or whitespace errors.
+
 ## Soft reset
 
-Deleted changes only from the local repository.
+Delete changes from:
 
-It won't touch the staging area and working directory.
+- local repository: yes
+- staging area: no
+- working directory: no
 
 ```bash
 git reset --soft
@@ -124,7 +134,7 @@ git checkout
 
 ## Tag
 
-A tag is ref that point to a specific commit in the git commit history.
+A ref that point to a specific commit in the git commit history.
 
 ## Undoes local changes to the state of a repository
 
