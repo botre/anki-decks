@@ -32,6 +32,14 @@
 
 ⌃ ⌥ K
 
+## Next display
+
+⌃ ⌥ ⌘ →
+
+## Previous display
+
+⌃ ⌥ ⌘ ←
+
 ## Maximize
 
 ⌃ ⌥ ↵
