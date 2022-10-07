@@ -146,6 +146,12 @@ Sentence (`s`)
 :%s/foo/bar/gc
 ```
 
+## Explain `:%s`
+
+`%` is the range over which the `:s` command (short for `:substitute`) will be run.
+
+`%` itself is short for the range `1,$`, which means `Line 1 to the last line in the buffer`.
+
 ## Auto-indent current line
 
 `==`
