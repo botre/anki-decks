@@ -46,6 +46,12 @@ gc
 gc^
 ```
 
+## Surround with " in visual mode
+
+```text
+S"
+```
+
 ## Replace surrounding " with `
 
 ```text
