@@ -138,6 +138,14 @@ Sentence (`s`)
 
 `==`
 
+## Enter visual character mode
+
+`v`
+
+## Enter visual line mode
+
+`V`
+
 ## Enter visual block mode
 
 `<C-v>`
