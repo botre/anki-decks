@@ -181,3 +181,8 @@ Sentence (`s`)
 ## Scroll window downwards
 
 `C-d`
+
+## What is the difference between `r` and `s`
+
+- `r` lands in normal mode
+- `s` lands in insert mode
