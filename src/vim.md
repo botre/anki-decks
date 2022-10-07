@@ -134,6 +134,18 @@ Sentence (`s`)
 
 `N`
 
+## Change each 'foo' to 'bar'
+
+```text
+:%s/foo/bar/g
+```
+
+## Change each 'foo' to 'bar', ask for confirmation first
+
+```text
+:%s/foo/bar/gc
+```
+
 ## Auto-indent current line
 
 `==`
