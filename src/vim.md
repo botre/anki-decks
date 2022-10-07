@@ -167,3 +167,11 @@ Sentence (`s`)
 ## Enter visual block mode
 
 `<C-v>`
+
+## Scroll window upwards
+
+`C-u`
+
+## Scroll window downwards
+
+`C-d`
