@@ -20,10 +20,6 @@ Option/alt
 
 ⌥
 
-## Control
-
-⌃
-
 ## ⌃
 
 Control

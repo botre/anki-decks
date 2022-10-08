@@ -2,52 +2,52 @@
 
 ## Left half
 
-⌃ ⌥ ←
+Control ⌥ ←
 
 ## Right half
 
-⌃ ⌥ →
+Control ⌥ →
 
 ## Top half
 
-⌃ ⌥ ↑
+Control ⌥ ↑
 
 ## Bottom half
 
-⌃ ⌥ ↓
+Control ⌥ ↓
 
 ## Top left
 
-⌃ ⌥ U
+Control ⌥ U
 
 ## Top right
 
-⌃ ⌥ I
+Control ⌥ I
 
 ## Bottom left
 
-⌃ ⌥ J
+Control ⌥ J
 
 ## Bottom right
 
-⌃ ⌥ K
+Control ⌥ K
 
 ## Next display
 
-⌃ ⌥ ⌘ →
+Control ⌥ ⌘ →
 
 ## Previous display
 
-⌃ ⌥ ⌘ ←
+Control ⌥ ⌘ ←
 
 ## Maximize
 
-⌃ ⌥ ↵
+Control ⌥ ↵
 
 ## Smaller
 
-⌃ ⌥ -
+Control ⌥ -
 
 ## Larger
 
-⌃ ⌥ +
+Control ⌥ +
