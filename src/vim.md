@@ -208,11 +208,11 @@ Low
 
 `<C-v>`
 
-## Scroll window upwards
+## Scroll window upward a half screen
 
 `C-u`
 
-## Scroll window downwards
+## Scroll window downward a half screen
 
 `C-d`
 
