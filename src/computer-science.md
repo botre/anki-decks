@@ -33,3 +33,15 @@ Right-most bit.
 ## Most significant bit (MSB)
 
 Left-most bit.
+
+## Orchestration
+
+The automated configuration, coordination, and management of computer systems and software.
+
+## Kernel
+
+The main layer between the OS and underlying computer hardware.
+
+## Container
+
+Isolated user space instance existing in the kernel.
