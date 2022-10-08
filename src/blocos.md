@@ -24,6 +24,14 @@ Pedra-negra
 
 Calcita
 
+## Carpet
+
+Tapete
+
+## Chain
+
+Corrente
+
 ## Clay
 
 Argila
@@ -56,6 +64,10 @@ Diorito
 
 Terra
 
+## Dragon Egg
+
+Ovo de dragão
+
 ## Dripstone
 
 Espeleotema
@@ -72,6 +84,14 @@ Ovos de sapo
 
 Fungo
 
+## Glass
+
+Vidro
+
+## Glazed Terracotta
+
+Azulejo
+
 ## Glowstone
 
 Pedra luminosa
@@ -84,9 +104,17 @@ Granito
 
 Cascalho
 
+## Honeycomb
+
+Favo de mel
+
 ## Ice
 
 Gelo
+
+## Iron Bars
+
+Grades de ferro
 
 ## Lava
 
@@ -120,6 +148,14 @@ Micélio
 
 Obsidiana
 
+## Slab
+
+Laje
+
+## Stairs
+
+Escadas
+
 ## Stone
 
 Pedra
@@ -152,6 +188,10 @@ Brotos
 
 Terracota
 
+## Tinted Glass
+
+Vidro fosco
+
 ## Tuff
 
 Tufo
@@ -164,6 +204,10 @@ Ovo de tartaruga
 
 Trepadeiras retorcidas
 
+## Wall
+
+Muro
+
 ## Water
 
 Água
@@ -175,3 +219,7 @@ Trepadeiras choronas
 ## Wood
 
 Madeira
+
+## Wool
+
+Lã
