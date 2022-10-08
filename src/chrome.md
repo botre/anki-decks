@@ -44,6 +44,14 @@
 
 ⌘ + Shift + R
 
+## Go to the previous page
+
+⌘ + ←
+
+## Go to the next page
+
+⌘ + →
+
 ## Focus the address bar
 
 ⌘ + L
