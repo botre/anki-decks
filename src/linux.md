@@ -31,3 +31,7 @@ Control + T
 ## FZF: search history
 
 Control + R
+
+## Kill the process with SIGINT
+
+Control + C
