@@ -128,9 +128,43 @@ Sentence (`s`)
 
 `gd`
 
+## Jumps to the first non-blank character in line
+
+`^`
+
+## Jump to line 42
+
+`42G`
+
+## Jump to line 42 using :
+
+`:42`
+
+## Jump to the top of the window
+
+`H`
+
+(High)
+
+## Jump to the middle of the window
+
+`M`
+
+(Middle)
+
+## Jump to the bottom of the window
+
+`L`
+
+Low
+
 ## Yank single character
 
 `yl`
+
+## Center the current line in the screen
+
+`zz`
 
 ## Search: next result
 
