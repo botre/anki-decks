@@ -152,6 +152,7 @@ git push
 
 The tree of actual checked out files.
 
-The working tree normally contains the contents of the HEAD commit's tree, plus any local changes that you have made but not yet committed.
+The working tree normally contains the contents of the HEAD commit's tree, plus any local changes that you have made but
+not yet committed.
 
 `git status` shows the working tree status.

@@ -208,6 +208,10 @@ Sentence (`s`)
 
 `<C-v>`
 
+## Jump between start and end of visual selection
+
+`o`
+
 ## Scroll window upward a half screen
 
 `C-u`
@@ -220,3 +224,21 @@ Sentence (`s`)
 
 - `r` lands in normal mode
 - `s` lands in insert mode
+
+## Jump to the line of last change
+
+```text
+'.
+```
+
+## Jump to the point of last change
+
+```text
+`.
+```
+
+## Toggle relative line numbers
+
+```text
+:set rnu!
+```
