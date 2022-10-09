@@ -10,5 +10,4 @@
 - Python
 - Redux
 - Rust
-- SQL
 - TypeScript
