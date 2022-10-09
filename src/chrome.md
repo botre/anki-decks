@@ -18,11 +18,11 @@
 
 ## Jump to the previous open tab
 
-⌘ + Option + ←
+Alt + ⌘ + ←
 
 ## Jump to the next open tab
 
-⌘ + Option + →
+Alt + ⌘ + →
 
 ## Jump to a specific tab
 
@@ -58,4 +58,4 @@
 
 ## Open developer console
 
-⌘ + Option + J
+Alt + ⌘ + J
