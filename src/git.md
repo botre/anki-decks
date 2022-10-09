@@ -18,8 +18,6 @@ A branch is a separate container or context for changes.
 
 A head is a ref that points to the tip of a branch.
 
-Conveniently named pointer to the latest commit of a branch.
-
 ## Branch tip
 
 The most recent commit on a branch.
