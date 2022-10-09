@@ -46,11 +46,11 @@ Hold `⌘ + Tab`
 
 ## Close all application windows
 
-`⌘ + ⌥ + W`
+`⌥ + ⌘ + W`
 
 ## Lock screen
 
-`⌘ + Control + Q`
+`Control + ⌘ + Q`
 
 ## Key modifiers order
 
@@ -62,11 +62,11 @@ Function > Control > Option/Alt > Command
 
 ## Open 1Password
 
-`⌥ + Shift + X`
+`⌘ + Shift + X`
 
 ## Open 1Password Quick Access
 
-`⌥ + Shift + Space`
+`⌘ + Shift + Space`
 
 ## Screenshot: portion of the screen, save to desktop
 
@@ -74,4 +74,4 @@ Function > Control > Option/Alt > Command
 
 ## Screenshot: portion of the screen, save to clipboard
 
-`⌘ + Shift + 4 + Control`
+`Control + ⌘ + Shift + 4`
