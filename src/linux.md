@@ -16,14 +16,6 @@ chmod +x filename.sh
 
 POSIX
 
-## Terminal: scroll up one page
-
-`Shift + PageUp`
-
-## Terminal: scroll down one page
-
-`Shift + PageDown`
-
 ## FZF: search directory
 
 Control + T
