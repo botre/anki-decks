@@ -12,6 +12,10 @@
 
 ⌘ + T
 
+## Open your last closed tab
+
+⌘ + Shift + T
+
 ## Open your home page in the current tab
 
 ⌘ + Shift + H
@@ -59,3 +63,11 @@ Alt + ⌘ + →
 ## Open developer console
 
 Alt + ⌘ + J
+
+## Open elements panel
+
+Alt + ⌘ + C
+
+## Open developer command palette
+
+⌘ + Shift + P
