@@ -9,3 +9,11 @@ Overall, UDP is a much faster, simpler, and efficient protocol, however, retrans
 ## Multiplexing
 
 Method by which multiple analog or digital signals are combined into one signal over a shared medium.
+
+## Full-duplex
+
+A full-duplex (FDX) system allows communication in both directions.
+
+## WebSocket
+
+Communications protocol, providing full-duplex communication channels over a single TCP connection.

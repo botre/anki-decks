@@ -46,3 +46,15 @@ The main layer between the OS and underlying computer hardware.
 ## Container
 
 Isolated user space instance existing in the kernel.
+
+## Currying
+
+The transformation of a function with multiple arguments into a sequence of single-argument functions.
+
+## Closure
+
+Persistent local variable scope.
+
+## Prototypical inheritance
+
+The ability to access object properties from another object.
