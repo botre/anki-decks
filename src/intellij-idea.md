@@ -1,8 +1,12 @@
 # IntelliJ IDEA
 
-## Add file to VCS
+## Search Everywhere
 
-`⌥ + ⌘ + A`
+`Shift + Shift`
+
+## View recent files
+
+`⌘ + E`
 
 ## Toggle Find window
 
@@ -31,3 +35,7 @@
 ## Navigate with the Select In popup
 
 `⌥ + F1`
+
+## Add file to VCS
+
+`⌥ + ⌘ + A`
