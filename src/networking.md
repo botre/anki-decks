@@ -1,0 +1,11 @@
+# Networking
+
+## Difference between UDP and TCP
+
+TCP is a connection-oriented protocol, whereas UDP is a connectionless protocol.
+A key difference between TCP and UDP is speed, as TCP is comparatively slower than UDP.
+Overall, UDP is a much faster, simpler, and efficient protocol, however, retransmission of lost data packets is only possible with TCP.
+
+## Multiplexing
+
+Method by which multiple analog or digital signals are combined into one signal over a shared medium.

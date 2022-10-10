@@ -6,7 +6,6 @@
 - Kubernetes
 - Lua
 - MobX
-- Networking
 - Python
 - Redux
 - Rust
