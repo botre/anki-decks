@@ -75,3 +75,7 @@ Function > Control > Option/Alt > Command
 ## Screenshot: portion of the screen, save to clipboard
 
 `Control + ⌘ + Shift + 4`
+
+## Open an application's preferences
+
+`⌘ + ,`
