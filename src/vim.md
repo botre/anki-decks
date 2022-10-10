@@ -242,3 +242,19 @@ Sentence (`s`)
 ```text
 :set rnu!
 ```
+
+## Move cursor to next start of word
+
+w
+
+## Move cursor to previous start of word
+
+b
+
+## Move cursor to next end of word
+
+e
+
+## Move cursor to previous end of word
+
+ge
