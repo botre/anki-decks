@@ -4,9 +4,17 @@
 
 `⌥ + ⌘ + A`
 
-## Toggle Problems tool window
+## Toggle Find window
+
+`⌘ + 3`
+
+## Toggle Problems window
 
 `⌘ + 6`
+
+## Toggle Git window
+
+`⌘ + 9`
 
 ## Toggle Terminal window
 
