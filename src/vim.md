@@ -128,9 +128,21 @@ Sentence (`s`)
 
 `gd`
 
-## Jumps to the first non-blank character in line
+## Jump to the first character in line
+
+`0`
+
+## Jump to the first non-blank character in line
 
 `^`
+
+## Jump to the last character in line
+
+`$`
+
+## Jump to the first line
+
+`gg`
 
 ## Jump to line 42
 
@@ -139,6 +151,10 @@ Sentence (`s`)
 ## Jump to line 42 using :
 
 `:42`
+
+## Jump to the last line
+
+`G`
 
 ## Jump to the top of the window
 
@@ -258,3 +274,7 @@ e
 ## Move cursor to previous end of word
 
 ge
+
+## Join the current line to the next line
+
+J
