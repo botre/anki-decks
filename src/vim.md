@@ -306,3 +306,7 @@ A WORD is always delimited by whitespace.
 ## Redo
 
 `<C-r>`
+
+## Delete the next .
+
+`f.d`
