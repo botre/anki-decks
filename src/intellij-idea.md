@@ -4,9 +4,17 @@
 
 `Shift + Shift`
 
+## Show intent actions
+
+`⌥ + ↵`
+
 ## View recent files
 
 `⌘ + E`
+
+## View recent locations
+
+`⌘ + Shift + E`
 
 ## Toggle Find window
 
@@ -20,6 +28,14 @@
 
 `⌘ + 9`
 
+## Jump to next error
+
+`F2`
+
+## Navigate with the Select In popup
+
+`⌥ + F1`
+
 ## Toggle Terminal window
 
 `⌥ + F12`
@@ -31,10 +47,6 @@
 ## Go back to editing file when Terminal is focused
 
 `Esc`
-
-## Navigate with the Select In popup
-
-`⌥ + F1`
 
 ## Add file to VCS
 
