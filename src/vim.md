@@ -43,7 +43,7 @@ gc
 ## (Un)comment the current line
 
 ```text
-gc^
+gcc
 ```
 
 ## Surround with " in visual mode
