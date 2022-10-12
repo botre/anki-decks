@@ -27,3 +27,19 @@ Control + R
 ## Kill the process with SIGINT
 
 Control + C
+
+## Represents the current directory in the filesystem
+
+`.`
+
+## Represents one level above the current directory
+
+`..`
+
+## Represents the "root" of the filesystem
+
+`/`
+
+## Represents the home directory of the currently logged-in user
+
+`~`
