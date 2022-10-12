@@ -26,19 +26,23 @@ Control
 
 ## Switch to the previous application
 
-Press `⌘ + Tab`
+`⌘ + Tab`
 
 ## Open application switcher
 
-Hold `⌘ + Tab`
+`⌘ + Tab`
 
-## Application switcher: next application
+## Application switcher: select next
 
 `Tab`
 
-## Application switcher: previous application
+## Application switcher: select previous
 
 `Shift`
+
+## Application switcher: close selected
+
+`W`
 
 ## Close one application window
 
