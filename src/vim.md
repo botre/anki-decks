@@ -58,6 +58,12 @@ S"
 cs"`
 ```
 
+## Surround a word with "
+
+```text
+ysiw"
+```
+
 ## Yank the entire content of the current buffer
 
 ```text
@@ -261,20 +267,42 @@ Sentence (`s`)
 
 ## Move cursor to next start of word
 
-w
+`w`
 
 ## Move cursor to previous start of word
 
-b
+`b`
 
 ## Move cursor to next end of word
 
-e
+`e`
 
 ## Move cursor to previous end of word
 
-ge
+`ge`
 
 ## Join the current line to the next line
 
-J
+`J`
+
+## Difference between word and WORD
+
+A word is delimited by non-keyword characters, which are configurable.
+
+A WORD is always delimited by whitespace.
+
+## Jump to the last position where insert mode was stopped and switch to insert mode
+
+`gi`
+
+## Switch to visual mode with the previous selection
+
+`gv`
+
+## Undo
+
+`u`
+
+## Redo
+
+`<C-r>`
