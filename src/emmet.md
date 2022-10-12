@@ -30,6 +30,18 @@ button{Click me}
 p>lorem
 ```
 
+## Child selector
+
+```text
+>
+```
+
+## Sibling selector
+
+```text
++
+```
+
 ## Climb up a level
 
 ```text
