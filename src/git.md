@@ -154,3 +154,11 @@ The working tree normally contains the contents of the HEAD commit's tree, plus 
 not yet committed.
 
 `git status` shows the working tree status.
+
+## Difference between merging and rebasing
+
+Both of these commands are designed to integrate changes from one branch into another branch.
+
+Merging is a non-destructive operation that creates an extraneous merge commit.
+
+Rebasing moves the branch to begin on the tip of the original branch, it re-writes the project history by creating brand-new commits for each commit in the original branch.
