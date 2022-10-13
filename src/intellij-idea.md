@@ -4,9 +4,13 @@
 
 `Shift + Shift`
 
-## Show intent actions
+## Show quick-fix actions
 
 `⌥ + ↵`
+
+## Show insert/generation actions
+
+`⌥ + N`
 
 ## View recent files
 
