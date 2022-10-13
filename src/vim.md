@@ -46,7 +46,13 @@ gc
 gcc
 ```
 
-## Surround with " in visual mode
+## Surround a word with "
+
+```text
+ysiw"
+```
+
+## Surround selection with " in visual mode
 
 ```text
 S"
@@ -58,10 +64,16 @@ S"
 cs"`
 ```
 
-## Surround a word with "
+## Replace surrounding span with div
 
 ```text
-ysiw"
+cst<div>
+```
+
+## Delete surrounding "
+
+```text
+ds"`
 ```
 
 ## Yank the entire content of the current buffer
