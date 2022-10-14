@@ -55,6 +55,10 @@ The transformation of a function with multiple arguments into a sequence of sing
 
 Persistent local variable scope.
 
+## Higher-order function
+
+A function that takes a function as an argument, or returns a function.
+
 ## Prototypical inheritance
 
 The ability to access object properties from another object.

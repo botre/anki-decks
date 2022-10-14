@@ -43,3 +43,19 @@ Control + C
 ## Represents the home directory of the currently logged-in user
 
 `~`
+
+## Switches to the previous directory
+
+`cd -`
+
+## ZSH command to create a directory and cd into it
+
+`take`
+
+## Sends the output of one command/program/process to another one
+
+Pipe
+
+## Search for "format" inside package.json using grep
+
+`grep "format" package.json`
