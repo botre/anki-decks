@@ -14,7 +14,8 @@ Enables interruptible rendering.
 
 ## Hydration
 
-Technique in which client-side JavaScript converts a static HTML web page, into a dynamic web page by attaching event handlers to the HTML elements.
+Technique in which client-side JavaScript converts a static HTML web page, into a dynamic web page by attaching event
+handlers to the HTML elements.
 
 ## Virtual DOM
 

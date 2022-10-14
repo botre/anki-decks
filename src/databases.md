@@ -9,11 +9,13 @@
 
 ## Atomicity
 
-An atomic transaction is an indivisible and irreducible series of database operations such that either all occurs, or nothing occurs.
+An atomic transaction is an indivisible and irreducible series of database operations such that either all occurs, or
+nothing occurs.
 
 ## Consistency
 
-Any data written to the database must be valid according to all defined rules, including constraints, cascades, triggers, and any combination thereof.
+Any data written to the database must be valid according to all defined rules, including constraints, cascades,
+triggers, and any combination thereof.
 
 ## Isolation
 
@@ -64,7 +66,8 @@ Index which defines the physical order in which table records are stored in a da
 
 ## Index hunting
 
-The process of boosting the collection of indexes which help in improving the query performance as well as the speed of the database.
+The process of boosting the collection of indexes which help in improving the query performance as well as the speed of
+the database.
 
 ## View
 
@@ -78,4 +81,5 @@ Materialized views are disk based and are updated periodically based upon the qu
 
 ## Normalization
 
-Process of structuring a relational database in accordance with a series of so-called normal forms in order to reduce data redundancy and improve data integrity.
+Process of structuring a relational database in accordance with a series of so-called normal forms in order to reduce
+data redundancy and improve data integrity.

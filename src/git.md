@@ -161,4 +161,5 @@ Both of these commands are designed to integrate changes from one branch into an
 
 Merging is a non-destructive operation that creates an extraneous merge commit.
 
-Rebasing moves the branch to begin on the tip of the original branch, it re-writes the project history by creating brand-new commits for each commit in the original branch.
+Rebasing moves the branch to begin on the tip of the original branch, it re-writes the project history by creating
+brand-new commits for each commit in the original branch.

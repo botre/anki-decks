@@ -59,6 +59,23 @@ Persistent local variable scope.
 
 A function that takes a function as an argument, or returns a function.
 
+## Anonymous function
+
+Function definition that is not bound to an identifier.
+
 ## Prototypical inheritance
 
 The ability to access object properties from another object.
+
+## Dynamic typing
+
+The compiler or interpreter assigns a type to all the variables at run-time.
+
+## Interpreter
+
+Computer program that directly executes instructions written in a programming or scripting language, without requiring
+them previously to have been compiled into a machine language program.
+
+## Double-precision
+
+Using two computer words rather than one to represent a number.

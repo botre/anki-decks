@@ -4,7 +4,6 @@
 - Go
 - GraphQL
 - Kubernetes
-- Lua
 - MobX
 - Python
 - Redux
