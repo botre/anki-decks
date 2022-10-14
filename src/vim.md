@@ -73,7 +73,7 @@ cst<div>
 ## Delete surrounding "
 
 ```text
-ds"`
+ds"
 ```
 
 ## Surround selection with " in visual mode
