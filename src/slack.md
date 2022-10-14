@@ -11,3 +11,11 @@
 ## Open "Threads"
 
 `⌘ + Shift + T`
+
+## Add a new line in chat
+
+`Shift + ↵`
+
+## Edit previous message
+
+Focus message using `↑`, then press `e`
