@@ -8,9 +8,21 @@ Ar
 
 Andesito
 
+## Anvil
+
+Bigorna
+
+## Barrel
+
+Barril
+
 ## Basalt
 
 Basalto
+
+## Beacon
+
+Sinalizador
 
 ## Bedrock
 
@@ -20,9 +32,21 @@ Rocha-mãe
 
 Pedra-negra
 
+## Blast Furnace
+
+Alto-forno
+
+## Brewing Stand
+
+Suporte de poções
+
 ## Calcite
 
 Calcita
+
+## Cartography Table
+
+Bancada de cartografia
 
 ## Carpet
 
@@ -31,6 +55,10 @@ Tapete
 ## Chain
 
 Corrente
+
+## Chest
+
+Baú
 
 ## Clay
 
@@ -52,6 +80,10 @@ Coral
 
 Gorgônia
 
+## Crafting Table
+
+Bancada de trabalho
+
 ## Deepslate
 
 Ardósia
@@ -72,9 +104,17 @@ Ovo de dragão
 
 Espeleotema
 
+## Enchanting Table
+
+Mesa de encantamentos
+
 ## Fire
 
 Fogo
+
+## Fletching Table
+
+Bancada de arco e flecha
 
 ## Frogspawn
 
@@ -83,6 +123,10 @@ Ovos de sapo
 ## Fungus
 
 Fungo
+
+## Furnace
+
+Fornalha
 
 ## Glass
 
@@ -104,6 +148,10 @@ Granito
 
 Cascalho
 
+## Grindstone
+
+Rebolo
+
 ## Honeycomb
 
 Favo de mel
@@ -120,9 +168,17 @@ Grades de ferro
 
 Lava
 
+## Lectern
+
+Atril
+
 ## Log
 
 Tronco
+
+## Loom
+
+Tear
 
 ## Magma
 
@@ -148,9 +204,21 @@ Micélio
 
 Obsidiana
 
+## Sign
+
+Placa
+
 ## Slab
 
 Laje
+
+## Smithing Table
+
+Bancada de ferraria
+
+## Smoker
+
+Defumador
 
 ## Stairs
 
@@ -159,6 +227,10 @@ Escadas
 ## Stone
 
 Pedra
+
+## Stonecutter
+
+Cortador de pedras
 
 ## Podzol
 
