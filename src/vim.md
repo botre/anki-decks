@@ -319,9 +319,13 @@ A WORD is always delimited by whitespace.
 
 `<C-r>`
 
+## Delete the previous .
+
+`F.x`
+
 ## Delete the next .
 
-`f.d`
+`f.x`
 
 ## Execute some normal command (A,) over range
 
