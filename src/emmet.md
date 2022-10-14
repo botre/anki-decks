@@ -12,6 +12,18 @@ ul>li*3
 img+div+p
 ```
 
+## A `div` with the "application" id
+
+```text
+div#application
+```
+
+## A `div` with the "soft" class
+
+```text
+div.soft
+```
+
 ## A `div` with multiple classes
 
 ```text
@@ -52,4 +64,16 @@ p>lorem
 
 ```text
 link:css
+```
+
+## Link a favicon
+
+```text
+link:favicon
+```
+
+## HTML document boilerplate
+
+```text
+!
 ```
