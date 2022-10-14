@@ -19,7 +19,7 @@ triggers, and any combination thereof.
 
 ## Isolation
 
-Property that defines how or when the changes made by one operation become visible to others.
+The ability of a database to allow a transaction to execute as if there are no other concurrently running transactions.
 
 ## Durability
 
@@ -55,10 +55,6 @@ Locking.
 ## Deadlock
 
 A situation in which two or more transactions are waiting for one another to give up locks.
-
-## Fragmentation
-
-The process of dividing the database into a smaller multiple parts.
 
 ## Clustered index
 

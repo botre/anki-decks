@@ -35,10 +35,6 @@ Right-most bit.
 
 Left-most bit.
 
-## Orchestration
-
-The automated configuration, coordination, and management of computer systems and software.
-
 ## Container
 
 Isolated user space instance existing in the kernel.
