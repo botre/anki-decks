@@ -46,16 +46,16 @@ gc
 gcc
 ```
 
+## Repeat the last change
+
+```text
+.
+```
+
 ## Surround a word with "
 
 ```text
 ysiw"
-```
-
-## Surround selection with " in visual mode
-
-```text
-S"
 ```
 
 ## Replace surrounding " with `
@@ -74,6 +74,12 @@ cst<div>
 
 ```text
 ds"`
+```
+
+## Surround selection with " in visual mode
+
+```text
+S"
 ```
 
 ## Yank the entire content of the current buffer
@@ -106,6 +112,14 @@ cae
 <leader>rf
 ```
 
+## Text object surrounded by empty lines
+
+Paragraph (`p`)
+
+## Text object ending at a period, exclamation point or question mark, followed by whitespace
+
+Sentence (`s`)
+
 ## Change the word, including trailing whitespace
 
 ```text
@@ -118,25 +132,29 @@ caw
 ciw
 ```
 
-## Jump to previous paragraph
+## Delete the paragraph
+
+```text
+dap
+```
+
+## Jump to the previous paragraph
 
 ```text
 {
 ```
 
-## Jump to next paragraph
+## Jump to the next paragraph
 
 ```text
 }
 ```
 
-## Text object surrounded by empty lines
+## Jump to a matching opening or closing parenthesis, bracket or curly brace
 
-Paragraph (`p`)
-
-## Text object ending at a period, exclamation point or question mark, followed by whitespace
-
-Sentence (`s`)
+```text
+%
+```
 
 ## Enter normal mode using `<C>`
 
@@ -203,6 +221,18 @@ Sentence (`s`)
 ## Center the current line in the screen
 
 `zz`
+
+## Search forward
+
+`/`
+
+## Search backward
+
+`?`
+
+## Search: browse previous operations
+
+Up/down arrows.
 
 ## Search: next result
 
