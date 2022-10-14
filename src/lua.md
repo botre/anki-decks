@@ -110,3 +110,31 @@ print(greeting) --> Hello, John!
 ```lua
 tostring(42)
 ```
+
+## Table
+
+Dynamically-sized associate array type.
+
+Tables are the main/only data structuring mechanism in Lua.
+
+## Create a table and store its reference in `a`
+
+```lua
+a = {}
+```
+
+## Allows arbitrary C data to be stored in Lua variables
+
+The `userdata` type.
+
+## Not-equal-to operator
+
+`~=`
+
+## How are tables, userdata, and functions compared
+
+By reference, two such values are considered equal only if they are the very same object.
+
+## What are the logical operators
+
+They are `and`, `or` and `not`.

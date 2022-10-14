@@ -83,3 +83,7 @@ them previously to have been compiled into a machine language program.
 ## Double-precision
 
 Using two computer words rather than one to represent a number.
+
+## Associative array
+
+Array that can be indexed not only with numbers, but also with strings or other values.
