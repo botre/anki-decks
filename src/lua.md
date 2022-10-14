@@ -39,22 +39,6 @@ else
 end
 ```
 
-## Chunk
-
-A sequence of statements.
-
-## Value returned when accessing a non-initialized variable
-
-`nil`
-
-## Represent the absence of a useful value
-
-`nil`
-
-## Delete a global variable
-
-Set it to `nil`.
-
 ## The eight basic types
 
 1. nil
@@ -72,6 +56,18 @@ Set it to `nil`.
 v = "Example"
 print(type(v)) --> string
 ```
+
+## Value returned when accessing a non-initialized variable
+
+`nil`
+
+## Represent the absence of a useful value
+
+`nil`
+
+## Delete a global variable
+
+Set it to `nil`.
 
 ## Truthy values
 

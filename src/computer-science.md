@@ -39,13 +39,13 @@ Left-most bit.
 
 The automated configuration, coordination, and management of computer systems and software.
 
-## Kernel
-
-The main layer between the OS and underlying computer hardware.
-
 ## Container
 
 Isolated user space instance existing in the kernel.
+
+## Kernel
+
+The main layer between the OS and underlying computer hardware.
 
 ## Currying
 
@@ -67,9 +67,13 @@ Function definition that is not bound to an identifier.
 
 The ability to access object properties from another object.
 
+## Static typing
+
+Types are assigned at compile time.
+
 ## Dynamic typing
 
-The compiler or interpreter assigns a type to all the variables at run-time.
+Types are assigned at runtime.
 
 ## Interpreter
 
