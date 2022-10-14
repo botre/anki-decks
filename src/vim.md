@@ -192,9 +192,13 @@ Sentence (`s`)
 
 (Low)
 
-## Yank single character
+## Yank character below cursor
 
 `yl`
+
+## Duplicate character below cursor
+
+`ylp`
 
 ## Center the current line in the screen
 
