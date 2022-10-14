@@ -327,14 +327,42 @@ A WORD is always delimited by whitespace.
 
 `f.x`
 
-## Execute some normal command (A,) over range
+## Execute some normal command (A,) over a range
 
 ```text
 :1,10normal A,
 ```
 
-## Execute some normal command (A,) over the entire file
+## Execute some normal command (A,) over all lines
 
 ```text
 :%normal A,
 ```
+
+## Range: all lines
+
+`%`
+
+## Range: first line
+
+`1`
+
+## Range: last line
+
+`$`
+
+## Range: lines 21 to 25 inclusive
+
+`21,25`
+
+## Range: lines 21 to end
+
+`21,$`
+
+## Range: current line
+
+`.`
+
+## Range: current line to end
+
+`.,$`
