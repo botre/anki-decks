@@ -322,3 +322,15 @@ A WORD is always delimited by whitespace.
 ## Delete the next .
 
 `f.d`
+
+## Execute some normal command (A,) over range
+
+```text
+:1,10normal A,
+```
+
+## Execute some normal command (A,) over the entire file
+
+```text
+:%normal A,
+```
