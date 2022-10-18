@@ -46,6 +46,12 @@ gc
 gcc
 ```
 
+## (Un)comment the paragraph
+
+```text
+gcip
+```
+
 ## Repeat the last change
 
 ```text
@@ -94,6 +100,12 @@ yae
 cae
 ```
 
+## Indent the entire content of the current buffer
+
+```text
+=ae
+```
+
 ## Find usages
 
 ```text
@@ -135,7 +147,7 @@ ciw
 ## Delete the paragraph
 
 ```text
-dap
+dip
 ```
 
 ## Jump to the previous paragraph
@@ -263,6 +275,10 @@ Up/down arrows.
 ## Auto-indent current line
 
 `==`
+
+## Auto-indent the paragraph
+
+`=ip`
 
 ## Enter visual character mode
 
