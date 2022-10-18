@@ -40,9 +40,13 @@ Control
 
 `Shift`
 
-## Application switcher: close selected
+## Application switcher: close selected window
 
 `W`
+
+## Application switcher: quit selected application
+
+`Q`
 
 ## Close one application window
 
