@@ -79,3 +79,16 @@ Materialized views are disk based and are updated periodically based upon the qu
 
 Process of structuring a relational database in accordance with a series of so-called normal forms in order to reduce
 data redundancy and improve data integrity.
+
+## CTE
+
+Common table expression.
+
+```postgresql
+WITH cte_film AS (SELECT id,
+                         title
+                  FROM film)
+SELECT id,
+       title
+FROM cte_film
+```
