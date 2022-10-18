@@ -80,7 +80,7 @@ Materialized views are disk based and are updated periodically based upon the qu
 Process of structuring a relational database in accordance with a series of so-called normal forms in order to reduce
 data redundancy and improve data integrity.
 
-## CTE
+## PostgreSQL: CTE
 
 Common table expression.
 
@@ -91,4 +91,15 @@ WITH cte_film AS (SELECT id,
 SELECT id,
        title
 FROM cte_film
+```
+
+## PostgreSQL: CASE
+
+```postgresql
+SELECT CASE
+           WHEN length > 0 AND length <= 50 THEN 'Short'
+           WHEN length > 50 AND length <= 120 THEN 'Medium'
+           WHEN length > 120 THEN 'Long'
+           END duration
+FROM film
 ```
