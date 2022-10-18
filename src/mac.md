@@ -83,3 +83,7 @@ Function > Control > Option/Alt > Command
 ## Open an application's preferences
 
 `⌘ + ,`
+
+## Quit an application
+
+`⌘ + Q`
