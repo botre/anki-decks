@@ -162,6 +162,18 @@ dip
 }
 ```
 
+## Jump to the previous sentence
+
+```text
+(
+```
+
+## Jump to the next sentence
+
+```text
+)
+```
+
 ## Jump to a matching opening or closing parenthesis, bracket or curly brace
 
 ```text
@@ -309,16 +321,44 @@ Up/down arrows.
 - `r` lands in normal mode
 - `s` lands in insert mode
 
+## Mark
+
+A mark allows you to record your current position, so you can return to it later.
+
+## Jump back to line where jumped from
+
+```text
+''
+```
+
+## Jump back to position where jumped from
+
+```text
+``
+```
+
 ## Jump to the line of last change
 
 ```text
 '.
 ```
 
-## Jump to the point of last change
+## Jump to the position of last change
 
 ```text
 `.
+```
+
+## Jump to the beginning of last visual selection
+
+```text
+`<
+```
+
+## Jump to the end of last visual selection
+
+```text
+`>
 ```
 
 ## Toggle relative line numbers
@@ -416,7 +456,3 @@ A WORD is always delimited by whitespace.
 ## Range: current line to end
 
 `.,$`
-
-## Mark
-
-A mark allows you to record your current position, so you can return to it later.
