@@ -28,15 +28,55 @@ function example()
 end
 ```
 
+## If
+
+```lua
+local condition = true
+if condition then
+    -- ...
+end
+```
+
 ## If/Else
 
 ```lua
-condition = true
+local condition = true
 if condition then
     -- ...
 else
     -- ...
 end
+```
+
+## If/Elseif
+
+```lua
+local a = true
+local b = true
+if a then
+    -- ...
+elseif b then
+    -- ...
+end
+```
+
+## While
+
+```lua
+local i = 1
+while i < 10 do
+    print(i)
+    i = i + 1
+end
+```
+
+## Repeat
+
+```lua
+local i = 1
+repeat
+    i = i + 1
+until i == 10
 ```
 
 ## The eight basic types
@@ -64,6 +104,26 @@ print(type(v)) --> string
 ## Represent the absence of a useful value
 
 `nil`
+
+## Define a global variable
+
+```lua
+x = 10
+```
+
+## Define a local variable
+
+```lua
+local x = 10
+```
+
+## Delimit a block explicitly
+
+```lua
+do
+    local x = 10
+end
+```
 
 ## Delete a global variable
 
@@ -121,6 +181,35 @@ Tables are the main/only data structuring mechanism in Lua.
 
 ```lua
 a = {}
+```
+
+## Create an array via a table constructor
+
+```lua
+colors = {
+    "red",
+    "green",
+    "blue"
+}
+```
+
+This is equivalent to:
+
+```lua
+colors = {
+    [1] = "red",
+    [2] = "green",
+    [3] = "blue"
+}
+```
+
+## Create a record via a table constructor
+
+```lua
+coordinates = {
+    x = 0,
+    y = 5
+}
 ```
 
 ## Allows arbitrary C data to be stored in Lua variables
