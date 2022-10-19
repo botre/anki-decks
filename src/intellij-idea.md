@@ -1,6 +1,34 @@
 # IntelliJ IDEA
 
-## Search Everywhere
+## Switcher: open menu
+
+`Control + Tab`
+
+## Switcher: switch to previous file
+
+`Control + Tab`
+
+## Switcher: move to next menu item
+
+`Tab`
+
+## Switcher: move to previous menu item
+
+`Shift + Tab`
+
+## Select previous tab
+
+`⌘ + Shift + [`
+
+## Select next tab
+
+`⌘ + Shift + ]`
+
+## Jump to navigation bar
+
+`Alt + Home`
+
+## Search everywhere
 
 `Shift + Shift`
 
@@ -10,7 +38,7 @@
 
 ## Show insert/generation actions
 
-`⌥ + N`
+`⌘ + N`
 
 ## View recent files
 
@@ -52,6 +80,10 @@
 
 `Esc`
 
-## Add file to VCS
+## VCS: add file
 
 `⌥ + ⌘ + A`
+
+## VCS: rollback file
+
+`⌥ + ⌘ + Z`
