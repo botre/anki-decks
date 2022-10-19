@@ -24,6 +24,10 @@ Option/alt
 
 Control
 
+## Alternate between open windows of a single application
+
+`⌘ + ~`
+
 ## Switch to the previous application
 
 `⌘ + Tab`

@@ -59,3 +59,15 @@ Pipe
 ## Search for "format" inside package.json using grep
 
 `grep "format" package.json`
+
+## Kernel
+
+Layer between the OS and underlying computer hardware.
+
+## Kernel space
+
+Location where the code of the kernel is stored.
+
+## User space
+
+Set of locations where normal user processes run.

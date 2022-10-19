@@ -39,10 +39,6 @@ Left-most bit.
 
 Isolated user space instance existing in the kernel.
 
-## Kernel
-
-The main layer between the OS and underlying computer hardware.
-
 ## Currying
 
 The transformation of a function with multiple arguments into a sequence of single-argument functions.

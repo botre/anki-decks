@@ -1,5 +1,13 @@
 # Chrome
 
+## Zoom in
+
+`⌘` + `+`
+
+## Zoom out
+
+`⌘` + `-`
+
 ## Open a new window
 
 ⌘ + N

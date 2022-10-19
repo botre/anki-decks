@@ -456,3 +456,11 @@ A WORD is always delimited by whitespace.
 ## Range: current line to end
 
 `.,$`
+
+## Insert at the beginning of the line
+
+`I`
+
+## Append to the end of the line
+
+`A`
