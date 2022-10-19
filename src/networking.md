@@ -18,3 +18,9 @@ A full-duplex (FDX) system allows communication in both directions.
 ## WebSocket
 
 Communications protocol, providing full-duplex communication channels over a single TCP connection.
+
+## Difference between reverse proxy and forward proxy
+
+A forward proxy enables computers isolated on a private network to connect to the public internet.
+
+A reverse proxy enables computers on the internet to access a private subnet.

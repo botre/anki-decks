@@ -32,6 +32,14 @@
 
 `Shift + Shift`
 
+## Show code completion
+
+`Control + Space`
+
+## Show type-matching code completion
+
+`Control + Shift + Space`
+
 ## Show quick-fix actions
 
 `⌥ + ↵`
@@ -87,3 +95,7 @@
 ## VCS: rollback file
 
 `⌥ + ⌘ + Z`
+
+## Optimize imports
+
+`Control + ⌥ + O`

@@ -79,3 +79,9 @@ Using two computer words rather than one to represent a number.
 ## Associative array
 
 Array that can be indexed not only with numbers, but also with strings or other values.
+
+## Tail recursion
+
+Recursive function in which the recursive call is the last statement that is executed by the function.
+
+So basically nothing is left to execute after the recursion call.

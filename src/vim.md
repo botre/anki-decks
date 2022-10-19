@@ -464,3 +464,7 @@ A WORD is always delimited by whitespace.
 ## Append to the end of the line
 
 `A`
+
+## Show documentation popup
+
+`K`

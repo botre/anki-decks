@@ -1,5 +1,7 @@
 ## TODO
 
+- CSS
+  - Absolute vs. Relative
 - Docker
 - Go
 - GraphQL
