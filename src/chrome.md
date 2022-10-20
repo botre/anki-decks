@@ -79,3 +79,7 @@ Alt + ⌘ + C
 ## Open developer command palette
 
 ⌘ + Shift + P
+
+## Show history
+
+⌘ + Y

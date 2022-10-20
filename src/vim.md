@@ -465,6 +465,10 @@ A WORD is always delimited by whitespace.
 
 `A`
 
+## Append "s" to the end of the word
+
+`eas`
+
 ## Show documentation popup
 
 `K`

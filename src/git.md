@@ -169,3 +169,7 @@ brand-new commits.
 A merge commit is a commit with 2 parents.
 
 It joins the new upstream changes into the local branch.
+
+## Combines multiple commits into one
+
+Squashing.
