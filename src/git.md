@@ -58,7 +58,7 @@ The current (or "checked out") branch.
 
 ## Index
 
-The "staging area" between the files you have on your filesystem (working tree) and your commit history.
+The "staging area" between the files you have in your working directory and your commit history.
 
 `git add` adds file contents to the index.
 
@@ -96,7 +96,7 @@ A human-readable name that references a commit.
 
 The `.git` folder inside a project.
 
-Tracks all changes made to files in the project, building a history over time.
+Tracks all changes made to files in the project, building a history of commits over time.
 
 ## Restores specified paths in the working tree
 
@@ -159,7 +159,13 @@ not yet committed.
 
 Both of these commands are designed to integrate changes from one branch into another branch.
 
-Merging is a non-destructive operation that creates an extraneous merge commit.
+Merging is a non-destructive operation that creates an extraneous merge commit (joining the new upstream changes).
 
-Rebasing moves the branch to begin on the tip of the original branch, it re-writes the project history by creating
-brand-new commits for each commit in the original branch.
+Rebasing replays local changes on top of the upstream changes. It re-writes the project history by creating
+brand-new commits.
+
+## What does a merge commit contain
+
+A merge commit is a commit with 2 parents.
+
+It joins the new upstream changes into the local branch.
