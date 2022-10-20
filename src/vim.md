@@ -188,11 +188,11 @@ dip
 
 `gd`
 
-## Jump to the first character in line
+## Jump to the beginning of the line
 
 `0`
 
-## Jump to the first non-blank character in line
+## Jump to the first non-blank character of the line
 
 `^`
 
