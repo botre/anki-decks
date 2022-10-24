@@ -12,6 +12,10 @@ Andesito
 
 Bigorna
 
+## Banner
+
+Estandarte
+
 ## Barrel
 
 Barril
@@ -24,9 +28,21 @@ Basalto
 
 Sinalizador
 
+## Bed
+
+Cama
+
 ## Bedrock
 
 Rocha-mãe
+
+## Beehive
+
+Colmeia
+
+## Bell
+
+Sino
 
 ## Blackstone
 
@@ -40,13 +56,25 @@ Alto-forno
 
 Suporte de poções
 
+## Cake
+
+Bolo
+
 ## Calcite
 
 Calcita
 
+## Campfire
+
+Fogueira
+
 ## Cartography Table
 
 Bancada de cartografia
+
+## Cauldron
+
+Caldeirão
 
 ## Carpet
 
@@ -71,6 +99,10 @@ Pedregulho
 ## Cobweb
 
 Teia de aranha
+
+## Composter
+
+Composteira
 
 ## Coral
 
@@ -108,6 +140,10 @@ Espeleotema
 
 Mesa de encantamentos
 
+## Farmland
+
+Terra arada
+
 ## Fire
 
 Fogo
@@ -116,9 +152,17 @@ Fogo
 
 Bancada de arco e flecha
 
+## Flower pot
+
+Vaso
+
 ## Frogspawn
 
 Ovos de sapo
+
+## Frosted Ice
+
+Gelo fosco
 
 ## Fungus
 
@@ -152,6 +196,10 @@ Cascalho
 
 Rebolo
 
+## Head
+
+Cabeça
+
 ## Honeycomb
 
 Favo de mel
@@ -163,6 +211,14 @@ Gelo
 ## Iron Bars
 
 Grades de ferro
+
+## Jukebox
+
+Toca-discos
+
+## Ladder
+
+Escada de mão
 
 ## Lava
 
@@ -204,6 +260,10 @@ Micélio
 
 Obsidiana
 
+## Scaffolding
+
+Andaime
+
 ## Sign
 
 Placa
@@ -219,6 +279,14 @@ Bancada de ferraria
 ## Smoker
 
 Defumador
+
+## Spawner
+
+Gerador
+
+## Sponge
+
+Esponja
 
 ## Stairs
 
@@ -263,6 +331,10 @@ Terracota
 ## Tinted Glass
 
 Vidro fosco
+
+## TNT
+
+Dinamite
 
 ## Tuff
 
