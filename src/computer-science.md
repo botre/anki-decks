@@ -47,6 +47,10 @@ The transformation of a function with multiple arguments into a sequence of sing
 
 Persistent local variable scope.
 
+## Scope
+
+The part of a program where a name binding is valid.
+
 ## Higher-order function
 
 A function that takes a function as an argument, or returns a function.
@@ -85,3 +89,8 @@ Array that can be indexed not only with numbers, but also with strings or other 
 Recursive function in which the recursive call is the last statement that is executed by the function.
 
 So basically nothing is left to execute after the recursion call.
+
+## LSP
+
+The Language Server Protocol (LSP) defines the protocol used between an editor or IDE and a language server that
+provides language features like auto complete, go to definition, find all references etc.

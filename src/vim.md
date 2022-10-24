@@ -308,6 +308,10 @@ Up/down arrows.
 
 `o`
 
+## Select 10 lines below in visual mode
+
+`V10j`
+
 ## Scroll window upward a half screen
 
 `C-u`
@@ -472,3 +476,13 @@ A WORD is always delimited by whitespace.
 ## Show documentation popup
 
 `K`
+
+## `:exit`
+
+Write and exits.
+
+## Source .vimrc when editing .vimrc
+
+```bash
+:so %
+```

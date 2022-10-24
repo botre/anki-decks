@@ -173,3 +173,9 @@ It joins the new upstream changes into the local branch.
 ## Combines multiple commits into one
 
 Squashing.
+
+## Makes a commit that reverts the changes made by other commits
+
+```bash
+git revert
+```

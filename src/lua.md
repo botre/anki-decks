@@ -79,6 +79,34 @@ repeat
 until i == 10
 ```
 
+## Numeric for
+
+```lua
+local start_at = 1
+local loop_until = 10
+local increment_by = 1
+
+for i = start_at, loop_until, increment_by do
+    print(i)
+end
+```
+
+## Generic for
+
+```lua
+a = { "one", "two", "three" }
+for index, value in ipairs(a) do
+    print(index, value)
+end
+```
+
+## Returns index-value pairs
+
+```lua
+a = { "one", "two", "three" }
+ipairs(a)
+```
+
 ## The eight basic types
 
 1. nil
