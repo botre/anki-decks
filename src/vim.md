@@ -144,7 +144,13 @@ caw
 ciw
 ```
 
-## Delete the paragraph
+## Delete the paragraph, including trailing newline
+
+```text
+dap
+```
+
+## Delete the paragraph, excluding trailing newline
 
 ```text
 dip
@@ -485,4 +491,10 @@ Write and exits.
 
 ```bash
 :so %
+```
+
+## Insert "-" 30 times
+
+```text
+30i-esc
 ```
