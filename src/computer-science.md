@@ -94,3 +94,21 @@ So basically nothing is left to execute after the recursion call.
 
 The Language Server Protocol (LSP) defines the protocol used between an editor or IDE and a language server that
 provides language features like auto complete, go to definition, find all references etc.
+
+## CocoaPods
+
+Application level dependency manager for Objective-C, Swift and any other languages that run on the Objective-C runtime.
+
+## ANTLR
+
+"ANother Tool for Language Recognition".
+
+Parser generator for reading, processing, executing, or translating structured text or binary files.
+
+Used to build languages, tools, and frameworks.
+
+From a grammar, ANTLR generates a parser that can build and walk parse trees.
+
+## Gradle
+
+Java-focused build automation tool.
