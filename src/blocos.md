@@ -156,6 +156,10 @@ Bancada de arco e flecha
 
 Vaso
 
+## Frog
+
+Sapo
+
 ## Frogspawn
 
 Ovos de sapo
@@ -292,6 +296,10 @@ Esponja
 
 Escadas
 
+## Stand
+
+Suporte
+
 ## Stone
 
 Pedra
@@ -299,6 +307,10 @@ Pedra
 ## Stonecutter
 
 Cortador de pedras
+
+## Plowed
+
+Arada
 
 ## Podzol
 
@@ -323,6 +335,10 @@ Pepino-do-mar
 ## Sprouts
 
 Brotos
+
+## Table
+
+Mesa
 
 ## Terracotta
 

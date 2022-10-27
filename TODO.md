@@ -11,3 +11,4 @@
 - Redux
 - Rust
 - TypeScript
+- https://degoes.net/articles/fp-glossary

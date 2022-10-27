@@ -161,11 +161,9 @@ Set it to `nil`.
 
 Everything except `false` and `nil`
 
-This includes empty strings and zero.
-
 ## Falsy values
 
-Nothing except `false` and `nil`
+`false` and `nil`.
 
 ## How is the number type implemented
 
@@ -175,11 +173,11 @@ Double-precision floating point numbers.
 
 ```lua
 str = [[
-# Title
+1
 
-## Section
+2
 
-Example paragraph
+3
 ]]
 ```
 
@@ -254,4 +252,6 @@ By reference, two such values are considered equal only if they are the very sam
 
 ## What are the logical operators
 
-They are `and`, `or` and `not`.
+- and
+- or
+- not
