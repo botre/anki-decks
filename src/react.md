@@ -32,3 +32,11 @@ Cross-browser wrapper around the browser's native event.
 ## Hook that let's you persist values between renders
 
 `useRef`
+
+## JavaScript engine optimized for React Native
+
+Hermes.
+
+## JavaScript bundler for React Native
+
+Metro.

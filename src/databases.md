@@ -124,6 +124,15 @@ SELECT INTO
 SELECT * INTO films_recent FROM films WHERE released_at >= '2002-01-01';
 ```
 
+## PostgreSQL: it is for columns what a view is for tables
+
+Generated columns.
+
+## PostgreSQL: two kinds of generated columns
+
+- Virtual
+- Stored
+
 ## Cascade
 
 Used to simultaneously delete or update an entry from both the child and parent table.
