@@ -1,5 +1,21 @@
 # VIM
 
+## Move left
+
+`h`
+
+## Move down
+
+`j`
+
+## Move up
+
+`k`
+
+## Move right
+
+`l`
+
 ## NERDTree: new
 
 ```text
@@ -222,6 +238,10 @@ dip
 
 `G`
 
+## Jump to column 7
+
+`7|`
+
 ## Jump to the top of the window
 
 `H`
@@ -297,6 +317,14 @@ Up/down arrows.
 ## Auto-indent the paragraph
 
 `=ip`
+
+## Indent line
+
+`>>`
+
+## Un-indent line
+
+`<<`
 
 ## Enter visual character mode
 
@@ -392,6 +420,30 @@ A mark allows you to record your current position, so you can return to it later
 ## Move cursor to previous end of word
 
 `ge`
+
+## Forward to "x"
+
+`fx`
+
+## Backward to "x"
+
+`Fx`
+
+## Forward until "x"
+
+`tx`
+
+## Backward until "x"
+
+`Tx`
+
+## Repeat previous "f F t F"
+
+`;`
+
+## Repeat previous "f F t F" in opposite direction
+
+`,`
 
 ## Join the current line to the next line
 
@@ -497,4 +549,14 @@ Write and exits.
 
 ```text
 30i-esc
+```
+
+## Sort
+
+`:sort`
+
+## Delete previous word in insert mode
+
+```text
+<C-w>
 ```
