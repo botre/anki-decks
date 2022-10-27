@@ -48,6 +48,10 @@ Control
 
 `W`
 
+## Application switcher: hide selected window
+
+`H`
+
 ## Application switcher: quit selected application
 
 `Q`
@@ -59,6 +63,18 @@ Control
 ## Close all application windows
 
 `⌥ + ⌘ + W`
+
+## Hide an application window
+
+`⌘ + H`
+
+## Quit an application
+
+`⌘ + Q`
+
+## Open an application's preferences
+
+`⌘ + ,`
 
 ## Lock screen
 
@@ -87,11 +103,3 @@ Function > Control > Option/Alt > Command
 ## Screenshot: portion of the screen, save to clipboard
 
 `Control + ⌘ + Shift + 4`
-
-## Open an application's preferences
-
-`⌘ + ,`
-
-## Quit an application
-
-`⌘ + Q`
