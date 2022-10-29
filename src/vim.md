@@ -230,7 +230,7 @@ dip
 
 `42G`
 
-## Jump to line 42 using :
+## Jump to line 42 using command mode
 
 `:42`
 
@@ -305,6 +305,8 @@ Up/down arrows.
 ```
 
 ## Explain `:%s`
+
+`:` enters command mode.
 
 `%` is the range over which the `:s` command (short for `:substitute`) will be run.
 
@@ -519,17 +521,25 @@ A WORD is always delimited by whitespace.
 
 `.,$`
 
+## Insert before cursor
+
+`i`
+
 ## Insert at the beginning of the line
 
 `I`
+
+## Append after cursor
+
+`a`
 
 ## Append to the end of the line
 
 `A`
 
-## Append "s" to the end of the word
+## Append to the end of the word
 
-`eas`
+`ea`
 
 ## Show documentation popup
 
@@ -551,7 +561,7 @@ Write and exits.
 30i-esc
 ```
 
-## Sort
+## Sort using command mode
 
 `:sort`
 
