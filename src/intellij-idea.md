@@ -24,6 +24,10 @@
 
 `⌘ + Shift + ]`
 
+## Close current tab
+
+`⌘ + W`
+
 ## Jump to navigation bar
 
 `Alt + Home`
