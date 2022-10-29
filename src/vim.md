@@ -570,3 +570,23 @@ Write and exits.
 ```text
 <C-w>
 ```
+
+## Toggle case of current character
+
+`~`
+
+## Make uppercase
+
+`gU`
+
+## Make lowercase
+
+`gu`
+
+## Visual mode, make selection uppercase
+
+`U`
+
+## Visual mode, make selection lowercase
+
+`u`
