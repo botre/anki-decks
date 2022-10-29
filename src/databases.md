@@ -44,9 +44,11 @@ Returns all the rows from both joined tables, whether they have a matching row o
 
 Combines a left outer join and a right outer join.
 
-## Enables traversal over the records in a database
+## Cursor
 
-Cursor.
+Enables traversal over the records in a database.
+
+Cursors are a way of processing a table or result set row by row.
 
 ## Manages transaction concurrency
 
@@ -133,6 +135,18 @@ Generated columns.
 - Virtual
 - Stored
 
+## PostgreSQL: types of locks
+
+- Table-Level Locks
+- Row-Level Locks
+- Page Level Locks
+- Advisory Locks
+- Deadlocks
+
 ## Cascade
 
 Used to simultaneously delete or update an entry from both the child and parent table.
+
+## Trigger
+
+Procedural code that is automatically executed in response to certain events on a particular table or view in a database.
