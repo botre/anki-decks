@@ -8,6 +8,10 @@ Ar
 
 Andesito
 
+## Ant
+
+Formiga
+
 ## Anvil
 
 Bigorna
@@ -176,6 +180,10 @@ Fungo
 
 Fornalha
 
+## Gear
+
+Engrenagem
+
 ## Glass
 
 Vidro
@@ -267,6 +275,10 @@ Obsidiana
 ## Scaffolding
 
 Andaime
+
+## Shrub
+
+Arbusto
 
 ## Sign
 
@@ -363,6 +375,10 @@ Ovo de tartaruga
 ## Twisting Vines
 
 Trepadeiras retorcidas
+
+## USB Charger
+
+Carregador USB
 
 ## Wall
 
