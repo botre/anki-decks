@@ -43,9 +43,30 @@ Isolated user space instance existing in the kernel.
 
 The transformation of a function with multiple arguments into a sequence of single-argument functions.
 
+Helpful when you have to frequently call a function with a fixed argument.
+
+```javascript
+// Without currying
+const error = (msg) => log("error", msg);
+const warn = (msg) => log("warn", msg);
+const info = (msg) => log("info", msg);
+
+// With currying
+log = curry(log);
+const error = log("error");
+const warn = log("warn");
+const info = log("info");
+```
+
 ## Closure
 
 Persistent local variable scope.
+
+## Monad
+
+A function that takes something and puts it in the context of something else.
+
+JavaScript examples: Promise, Maybe
 
 ## Scope
 
@@ -67,9 +88,13 @@ The ability to access object properties from another object.
 
 Types are assigned at compile time.
 
+Examples: C, C++, Java, Go, Rust, Swift
+
 ## Dynamic typing
 
 Types are assigned at runtime.
+
+Examples: Python, JavaScript, PHP, Ruby, Lua
 
 ## Interpreter
 
@@ -88,7 +113,7 @@ Array that can be indexed not only with numbers, but also with strings or other 
 
 Recursive function in which the recursive call is the last statement that is executed by the function.
 
-So basically nothing is left to execute after the recursion call.
+As there is no task left after the recursive call, it will be easier for the compiler to optimize the code.
 
 ## LSP
 
