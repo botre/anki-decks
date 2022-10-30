@@ -96,6 +96,30 @@ Types are assigned at runtime.
 
 Examples: Python, JavaScript, PHP, Ruby, Lua
 
+## Opaque type
+
+Opaque types may only be created in the file where the opaque type was defined.
+
+```typescript
+type UserName = string & { _opaque: typeof UserName };
+
+declare const UserName: unique symbol;
+
+// Error: `string` is not assignable to `UserName`.
+let notUserName: UserName = "Hello, world!";
+
+// No error
+let userName: UserName = createUserName("calebmer");
+
+function createUserName(name: string): UserName {
+  if (/^[a-zA-Z0-9_-]+$/.test(name)) {
+    return name as UserName;
+  } else {
+    throw new Error("Not a user name!");
+  }
+}
+```
+
 ## Interpreter
 
 Computer program that directly executes instructions written in a programming or scripting language, without requiring
@@ -137,3 +161,7 @@ From a grammar, ANTLR generates a parser that can build and walk parse trees.
 ## Gradle
 
 Java-focused build automation tool.
+
+## gRPC
+
+Cross-platform open source high performance Remote Procedure Call framework.
