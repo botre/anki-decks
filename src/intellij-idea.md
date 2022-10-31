@@ -60,6 +60,10 @@
 
 `⌘ + Shift + E`
 
+## View commit tool
+
+`⌘ + K`
+
 ## Toggle Find window
 
 `⌘ + 3`

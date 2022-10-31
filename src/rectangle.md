@@ -32,6 +32,26 @@ Control ⌥ J
 
 Control ⌥ K
 
+## First third
+
+Control ⌥ D
+
+## Center third
+
+Control ⌥ F
+
+## Last third
+
+Control ⌥ G
+
+## First two thirds
+
+Control ⌥ E
+
+## Last two thirds
+
+Control ⌥ T
+
 ## Next display
 
 Control ⌥ ⌘ →
