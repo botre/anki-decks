@@ -28,6 +28,55 @@ function example()
 end
 ```
 
+## Function with default value parameter
+
+```lua
+function increment(n)
+    n = n or 0
+    n = n + 1
+    return n
+end
+```
+
+## Function with two return values
+
+```lua
+function example()
+    return "hello", "world"
+end
+
+a, b = example()
+print(a) --> hello
+```
+
+## Function with variable number of arguments
+
+```lua
+function sum(...)
+    local result = 0
+    for _, v in ipairs({ ... }) do
+        result = result + v
+    end
+    return result
+end
+
+sum(10, 2, 5) --> 17
+```
+
+## Force a call to return exactly one result
+
+```lua
+function example()
+    return "hello", "world"
+end
+
+print((example())) --> hello
+```
+
+## Value produced when a function has no result
+
+`nil`
+
 ## If
 
 ```lua
