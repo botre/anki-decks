@@ -590,3 +590,11 @@ Write and exits.
 ## Visual mode, make selection lowercase
 
 `u`
+
+## Open fold under the cursor
+
+`zo`
+
+## Close fold under the cursor
+
+`zc`
