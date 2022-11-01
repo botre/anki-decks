@@ -139,6 +139,23 @@ Recursive function in which the recursive call is the last statement that is exe
 
 As there is no task left after the recursive call, it will be easier for the compiler to optimize the code.
 
+## Indirect recursion
+
+Indirect recursion occurs when a function is called not by itself but by another function that it called (either directly or indirectly).
+
+## Proper tail call
+
+```lua
+function f (x)
+    return g(x)
+end
+```
+
+After f calls g, it has nothing else to do. In such situations, the program does not need to return to the calling function when the called function ends.
+Therefore, after the tail call, the program does not need to keep any information about the calling function in the stack.
+Some language implementations, such as the Lua interpreter, take advantage of this fact and actually do not use any extra stack space when doing a tail call.
+We say that those implementations support proper tail calls.
+
 ## LSP
 
 The Language Server Protocol (LSP) defines the protocol used between an editor or IDE and a language server that

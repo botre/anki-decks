@@ -77,6 +77,18 @@ print((example())) --> hello
 
 `nil`
 
+## What does it mean for functions to have "lexical scoping"
+
+It means that functions can access variables of its enclosing functions.
+
+## Upvalue
+
+An upvalue refers to a local variable in an enclosing function.
+
+## Closure
+
+A closure is a function plus all it needs to access its upvalues correctly.
+
 ## If
 
 ```lua
