@@ -84,6 +84,10 @@ Alt + ⌘ + C
 
 ⌘ + Y
 
+## Show downloads
+
+⌘ + Shift + J
+
 ## Open link in new tab in the background
 
 ⌘ + Click
