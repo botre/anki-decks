@@ -74,6 +74,34 @@ Add a half step to a perfect or major interval.
 
 Subtract a half step from a perfect or minor interval.
 
+## Interval needed in order to reach the octave from a given note
+
+Inversion
+
+## Compounded interval
+
+Interval bigger than an octave.
+
+## Quality inversion: minor
+
+Major
+
+## Quality inversion: major
+
+Minor
+
+## Quality inversion: perfect
+
+Perfect
+
+## Quality inversion: diminished
+
+Augmented
+
+## Quality inversion: augmented
+
+Diminished
+
 ## Unison
 
 The same note being played harmonically.
@@ -132,8 +160,20 @@ B E A D
 
 ## Bass guitar: fourth location
 
-Same fret, next string.
+Same fret, one string up.
 
 ## Bass guitar: fifth location
 
-Two frets up, one string over.
+Two frets up, one string up.
+
+## Bass guitar: octave location
+
+Two frets up, two string up.
+
+## Scale steps: Major
+
+W W H W W W H
+
+## Triad
+
+Simultaneous sounding of three notes.
