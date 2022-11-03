@@ -95,3 +95,11 @@ Alt + ⌘ + C
 ## Open link in a new window
 
 Shift + Click
+
+## Scroll down the web page
+
+Space bar
+
+## Scroll the web page horizontally
+
+Shift + Scroll
