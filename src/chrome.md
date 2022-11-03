@@ -104,6 +104,10 @@ Shift + Click
 
 Space bar
 
+## Scroll up the web page
+
+Shift + Space bar
+
 ## Scroll the web page horizontally
 
 Shift + Scroll
