@@ -260,6 +260,10 @@ dip
 
 (Low)
 
+## Jump to the Nth percentage line of the file
+
+`N%`
+
 ## Yank character below cursor
 
 `yl`
@@ -271,6 +275,14 @@ dip
 ## Center the current line in the screen
 
 `zz`
+
+## Move the current line to the top of the viewport
+
+`zt`
+
+## Move the current line to the bottom of the viewport
+
+`zb`
 
 ## Search forward
 
@@ -598,3 +610,11 @@ Write and exits.
 ## Close fold under the cursor
 
 `zc`
+
+## Go to previous start of a method
+
+`[m`
+
+## Go to next start of a method
+
+`]m`
