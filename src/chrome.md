@@ -83,3 +83,15 @@ Alt + ⌘ + C
 ## Show history
 
 ⌘ + Y
+
+## Open link in new tab in the background
+
+⌘ + Click
+
+## Open link in new tab and switch to the newly opened tab
+
+⌘ + Shift + Click
+
+## Open link in a new window
+
+Shift + Click
