@@ -5,57 +5,57 @@
 - B & C
 - E & F
 
-## Interval - 0 steps
+## Interval - 0 half steps
 
 Unison (Prime)
 
-## Interval - 1 step
+## Interval - 1 half step
 
 Minor Second
 
-## Interval - 2 steps
+## Interval - 2 half steps
 
 Major Second
 
-## Interval - 3 steps
+## Interval - 3 half steps
 
 Minor Third
 
-## Interval - 4 steps
+## Interval - 4 half steps
 
 Major Third
 
-## Interval - 5 steps
+## Interval - 5 half steps
 
 Fourth
 
-## Interval - 6 steps
+## Interval - 6 half steps
 
 - Tritone
 - Augmented Fourth
 - Diminished Fifth
 
-## Interval - 7 steps
+## Interval - 7 half steps
 
 Fifth
 
-## Interval - 8 steps
+## Interval - 8 half steps
 
 Minor Sixth
 
-## Interval - 9 steps
+## Interval - 9 half steps
 
 Major Sixth
 
-## Interval - 10 steps
+## Interval - 10 half steps
 
 Minor Seventh
 
-## Interval - 11 steps
+## Interval - 11 half steps
 
 Major Seventh
 
-## Interval - 12 steps
+## Interval - 12 half steps
 
 Octave
 
@@ -77,6 +77,22 @@ Subtract a half step from a perfect or minor interval.
 ## Unison
 
 The same note being played harmonically.
+
+## Chromatic scale
+
+Half steps in succession.
+
+## Whole tone scale
+
+Whole steps in succession.
+
+## Symmetric scale
+
+Scale made up of the same interval(s).
+
+## Cadence
+
+End of a musical segment.
 
 ## Bass guitar: fret dots
 
@@ -113,3 +129,11 @@ B E A D
 ## Bass guitar: how many frets to add to find same note on next lower string
 
 5
+
+## Bass guitar: fourth location
+
+Same fret, next string.
+
+## Bass guitar: fifth location
+
+Two frets up, one string over.
