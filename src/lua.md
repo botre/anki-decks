@@ -290,6 +290,39 @@ colors = {
 }
 ```
 
+## Returns the size of an array
+
+`table.getn(some_array)`
+
+```lua
+local some_array = {
+    "red",
+    "green",
+    "blue"
+}
+local length = table.getn(some_array)
+print(length) --> 3
+```
+
+## List iterator
+
+```lua
+    function list_iterator (t)
+    local i = 0
+    local n = table.getn(t)
+    return function()
+        i = i + 1
+        if i <= n then
+            return t[i]
+        end
+    end
+end
+```
+
+## When using an iterator function, when does the generic for stop.
+
+When the iterator returns nil.
+
 ## Create a record via a table constructor
 
 ```lua
