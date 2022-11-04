@@ -177,3 +177,27 @@ W W H W W W H
 ## Triad
 
 Simultaneous sounding of three notes.
+
+## Major triad
+
+Major third + minor third
+
+## Minor triad
+
+Minor third + major third
+
+## Diminished triad
+
+Minor third + minor third
+
+## Augmented triad
+
+Major third + major third
+
+## Diatonic
+
+Using only notes from a specific scale.
+
+## Chromatic
+
+Using all 12 notes.
