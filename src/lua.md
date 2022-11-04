@@ -319,6 +319,20 @@ print(length) --> 3
 end
 ```
 
+## Stateless iterator
+
+Iterator that does not keep any state by itself.
+
+```lua
+function stateless_iterator (array, control_variable)
+    control_variable = control_variable + 1
+    local v = array[control_variable]
+    if v then
+        return control_variable, v
+    end
+end
+```
+
 ## When using an iterator function, when does the generic for stop.
 
 When the iterator returns nil.
