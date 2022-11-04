@@ -363,3 +363,48 @@ By reference, two such values are considered equal only if they are the very sam
 - and
 - or
 - not
+
+## High-level function to load and run libraries
+
+`require`
+
+## Loads a C library and links Lua to it (dynamic linking)
+
+`loadlib`
+
+## Raise an error
+
+```lua
+print "enter a number:"
+n = io.read("*number")
+if not n then error("invalid input") end
+```
+
+Which can conveniently be rewritten as:
+
+```lua
+print "enter a number:"
+n = assert(io.read("*number"), "invalid input")
+```
+
+## Function returning first argument if it is truthy, else raises error with second argument
+
+`assert`
+
+## Function that calls its first argument in protected mode, so that it catches any errors while the function is running
+
+`pcall`
+
+```lua
+if pcall(some_function) then
+    -- ok
+else
+    -- nok
+end
+```
+
+## Function to get a traceback of the current execution
+
+```lua
+debug.traceback()
+```
