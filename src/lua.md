@@ -408,3 +408,56 @@ end
 ```lua
 debug.traceback()
 ```
+
+## Coroutine
+
+A line of execution, with its own stack, its own local variables, and its own instruction pointer; but sharing global variables and mostly anything else with other coroutines.
+
+## Difference between a thread and a coroutine
+
+A program with threads runs several threads concurrently.
+
+Coroutines, on the other hand, are collaborative: a program with coroutines is, at any given time, running only one of its coroutines.
+
+## When does a coroutine suspend its execution
+
+When it explicitly requests to be suspended.
+
+## Coroutine states (3)
+
+- suspended
+- running
+- dead
+
+## State of a coroutine when it is created
+
+Suspended
+
+## Create and start a coroutine
+
+```lua
+-- Create with `coroutine.create`
+co = coroutine.create(function ()
+    print("Hello, World!")
+end)
+
+-- (Re)start with `coroutine.resume`
+coroutine.resume(co)
+```
+
+## Function to get the status of a coroutine
+
+`coroutine.status`
+
+## Function to suspend a running coroutine
+
+`coroutine.yield`
+
+## Pass arguments to a coroutine function
+
+```lua
+co = coroutine.create(function(a, b, c)
+    print("co", a, b, c)
+end)
+coroutine.resume(co, 1, 2, 3) --> Prints "co  1  2  3"
+```
