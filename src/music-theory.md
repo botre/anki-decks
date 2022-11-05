@@ -176,7 +176,7 @@ W W H W W W H
 
 ## Triad
 
-Simultaneous sounding of three notes.
+Three notes stacked in consecutive thirds.
 
 ## Major triad
 
@@ -194,6 +194,10 @@ Minor third + minor third
 
 Major third + major third
 
+## How to invert a triad.
+
+Take the lowest note and place it up an octave.
+
 ## Diatonic
 
 Using only notes from a specific scale.
@@ -201,3 +205,35 @@ Using only notes from a specific scale.
 ## Chromatic
 
 Using all 12 notes.
+
+## Scale degrees
+
+Scale degrees are the number values assigned to the steps of the musical scale.
+
+In typical seven note scales like the major scale and minor scale, the scale degrees are numbered from 1 to 7.
+
+The scale degree is the position of a particular note on a scale relative to the tonic, the first and main note of the scale.
+
+## Chord function
+
+The role of a chord in relation to a diatonic key.
+
+## Phrasing
+
+The method by which a musician shapes a sequence of notes in a passage of music to allow expression.
+
+## Articulation
+
+Articulation is a fundamental musical parameter that determines how a single note or other discrete event is sounded.
+
+## Voice leading
+
+How chords flow from one to another.
+
+## Closed voicing
+
+Voicing in which all the notes in the chord are arranged as close together as possible.
+
+## Open voicing
+
+Voicing in which all the notes in the chord are arranged as far apart as possible.
