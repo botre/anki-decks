@@ -214,9 +214,19 @@ In typical seven note scales like the major scale and minor scale, the scale deg
 
 The scale degree is the position of a particular note on a scale relative to the tonic, the first and main note of the scale.
 
+## Functional harmony
+
+Music that works within a tonal framework and uses chords that have specific functions in that tonality.
+
+Home -> not home -> home
+
 ## Chord function
 
 The role of a chord in relation to a diatonic key.
+
+- Tonic
+- Dominant
+- Subdominant
 
 ## Phrasing
 
