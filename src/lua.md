@@ -437,7 +437,7 @@ Suspended
 
 ```lua
 -- Create with `coroutine.create`
-co = coroutine.create(function ()
+local co = coroutine.create(function ()
     print("Hello, World!")
 end)
 
@@ -456,8 +456,25 @@ coroutine.resume(co)
 ## Pass arguments to a coroutine function
 
 ```lua
-co = coroutine.create(function(a, b, c)
+local co = coroutine.create(function(a, b, c)
     print("co", a, b, c)
 end)
 coroutine.resume(co, 1, 2, 3) --> Prints "co  1  2  3"
+```
+
+## Create a linked list
+
+```lua
+local list = nil
+
+-- Insert elements
+list = { next = list, value = 'Hello' }
+list = { next = list, value = 'World' }
+
+l = list
+-- Traverse the list
+while l do
+    print(l.value)
+    l = l.next
+end
 ```
