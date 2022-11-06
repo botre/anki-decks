@@ -182,3 +182,27 @@ Java-focused build automation tool.
 ## gRPC
 
 Cross-platform open source high performance Remote Procedure Call framework.
+
+## Reference counting
+
+Technique of storing the number of references, pointers, or handles to a resource, such as an object, a block of memory, disk space, and others.
+
+Reference counts may be used to deallocate objects that are no longer needed.
+
+## Garbage collection
+
+Form of automatic memory management. The garbage collector attempts to reclaim memory which was allocated by the program, but is no longer referenced; such memory is called garbage.
+
+## Metaprogramming
+
+Metaprogramming is a programming technique in which computer programs have the ability to treat other programs as their data.
+
+It means that a program can be designed to read, generate, analyze or transform other programs, and even modify itself while running.
+
+## Red teaming
+
+Red teaming is the practice of rigorously challenging plans, policies, systems and assumptions by adopting an adversarial approach.
+
+## Linker
+
+Program that takes one or more object files and combines them into a single executable file, library file, or another "object" file.

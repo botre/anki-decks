@@ -28,6 +28,10 @@ Control + R
 
 Control + C
 
+## Send EOF signal
+
+Control + D
+
 ## Represents the current directory in the filesystem
 
 `.`
