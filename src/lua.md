@@ -290,6 +290,24 @@ colors = {
 }
 ```
 
+## Call a function with a table as its single argument
+
+```lua
+print_coordinates{
+    x = 1,
+    y = 3
+}
+```
+
+Which is equivalent to:
+
+```lua
+print_coordinates({
+    x = 1,
+    y = 3
+})
+```
+
 ## Returns the size of an array
 
 `table.getn(some_array)`
@@ -357,6 +375,60 @@ The `userdata` type.
 ## How are tables, userdata, and functions compared
 
 By reference, two such values are considered equal only if they are the very same object.
+
+## Metatable
+
+Metatables allow us to change the behavior of table.
+
+Lua always create new tables without metatables.
+
+## Set the metatable of a table
+
+```lua
+local t = {}
+local mt = {}
+setmetatable(t, mt)
+```
+
+## Metamethod: addition
+
+`__add`
+
+## Metamethod: subtraction
+
+`__sub`
+
+## Metamethod: multiplication
+
+`__mul`
+
+## Metamethod: division
+
+`__div`
+
+## Metamethod: negation
+
+`__unm`
+
+## Metamethod: exponentiation
+
+`__pow`
+
+## Metamethod: concatenation
+
+`__concat`
+
+## Metamethod: equality
+
+`__eq`
+
+## Metamethod: less than
+
+`__lt`
+
+## Metamethod: less or equal
+
+`__le`
 
 ## What are the logical operators
 
