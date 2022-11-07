@@ -356,9 +356,13 @@ Up/down arrows.
 
 `o`
 
-## Select 10 lines below in visual mode
+## Select 10 lines below in visual line mode
 
 `V10j`
+
+## Select a paragraph in visual mode
+
+`vip`
 
 ## Scroll window upward a half screen
 
@@ -367,6 +371,14 @@ Up/down arrows.
 ## Scroll window downward a half screen
 
 `C-d`
+
+## Scroll window upward one line
+
+`C-E`
+
+## Scroll window downward one line
+
+`C-Y`
 
 ## What is the difference between `r` and `s`
 
@@ -553,6 +565,14 @@ A WORD is always delimited by whitespace.
 
 `ea`
 
+## Insert new line before current line
+
+`O`
+
+## Insert new line below current line
+
+`o`
+
 ## Show documentation popup
 
 `K`
@@ -618,3 +638,11 @@ Write and exits.
 ## Go to next start of a method
 
 `]m`
+
+## Find word under cursor (backward)
+
+`#`
+
+## Find word under cursor (forward)
+
+`*`
