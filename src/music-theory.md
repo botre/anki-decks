@@ -220,6 +220,10 @@ Music that works within a tonal framework and uses chords that have specific fun
 
 Home -> not home -> home
 
+## Modal music
+
+Music that finds tension and release through colors of sound rather than through functional harmony.
+
 ## Chord function
 
 The role of a chord in relation to a diatonic key.
@@ -247,3 +251,27 @@ Voicing in which all the notes in the chord are arranged as close together as po
 ## Open voicing
 
 Voicing in which all the notes in the chord are arranged as far apart as possible.
+
+## Suspended chord
+
+Triad without a third. Using a second of fourth instead.
+
+## sus2
+
+The second takes the place of the third.
+
+## sus4
+
+The fourth takes the place of the third.
+
+## Chord tone
+
+A chord tone is a note that exists within a certain chord.
+
+## Slash chord
+
+Triad over a bass note that is not a chord tone.
+
+## Polychord
+
+Two chords, most often triads, stacked on top of each other.
