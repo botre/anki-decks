@@ -83,17 +83,16 @@ Le dernier pli remporté.
 À l’atout :
 
 - Le Valet vaut 20 points.
-- Le Neuf vaut 14 points.
-- L’As vaut 11 points.
+- Le 9 vaut 14 points.
 
 En non-atout :
 
-- L’As vaut 11 points.
 - Le Valet vaut 2 points.
 - Le 9 ne vaut aucun point.
 
 Partagé :
 
+- L’As vaut 11 points.
 - Le 10 vaut 10 points.
 - Le Roi vaut 4 points.
 - La Dame vaut 3 points.
