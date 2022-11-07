@@ -97,3 +97,13 @@ Partagé :
 - Le Roi vaut 4 points.
 - La Dame vaut 3 points.
 - Les 7 et 8 ne valent aucun point.
+
+## Attaque
+
+Un joueur est à l'attaque lorsque ayant fait la levée précédente, c'est à lui de jouer la première carte de la levée suivante.
+
+## Dedans (être)
+
+L’équipe qui a pris doit marquer un minimum de 82 points sinon elle chute son contrat (elle est alors dedans).
+
+Dans ce cas, l’adversaire marque 162 points.
