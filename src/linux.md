@@ -75,11 +75,3 @@ Location where the code of the kernel is stored.
 ## User space
 
 Set of locations where normal user processes run.
-
-## Terminal: scroll up
-
-⌘ + Up
-
-## Terminal: scroll down
-
-⌘ + Down
