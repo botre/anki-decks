@@ -124,7 +124,7 @@ End of a musical segment.
 
 ## Bass guitar: fret dots
 
-3 - 5 - 7 - 9 - 12 (double) - 15 - 17 - 19 - 20 - 21
+3 - 5 - 7 - 9 - 12 (double) - 15 - 17 - 19 - 21
 
 ## Bass guitar: notes on open strings
 
