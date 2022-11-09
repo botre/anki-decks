@@ -293,7 +293,7 @@ colors = {
 ## Call a function with a table as its single argument
 
 ```lua
-print_coordinates{
+print_coordinates {
     x = 1,
     y = 3
 }
@@ -449,7 +449,9 @@ setmetatable(t, mt)
 ```lua
 print "enter a number:"
 n = io.read("*number")
-if not n then error("invalid input") end
+if not n then
+    error("invalid input")
+end
 ```
 
 Which can conveniently be rewritten as:
@@ -483,13 +485,15 @@ debug.traceback()
 
 ## Coroutine
 
-A line of execution, with its own stack, its own local variables, and its own instruction pointer; but sharing global variables and mostly anything else with other coroutines.
+A line of execution, with its own stack, its own local variables, and its own instruction pointer; but sharing global
+variables and mostly anything else with other coroutines.
 
 ## Difference between a thread and a coroutine
 
 A program with threads runs several threads concurrently.
 
-Coroutines, on the other hand, are collaborative: a program with coroutines is, at any given time, running only one of its coroutines.
+Coroutines, on the other hand, are collaborative: a program with coroutines is, at any given time, running only one of
+its coroutines.
 
 ## When does a coroutine suspend its execution
 
@@ -509,7 +513,7 @@ Suspended
 
 ```lua
 -- Create with `coroutine.create`
-local co = coroutine.create(function ()
+local co = coroutine.create(function()
     print("Hello, World!")
 end)
 
@@ -549,4 +553,59 @@ while l do
     print(l.value)
     l = l.next
 end
+```
+
+## String to number
+
+```lua
+local x = "1"
+print(type(tonumber(x))) --> number
+```
+
+## Power
+
+```lua
+print(2 ^ 3) --> 8
+```
+
+## Modulo
+
+```lua
+print(10 % 3) --> 1
+```
+
+## Pi
+
+`math.pi`
+
+## Random value between 0 and 1
+
+`math.random()`
+
+## Returns the current time (epoch timestamp, in seconds)
+
+`os.time()`
+
+## Return the minimum
+
+```lua
+print(math.min(5, 2, 3)) --> 2
+```
+
+## Return the maximum
+
+```lua
+print(math.max(5, 2, 3)) --> 5
+```
+
+## Return the floor
+
+```lua
+print(math.floor(3.14)) --> 3
+```
+
+## Return the ceiling
+
+```lua
+print(math.ceil(3.14)) --> 4
 ```
