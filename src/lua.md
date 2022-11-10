@@ -358,6 +358,15 @@ local length = table.getn(some_array)
 print(length) --> 3
 ```
 
+Or": `#some_array`
+
+## Sort array in-place
+
+```lua
+local arr = { 1, 5, 2 }
+table.sort(arr)
+```
+
 ## List iterator
 
 ```lua
@@ -644,4 +653,16 @@ print(math.floor(3.14)) --> 3
 
 ```lua
 print(math.ceil(3.14)) --> 4
+```
+
+## Package manager
+
+LuaRocks
+
+## Read user input
+
+```lua
+print("What is your name?")
+local name = io.read()
+print("Hello, " .. name .. "!")
 ```
