@@ -194,7 +194,7 @@ Minor third + minor third
 
 Major third + major third
 
-## How to invert a triad.
+## How to invert a triad
 
 Take the lowest note and place it up an octave.
 
