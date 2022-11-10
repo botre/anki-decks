@@ -475,6 +475,22 @@ setmetatable(t, mt)
 
 `__le`
 
+## Metamethod: stringification
+
+`__tostring`
+
+## Metamethod: provide value when accessing absent field
+
+`__index`
+
+The default result is `nil`.
+
+This can be used to implement prototypical inheritance.
+
+## Metamethod: lets you override the behavior when assigning a value to an absent index
+
+`__newindex`
+
 ## What are the logical operators
 
 - and

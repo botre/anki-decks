@@ -206,3 +206,7 @@ Red teaming is the practice of rigorously challenging plans, policies, systems a
 ## Linker
 
 Program that takes one or more object files and combines them into a single executable file, library file, or another "object" file.
+
+## Memoization
+
+Storing computation results in cache, and retrieving that same information from the cache the next time it's needed instead of computing it again.
