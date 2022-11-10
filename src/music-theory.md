@@ -74,10 +74,6 @@ Add a half step to a perfect or major interval.
 
 Subtract a half step from a perfect or minor interval.
 
-## Interval needed in order to reach the octave from a given note
-
-Inversion
-
 ## Compounded interval
 
 Interval bigger than an octave.
@@ -142,19 +138,19 @@ A D G C
 
 B E A D
 
-## Bass guitar: how many frets to subtract to find same note on next higher string
+## Bass guitar: how many frets to subtract to find same note (+0 octave) on next higher string
 
 5
 
-## Bass guitar: how many frets to add to find same note on next higher string
+## Bass guitar: how many frets to add to find same note (+1 octave) on next higher string
 
 7
 
-## Bass guitar: how many frets to subtract to find same note on next lower string
+## Bass guitar: how many frets to subtract to find same note (-1 octave) on next lower string
 
 7
 
-## Bass guitar: how many frets to add to find same note on next lower string
+## Bass guitar: how many frets to add to find same note (+0 octave) on next lower string
 
 5
 
@@ -172,7 +168,11 @@ Two frets up, two string up.
 
 ## Scale steps: Major
 
-W W H W W W H
+Root W W H W W W H
+
+## Scale steps: Minor
+
+Root W H W W H W W
 
 ## Triad
 
@@ -206,13 +206,17 @@ Using only notes from a specific scale.
 
 Using all 12 notes.
 
+## Tonic
+
+The first and main note of the scale.
+
 ## Scale degrees
 
 Scale degrees are the number values assigned to the steps of the musical scale.
 
 In typical seven note scales like the major scale and minor scale, the scale degrees are numbered from 1 to 7.
 
-The scale degree is the position of a particular note on a scale relative to the tonic, the first and main note of the scale.
+The scale degree is the position of a particular note on a scale relative to the tonic.
 
 ## Functional harmony
 
