@@ -258,6 +258,42 @@ print(greeting) --> Hello, John!
 tostring(42)
 ```
 
+## Get the length of a string
+
+```lua
+local str = "Hello, World!"
+local length = #str
+print(length) --> 13
+```
+
+Or: `string.len("Hello, World!)`
+
+## Lowercase a string
+
+`string.lower("Hello, World!")`
+
+## Uppercase a string
+
+`string.upper("Hello, World!")`
+
+## Replace pattern in a string
+
+```lua
+print((string.gsub("Hello, World!", "World", "Mars"))) --> Hello, Mars!
+```
+
+## Repeat a string
+
+```lua
+local s = "Hi"
+local n = 3
+print(string.rep(s, n)) --> HiHiHi
+```
+
+## Substring
+
+`string.sub("Hello", 1, 2)`
+
 ## Table
 
 Dynamically-sized associate array type.
