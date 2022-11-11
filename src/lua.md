@@ -690,3 +690,25 @@ print("What is your name?")
 local name = io.read()
 print("Hello, " .. name .. "!")
 ```
+
+## Table keeping global variables
+
+`_G`
+
+This is also called an "environment".
+
+## Lets you read a property, bypassing metamethods
+
+`rawget()`
+
+## Lets you set a property, bypassing metamethods
+
+`rawset()`
+
+## Function that lets you change the environment of a function
+
+`setfenv()`
+
+## How do you implement a package
+
+We always represent packages as tables.
