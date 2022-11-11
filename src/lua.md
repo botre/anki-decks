@@ -712,3 +712,27 @@ This is also called an "environment".
 ## How do you implement a package
 
 We always represent packages as tables.
+
+## Insert value in an array
+
+```lua
+local colors = { "Red", "Green", "Blue" }
+table.insert(colors, "Yellow")
+print(colors[4]) --> Yellow
+```
+
+## Remove value from an array
+
+```lua
+local greetings = { "Hello", "Hi", "Hey" }
+table.remove(greetings, 3)
+print(greetings[3]) --> nil
+```
+
+## Difference pairs and ipairs
+
+`pairs` does not maintain key order.
+`pairs` does return non-numeric keys that are present in the table.
+
+`ipairs` maintains key order.
+`ipairs` does not return non-numeric keys that are present in the table.
