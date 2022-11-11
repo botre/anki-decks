@@ -346,19 +346,7 @@ print_coordinates({
 
 ## Returns the size of an array
 
-`table.getn(some_array)`
-
-```lua
-local some_array = {
-    "red",
-    "green",
-    "blue"
-}
-local length = table.getn(some_array)
-print(length) --> 3
-```
-
-Or": `#some_array`
+`#some_array`
 
 ## Sort array in-place
 
@@ -370,15 +358,25 @@ table.sort(arr)
 ## List iterator
 
 ```lua
-    function list_iterator (t)
+function list_iterator(t)
     local i = 0
-    local n = table.getn(t)
+    local n = #t
     return function()
         i = i + 1
         if i <= n then
             return t[i]
         end
     end
+end
+
+local colors = {
+    "Red",
+    "Green",
+    "Blue"
+}
+
+for color in list_iterator(colors) do
+    print(color)
 end
 ```
 
@@ -387,12 +385,22 @@ end
 Iterator that does not keep any state by itself.
 
 ```lua
-function stateless_iterator (array, control_variable)
+function stateless_iterator(array, control_variable)
     control_variable = control_variable + 1
     local v = array[control_variable]
     if v then
         return control_variable, v
     end
+end
+
+local colors = {
+    "Red",
+    "Green",
+    "Blue"
+}
+
+for i, color in stateless_iterator, colors, 0 do
+    print(i, color)
 end
 ```
 
