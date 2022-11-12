@@ -736,3 +736,25 @@ print(greetings[3]) --> nil
 
 `ipairs` maintains key order.
 `ipairs` does not return non-numeric keys that are present in the table.
+
+## Create (or empty) a file
+
+```lua
+io.output("example.txt")
+```
+
+## Write to a file
+
+```lua
+io.write("Hello, World!")
+io.close()
+```
+
+## Read a file
+
+```lua
+io.input("example.txt")
+local content = io.read()
+print(content)
+io.close()
+```
