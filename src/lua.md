@@ -770,3 +770,15 @@ io.read("*all")
 ```lua
 io.read("*line")
 ```
+
+## Open a file with specific permissions
+
+```lua
+local file = io.open("example.txt", "w")
+file:write("Hello, World!")
+file:close()
+```
+
+## Difference between dot and colon
+
+The colon is object-oriented syntactic sugar for implementing methods that pass `self` as the first parameter.
