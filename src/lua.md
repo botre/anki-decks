@@ -758,3 +758,15 @@ local content = io.read()
 print(content)
 io.close()
 ```
+
+## Read all lines
+
+```lua
+io.read("*all")
+```
+
+## Read a line
+
+```lua
+io.read("*line")
+```
