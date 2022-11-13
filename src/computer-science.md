@@ -84,6 +84,8 @@ Function definition that is not bound to an identifier.
 
 The ability to access object properties from another object.
 
+Each object may have a prototype, which is a regular object where the first object looks up any operation that it does not know about.
+
 ## Static typing
 
 Types are assigned at compile time.
@@ -210,3 +212,11 @@ Program that takes one or more object files and combines them into a single exec
 ## Memoization
 
 Storing computation results in cache, and retrieving that same information from the cache the next time it's needed instead of computing it again.
+
+## Multiple inheritance
+
+Multiple inheritance means that a class may have more than one superclass.
+
+## Dangling pointers
+
+Pointers that do not point to a valid object of the appropriate type.

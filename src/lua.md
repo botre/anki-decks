@@ -846,3 +846,67 @@ return printer
 require('m')
 printer.print()
 ```
+
+## Colon operator
+
+The effect of the colon is to add an extra hidden parameter (self) in a method definition and to add an extra argument
+in a method cal.
+
+It lets us write:
+
+```lua
+T = {
+    v = "X"
+}
+
+function T.F(self)
+    print(self.v)
+end
+```
+
+As:
+
+```lua
+function T:F()
+    print(self.v)
+end
+```
+
+And:
+
+```lua
+T.F(T)
+```
+
+As:
+
+```lua
+T:F()
+```
+
+## How to implement prototypical inheritance where an object b is a prototype of object a
+
+```lua
+setmetatable(a, { __index = b })
+```
+
+## How to implement a prototypical constructor
+
+```lua
+O = {}
+
+function O:hello()
+    print("Hello")
+end
+
+function O:new ()
+    o = {}
+    setmetatable(o, {
+        __index = self
+    })
+    return o
+end
+
+local i = O:new()
+i:hello() --> Hello
+```
