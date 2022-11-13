@@ -146,7 +146,7 @@ Indirect recursion occurs when a function is called not by itself but by another
 ## Proper tail call
 
 ```lua
-function f (x)
+function f(x)
     return g(x)
 end
 ```
