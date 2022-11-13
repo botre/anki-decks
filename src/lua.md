@@ -782,3 +782,67 @@ file:close()
 ## Difference between dot and colon
 
 The colon is object-oriented syntactic sugar for implementing methods that pass `self` as the first parameter.
+
+## Create an epoch timestamp, in seconds
+
+```lua
+local t = os.time({
+    year = 2022,
+    month = 1,
+    day = 31
+})
+```
+
+## Get an environment variable
+
+```lua
+print(os.getenv('HOME'))
+```
+
+## Rename a file
+
+`os.rename`
+
+## Delete a file
+
+`os.delete`
+
+## Exit the program
+
+`os.exit`
+
+## Execute a system shell command
+
+```lua
+os.execute("git status")
+```
+
+## Explicit type annotation
+
+```lua
+---@type number
+local some_number = 3
+```
+
+## Collection of modules
+
+Package.
+
+## Create and use a module
+
+```lua
+-- m.lua
+printer = {
+    print = function()
+        print("Hello, World!")
+    end
+}
+
+return printer
+```
+
+```lua
+-- main.lua
+require('m')
+printer.print()
+```
