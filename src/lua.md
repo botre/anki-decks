@@ -17,7 +17,7 @@ print("Hello, World!")
 ```lua
 --[[
 This is a block comment
---]]
+]]
 ```
 
 ## Function
@@ -909,4 +909,39 @@ end
 
 local i = O:new()
 i:hello() --> Hello
+```
+
+## Typed Lua dialect
+
+Teal.
+
+## When will a non-nil global variable be collected
+
+Never.
+
+## Weak reference
+
+Reference to an object that is not considered by the garbage collector.
+
+## Weak table
+
+A weak table is a table where all references are weak. That means that, if an object is only held inside weak tables,
+Lua will collect the object eventually.
+
+```lua
+local a = {}
+setmetatable(a, {
+    __mode = "k" -- Keys are weak
+})
+
+local b = {}
+setmetatable(b, {
+    __mode = "v" -- Values are weak
+})
+```
+
+## Forces a garbage collection cycle
+
+```lua
+collectgarbage()
 ```
