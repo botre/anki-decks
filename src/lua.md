@@ -282,6 +282,10 @@ Or: `string.len("Hello, World!)`
 print((string.gsub("Hello, World!", "World", "Mars"))) --> Hello, Mars!
 ```
 
+## Function to format strings similar to C's printf
+
+`string.format`
+
 ## Repeat a string
 
 ```lua

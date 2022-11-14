@@ -220,3 +220,9 @@ Multiple inheritance means that a class may have more than one superclass.
 ## Dangling pointers
 
 Pointers that do not point to a valid object of the appropriate type.
+
+## ASCII
+
+American Standard Code for Information Interchange.
+
+Character encoding standard for electronic communication.
