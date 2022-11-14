@@ -244,6 +244,10 @@ The method by which a musician shapes a sequence of notes in a passage of music 
 
 Articulation is a fundamental musical parameter that determines how a single note or other discrete event is sounded.
 
+- Short or long
+- Strong or soft attack
+- Quiet or loud
+
 ## Voice leading
 
 How chords flow from one to another.
@@ -279,3 +283,39 @@ Triad over a bass note that is not a chord tone.
 ## Polychord
 
 Two chords, most often triads, stacked on top of each other.
+
+## Alteration
+
+Half step up or down applied to:
+
+- 9ths
+- 11ths
+- 13ths
+
+## Approach tone
+
+Note leading up to a chord tone.
+
+## Cadence
+
+Series of chords that lock you in the key of the tonic.
+
+## Chord
+
+The sounding of more than two notes together.
+
+## Consonant
+
+Two or more tones sounding together in a pleasant way.
+
+## Dissonant
+
+Two or more tones sounding together in a harsh way.
+
+## Density
+
+Refers to how many notes are played in a given time.
+
+## Tonal displacement
+
+Moving a note or group of notes up or down by a certain interval.
