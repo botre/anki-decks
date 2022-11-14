@@ -236,6 +236,16 @@ The role of a chord in relation to a diatonic key.
 - Dominant
 - Subdominant
 
+## Dominant
+
+Seventh chord built on the fifth scale degree.
+
+Creates tension that wants to resolve to the tonic.
+
+## Subdominant
+
+Chord build on the fourth scale degree.
+
 ## Phrasing
 
 The method by which a musician shapes a sequence of notes in a passage of music to allow expression.
@@ -319,3 +329,23 @@ Refers to how many notes are played in a given time.
 ## Tonal displacement
 
 Moving a note or group of notes up or down by a certain interval.
+
+## Downbeat
+
+First beat of a bar.
+
+## Dynamics
+
+Musical expression of from soft to loud.
+
+## Enharmonic
+
+Notes that sound the same but are named differently.
+
+## Extension notes
+
+Non-chord notes
+
+## Pickup
+
+A note or group of notes in the beginning of a musical piece or section thereof that comes before the first downbeat.
