@@ -447,6 +447,10 @@ local mt = {}
 setmetatable(t, mt)
 ```
 
+## Get the metatable of a table
+
+`getmetatable`
+
 ## Metamethod: addition
 
 `__add`
@@ -462,6 +466,10 @@ setmetatable(t, mt)
 ## Metamethod: division
 
 `__div`
+
+## Metamethod: modulo
+
+`__mod`
 
 ## Metamethod: negation
 
@@ -506,6 +514,12 @@ This can be used to implement prototypical inheritance.
 ## Metamethod: lets you override the behavior when assigning a value to an absent index
 
 `__newindex`
+
+## Metamethod: functable
+
+`__call`
+
+Lets a table be used as a function.
 
 ## What are the logical operators
 
