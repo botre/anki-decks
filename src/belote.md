@@ -6,7 +6,8 @@ Joueur distribuant les cartes en début de manche.
 
 ## Donne
 
-La distribution des cartes selon l'ordre établi. Elle commence avec la coupe et se termine lorsque la dernière carte a été régulièrement distribuée.
+La distribution des cartes selon l'ordre établi. Elle commence avec la coupe et se termine lorsque la dernière carte a
+été régulièrement distribuée.
 
 Par extension de sens, la donne désigne l'ensemble des mains des joueurs, résultant d'une donne.
 
@@ -41,18 +42,22 @@ Les quatre cartes ramassées par le joueur ayant posé la plus forte.
 
 Celui qui assure la levée.
 
-Dans les jeux à quatre un joueur distrait (ou ayant été dérangé par un tiers) ayant à jouer en troisième ou en quatrième demande parfois : « Qui est maître ? ».
+Dans les jeux à quatre un joueur distrait (ou ayant été dérangé par un tiers) ayant à jouer en troisième ou en quatrième
+demande parfois : « Qui est maître ? ».
 
-Il entend par là demander quel est le côté qui a joué la carte la plus forte de la levée (encore incomplète) exposée sur le tapis.
+Il entend par là demander quel est le côté qui a joué la carte la plus forte de la levée (encore incomplète) exposée sur
+le tapis.
 
 ## Renonce
 
-Faute de jeu qui consiste à ne pas jouer la couleur demandée tout en ayant cette couleur dans son jeu. Cette faute est considérée comme de la tricherie.
+Faute de jeu qui consiste à ne pas jouer la couleur demandée tout en ayant cette couleur dans son jeu. Cette faute est
+considérée comme de la tricherie.
 
 ## Coupe
 
 1. On coupe avant la distribution des cartes pour séparer le tas de cartes en deux.
-2. On coupe durant le jeu avec de l’atout quand on n’a pas la couleur demandée et que l’adversaire est maître du pli. La coupe est facultative lorsque c’est le partenaire qui gagne le pli.
+2. On coupe durant le jeu avec de l’atout quand on n’a pas la couleur demandée et que l’adversaire est maître du pli. La
+   coupe est facultative lorsque c’est le partenaire qui gagne le pli.
 
 ## Sur-couper
 
@@ -68,7 +73,8 @@ Jouer une carte plus haute que celles qui sont déjà sur le tapis.
 
 ## Sous-forcer
 
-Jouer une carte plus faible que celles déjà sur le tapis alors qu’on aurait la possibilité de jouer une carte plus forte.
+Jouer une carte plus faible que celles déjà sur le tapis alors qu’on aurait la possibilité de jouer une carte plus
+forte.
 
 La sous-force n'est pas permise à atout.
 
@@ -100,7 +106,8 @@ Partagé :
 
 ## Attaque
 
-Un joueur est à l'attaque lorsque ayant fait la levée précédente, c'est à lui de jouer la première carte de la levée suivante.
+Un joueur est à l'attaque lorsque ayant fait la levée précédente, c'est à lui de jouer la première carte de la levée
+suivante.
 
 ## Dedans (être)
 

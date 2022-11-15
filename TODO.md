@@ -1,7 +1,6 @@
-## TODO
+# TODO
 
 - CSS
-  - Absolute vs. Relative
 - Docker
 - Go
 - GraphQL
@@ -11,6 +10,3 @@
 - Redux
 - Rust
 - TypeScript
-- https://degoes.net/articles/fp-glossary
-- https://learnxinyminutes.com
-- https://www.belote.com/lexique-belote

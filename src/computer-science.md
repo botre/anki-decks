@@ -84,7 +84,8 @@ Function definition that is not bound to an identifier.
 
 The ability to access object properties from another object.
 
-Each object may have a prototype, which is a regular object where the first object looks up any operation that it does not know about.
+Each object may have a prototype, which is a regular object where the first object looks up any operation that it does
+not know about.
 
 ## Static typing
 
@@ -143,7 +144,8 @@ As there is no task left after the recursive call, it will be easier for the com
 
 ## Indirect recursion
 
-Indirect recursion occurs when a function is called not by itself but by another function that it called (either directly or indirectly).
+Indirect recursion occurs when a function is called not by itself but by another function that it called (either
+directly or indirectly).
 
 ## Proper tail call
 
@@ -153,9 +155,12 @@ function f(x)
 end
 ```
 
-After f calls g, it has nothing else to do. In such situations, the program does not need to return to the calling function when the called function ends.
-Therefore, after the tail call, the program does not need to keep any information about the calling function in the stack.
-Some language implementations, such as the Lua interpreter, take advantage of this fact and actually do not use any extra stack space when doing a tail call.
+After f calls g, it has nothing else to do. In such situations, the program does not need to return to the calling
+function when the called function ends.
+Therefore, after the tail call, the program does not need to keep any information about the calling function in the
+stack.
+Some language implementations, such as the Lua interpreter, take advantage of this fact and actually do not use any
+extra stack space when doing a tail call.
 We say that those implementations support proper tail calls.
 
 ## LSP
@@ -187,31 +192,38 @@ Cross-platform open source high performance Remote Procedure Call framework.
 
 ## Reference counting
 
-Technique of storing the number of references, pointers, or handles to a resource, such as an object, a block of memory, disk space, and others.
+Technique of storing the number of references, pointers, or handles to a resource, such as an object, a block of memory,
+disk space, and others.
 
 Reference counts may be used to deallocate objects that are no longer needed.
 
 ## Garbage collection
 
-Form of automatic memory management. The garbage collector attempts to reclaim memory which was allocated by the program, but is no longer referenced; such memory is called garbage.
+Form of automatic memory management. The garbage collector attempts to reclaim memory which was allocated by the
+program, but is no longer referenced; such memory is called garbage.
 
 ## Metaprogramming
 
-Metaprogramming is a programming technique in which computer programs have the ability to treat other programs as their data.
+Metaprogramming is a programming technique in which computer programs have the ability to treat other programs as their
+data.
 
-It means that a program can be designed to read, generate, analyze or transform other programs, and even modify itself while running.
+It means that a program can be designed to read, generate, analyze or transform other programs, and even modify itself
+while running.
 
 ## Red teaming
 
-Red teaming is the practice of rigorously challenging plans, policies, systems and assumptions by adopting an adversarial approach.
+Red teaming is the practice of rigorously challenging plans, policies, systems and assumptions by adopting an
+adversarial approach.
 
 ## Linker
 
-Program that takes one or more object files and combines them into a single executable file, library file, or another "object" file.
+Program that takes one or more object files and combines them into a single executable file, library file, or another "
+object" file.
 
 ## Memoization
 
-Storing computation results in cache, and retrieving that same information from the cache the next time it's needed instead of computing it again.
+Storing computation results in cache, and retrieving that same information from the cache the next time it's needed
+instead of computing it again.
 
 ## Multiple inheritance
 
