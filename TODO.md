@@ -12,3 +12,5 @@
 - Rust
 - TypeScript
 - https://degoes.net/articles/fp-glossary
+- https://learnxinyminutes.com
+- https://www.belote.com/lexique-belote
