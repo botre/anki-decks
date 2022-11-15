@@ -364,6 +364,10 @@ Up/down arrows.
 
 `vip`
 
+## Select a sentence in visual mode
+
+`vis`
+
 ## Scroll window upward a half screen
 
 `C-u`
@@ -374,11 +378,11 @@ Up/down arrows.
 
 ## Scroll window upward one line
 
-`C-E`
+`C-e`
 
 ## Scroll window downward one line
 
-`C-Y`
+`C-y`
 
 ## What is the difference between `r` and `s`
 
