@@ -226,3 +226,9 @@ Pointers that do not point to a valid object of the appropriate type.
 American Standard Code for Information Interchange.
 
 Character encoding standard for electronic communication.
+
+## Null-terminated string
+
+Character string stored as an array containing the characters and terminated with a NUL character.
+
+The length of a string is found by searching for the (first) NUL.
