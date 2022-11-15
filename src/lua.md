@@ -475,6 +475,10 @@ setmetatable(t, mt)
 
 `__concat`
 
+## Metamethod: `#` operator
+
+`__len`
+
 ## Metamethod: equality
 
 `__eq`
@@ -686,6 +690,22 @@ print(math.ceil(3.14)) --> 4
 ## Package manager
 
 LuaRocks
+
+## LuaRocks: install a package
+
+```bash
+luarocks install [packagename]
+```
+
+## LuaRocks: remove a package
+
+```bash
+luarocks remove [packagename]
+```
+
+## LuaRocks: bundle specification file
+
+`rockspec`
 
 ## Read user input
 
