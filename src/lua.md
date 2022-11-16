@@ -576,8 +576,7 @@ debug.traceback()
 
 ## Coroutine
 
-A line of execution, with its own stack, its own local variables, and its own instruction pointer; but sharing global
-variables and mostly anything else with other coroutines.
+A line of execution, that can be stopped and re-started mid-execution.
 
 ## Difference between a thread and a coroutine
 
@@ -590,11 +589,12 @@ its coroutines.
 
 When it explicitly requests to be suspended.
 
-## Coroutine states (3)
+## Coroutine states (4)
 
-- suspended
-- running
-- dead
+- "running", if the coroutine is running (that is, it called status)
+- "suspended", if the coroutine is suspended in a call to yield, or if it has not started running yet
+- "normal" if the coroutine is active but not running (that is, it has resumed another coroutine)
+- "dead" if the coroutine has finished its body function, or if it has stopped with an error
 
 ## State of a coroutine when it is created
 
