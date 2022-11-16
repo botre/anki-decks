@@ -83,7 +83,7 @@ It means that functions can access variables of its enclosing functions.
 
 ## Upvalue
 
-An upvalue refers to a local variable in an enclosing function.
+Local variable from an enclosing function, used by an enclosed function.
 
 ## Closure
 
