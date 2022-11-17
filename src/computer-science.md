@@ -244,3 +244,7 @@ Character encoding standard for electronic communication.
 Character string stored as an array containing the characters and terminated with a NUL character.
 
 The length of a string is found by searching for the (first) NUL.
+
+## Game dev: delta time
+
+Describes the time difference between the previous frame that was drawn and the current frame.

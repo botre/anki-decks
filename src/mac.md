@@ -103,3 +103,7 @@ Function > Control > Option/Alt > Command
 ## Screenshot: portion of the screen, save to clipboard
 
 `Control + ⌘ + Shift + 4`
+
+## Open the folder that contains the current folder
+
+`⌘ + Up`

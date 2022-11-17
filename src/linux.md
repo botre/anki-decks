@@ -75,3 +75,15 @@ Location where the code of the kernel is stored.
 ## User space
 
 Set of locations where normal user processes run.
+
+## Bash: expands to the last command
+
+`!!`
+
+## Clear terminal
+
+`Control + l`
+
+or
+
+`clear`

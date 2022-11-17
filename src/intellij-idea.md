@@ -107,3 +107,7 @@
 ## Optimize imports
 
 `Control + ⌥ + O`
+
+## Execute query
+
+`⌘ + Enter`

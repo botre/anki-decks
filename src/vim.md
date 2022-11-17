@@ -650,3 +650,7 @@ Write and exits.
 ## Find word under cursor (forward)
 
 `*`
+
+## Run a shell command
+
+`:! echo Hello, World`

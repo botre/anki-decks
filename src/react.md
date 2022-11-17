@@ -40,3 +40,39 @@ Hermes.
 ## JavaScript bundler for React Native
 
 Metro.
+
+## Context with provider and hook
+
+Context and provider:
+
+```jsx
+import {
+  createContext,
+  Dispatch,
+  PropsWithChildren,
+  SetStateAction,
+  useState,
+} from "react";
+
+export const UserContext = createContext({});
+
+export const UserContextProvider = (props) => {
+  const [user, setUser] = useState("John Doe");
+  return (
+    <UserContext.Provider
+      value={{
+        user,
+        setUser,
+      }}
+    >
+      {props.children}
+    </UserContext.Provider>
+  );
+};
+```
+
+Hook:
+
+```js
+const { user } = useContext(UserContext);
+```
