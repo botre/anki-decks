@@ -4,7 +4,6 @@
 - Docker
 - Go
 - GraphQL
-- Kubernetes
 - MobX
 - Python
 - Redux
