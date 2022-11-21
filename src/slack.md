@@ -18,4 +18,16 @@
 
 ## Edit previous message
 
-Focus message using `↑`, then press `e`
+Focus message using `↑`, then press `e`.
+
+## Command: toggle notifications
+
+`/dnd`
+
+## Command: toggle channel mute
+
+`/mute`
+
+## Command: list channel members
+
+`/who`
