@@ -234,3 +234,15 @@ Natural unit of data used by a particular processor design.
 
 Way of executing computer code that involves compilation during execution of a program (at run time) rather than before
 execution.
+
+## Allocate
+
+To reserve a block of memory for use by a particular running program.
+
+## Coercion
+
+To automatically convert a value to another type or subtype so that an operation involving it will work.
+
+## Pointer
+
+The actual address in memory where something is stored. Usually displayed in hexadecimal notation.

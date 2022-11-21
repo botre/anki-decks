@@ -464,6 +464,10 @@ setmetatable(t, mt)
 
 `getmetatable`
 
+## Metamethod
+
+A user-supplied function that is called to perform an operation, bypassing the default action, usually because the operation would otherwise be undefined.
+
 ## Metamethod: addition
 
 `__add`
@@ -1004,3 +1008,7 @@ setmetatable(b, {
 ```lua
 collectgarbage()
 ```
+
+## Chunk
+
+A block of Lua code that can be compiled successfully by itself. It consists of one or more statements.
