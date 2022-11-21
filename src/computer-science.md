@@ -229,3 +229,8 @@ Physical computer server that is used by one consumer, or tenant, only.
 ## Word
 
 Natural unit of data used by a particular processor design.
+
+## Just-in-time compilation
+
+Way of executing computer code that involves compilation during execution of a program (at run time) rather than before
+execution.

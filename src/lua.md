@@ -87,6 +87,8 @@ Local variable from an enclosing function, used by an enclosed function.
 
 ## Closure
 
+Persistent local variable scope.
+
 A closure is a function plus all it needs to access its upvalues correctly.
 
 ## If
@@ -163,9 +165,20 @@ end
 
 ## Returns index-value pairs
 
+`ipairs`
+
 ```lua
 a = { "one", "two", "three" }
-ipairs(a)
+
+for i, v in ipairs(a) do
+    print(i, v)
+end
+
+--[[
+1       one
+2       two
+3       three
+]]
 ```
 
 ## The eight basic types
@@ -952,6 +965,14 @@ i:hello() --> Hello
 ## Typed Lua dialect
 
 Teal.
+
+## Popular Lua machine learning library
+
+Torch.
+
+## Just-in-time compiler for Lua
+
+LuaJIT.
 
 ## When will a non-nil global variable be collected
 
