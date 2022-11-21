@@ -67,3 +67,11 @@ TODO
 ## Replica
 
 TODO
+
+## Helm
+
+TODO
+
+## Minikube
+
+TODO

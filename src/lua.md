@@ -466,7 +466,8 @@ setmetatable(t, mt)
 
 ## Metamethod
 
-A user-supplied function that is called to perform an operation, bypassing the default action, usually because the operation would otherwise be undefined.
+A user-supplied function that is called to perform an operation, bypassing the default action, usually because the
+operation would otherwise be undefined.
 
 ## Metamethod: addition
 

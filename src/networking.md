@@ -24,3 +24,10 @@ Communications protocol, providing full-duplex communication channels over a sin
 A forward proxy enables computers isolated on a private network to connect to the public internet.
 
 A reverse proxy enables computers on the internet to access a private subnet.
+
+## Difference between ingress and egress
+
+Ingress refers to traffic that enters the boundary of a network. This may also be referred to as inbound traffic.
+
+Egress refers to any traffic that exits an entity, or a network boundary. This may also be referred to as outbound
+traffic.

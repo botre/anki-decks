@@ -1,6 +1,7 @@
 # TODO
 
 - CSS
+- Deep learning
 - Docker
 - Go
 - GraphQL
