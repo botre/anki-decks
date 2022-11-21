@@ -2,11 +2,11 @@
 
 ## Fuzzy search
 
-The technique of finding strings that match a pattern approximately (rather than exactly).
+Approximate string pattern matching.
 
 ## Bit-packing
 
-Use as few bit as possible to store a piece of data.
+Using as few bit as possible to store a piece of data.
 
 Example strategy: add an n-bit header identifying the size of the value followed by a known number of bits representing
 the value.
@@ -35,10 +35,6 @@ Right-most bit.
 
 Left-most bit.
 
-## Container
-
-Isolated user space instance existing in the kernel.
-
 ## Currying
 
 The transformation of a function with multiple arguments into a sequence of single-argument functions.
@@ -66,7 +62,7 @@ Persistent local variable scope.
 
 A function that takes something and puts it in the context of something else.
 
-JavaScript examples: Promise, Maybe
+JavaScript examples: Promise, Maybe.
 
 ## Scope
 
@@ -168,28 +164,6 @@ We say that those implementations support proper tail calls.
 The Language Server Protocol (LSP) defines the protocol used between an editor or IDE and a language server that
 provides language features like auto complete, go to definition, find all references etc.
 
-## CocoaPods
-
-Application level dependency manager for Objective-C, Swift and any other languages that run on the Objective-C runtime.
-
-## ANTLR
-
-"ANother Tool for Language Recognition".
-
-Parser generator for reading, processing, executing, or translating structured text or binary files.
-
-Used to build languages, tools, and frameworks.
-
-From a grammar, ANTLR generates a parser that can build and walk parse trees.
-
-## Gradle
-
-Java-focused build automation tool.
-
-## gRPC
-
-Cross-platform open source high performance Remote Procedure Call framework.
-
 ## Reference counting
 
 Technique of storing the number of references, pointers, or handles to a resource, such as an object, a block of memory,
@@ -233,18 +207,25 @@ Multiple inheritance means that a class may have more than one superclass.
 
 Pointers that do not point to a valid object of the appropriate type.
 
-## ASCII
-
-American Standard Code for Information Interchange.
-
-Character encoding standard for electronic communication.
-
 ## Null-terminated string
 
 Character string stored as an array containing the characters and terminated with a NUL character.
 
 The length of a string is found by searching for the (first) NUL.
 
-## Game dev: delta time
+## Delta time
 
 Describes the time difference between the previous frame that was drawn and the current frame.
+
+## Message broker
+
+Intermediary computer program module that translates a message from the formal messaging protocol of the sender to the
+formal messaging protocol of the receiver.
+
+## Bare-metal server
+
+Physical computer server that is used by one consumer, or tenant, only.
+
+## Word
+
+Natural unit of data used by a particular processor design.
