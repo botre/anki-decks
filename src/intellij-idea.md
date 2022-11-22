@@ -64,15 +64,19 @@
 
 `⌘ + K`
 
-## Toggle Find window
+## Toggle Find panel
 
 `⌘ + 3`
 
-## Toggle Problems window
+## Toggle Problems panel
 
 `⌘ + 6`
 
-## Toggle Git window
+## Toggle Structure panel
+
+`⌘ + 7`
+
+## Toggle Git panel
 
 `⌘ + 9`
 
