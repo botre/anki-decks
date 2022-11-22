@@ -581,6 +581,10 @@ A WORD is always delimited by whitespace.
 
 `K`
 
+## `:e /path/to/file`
+
+Opens the file for editing.
+
 ## `:exit`
 
 Write and exits.
@@ -654,3 +658,39 @@ Write and exits.
 ## Run a shell command
 
 `:! echo Hello, World`
+
+## Split: create horizontal split
+
+```text
+<C-w> + v
+```
+
+## Split: create vertical split
+
+```text
+<C-w> + s
+```
+
+## Split: navigate to left window
+
+```text
+<C-w> + h
+```
+
+## Split: navigate to window below
+
+```text
+<C-w> + j
+```
+
+## Split: navigate to window above
+
+```text
+<C-w> + k
+```
+
+## Split: navigate to right window
+
+```text
+<C-w> + l
+```
