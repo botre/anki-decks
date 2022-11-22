@@ -662,13 +662,13 @@ Write and exits.
 ## Split: create horizontal split
 
 ```text
-<C-w> + v
+<C-w> + s
 ```
 
 ## Split: create vertical split
 
 ```text
-<C-w> + s
+<C-w> + v
 ```
 
 ## Split: navigate to left window
