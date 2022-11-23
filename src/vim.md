@@ -595,6 +595,10 @@ Write and exits.
 :so %
 ```
 
+## Force a screen redraw
+
+`:redraw!`
+
 ## Insert "-" 30 times
 
 ```text
@@ -693,4 +697,16 @@ Write and exits.
 
 ```text
 <C-w> + l
+```
+
+## Split: close the current window
+
+```text
+<C-w> + w
+```
+
+## Split: close all windows except the focused one
+
+```text
+<C-w> + o
 ```
