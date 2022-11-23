@@ -199,6 +199,12 @@ The `--check` flag warns if changes introduce conflict markers or whitespace err
 git log
 ```
 
+## Shows the log message and textual diff of a commit
+
+```bash
+git show <COMMIT>
+```
+
 ## Bisect
 
 Binary search to find the commit that introduced a problem.
