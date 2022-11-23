@@ -96,14 +96,22 @@ Function > Control > Option/Alt > Command
 
 `⌘ + Shift + Space`
 
-## Screenshot: portion of the screen, save to desktop
+## Screenshot: open toolbar
+
+`⌘ + Shift + 5`
+
+## Screenshot: capture portion of the screen, save to desktop
 
 `⌘ + Shift + 4`
 
-## Screenshot: portion of the screen, save to clipboard
+## Screenshot: capture portion of the screen, save to clipboard
 
 `Control + ⌘ + Shift + 4`
 
 ## Open the folder that contains the current folder
 
 `⌘ + Up`
+
+## Preview highlighted file
+
+`Space`
