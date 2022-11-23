@@ -193,6 +193,12 @@ git diff --check
 
 The `--check` flag warns if changes introduce conflict markers or whitespace errors.
 
+## Shows commit logs
+
+```bash
+git log
+```
+
 ## Bisect
 
 Binary search to find the commit that introduced a problem.
