@@ -1,4 +1,4 @@
-# Blocos
+# Portuguese vocabulary
 
 ## Air
 
@@ -16,6 +16,10 @@ Formiga
 
 Bigorna
 
+## Arms
+
+Braços
+
 ## Banner
 
 Estandarte
@@ -27,6 +31,10 @@ Barril
 ## Basalt
 
 Basalto
+
+## Beach
+
+Praia
 
 ## Beacon
 
@@ -55,6 +63,10 @@ Pedra-negra
 ## Blast Furnace
 
 Alto-forno
+
+## Bottle
+
+Garrafa
 
 ## Brewing Stand
 
@@ -87,6 +99,10 @@ Tapete
 ## Chain
 
 Corrente
+
+## Chair
+
+Cadeira
 
 ## Chest
 
@@ -132,6 +148,10 @@ Diorito
 
 Terra
 
+## Door
+
+Porta
+
 ## Dragon Egg
 
 Ovo de dragão
@@ -152,13 +172,29 @@ Terra arada
 
 Fogo
 
+## Fish
+
+Peixe
+
 ## Fletching Table
 
 Bancada de arco e flecha
 
+## Flower
+
+Flor
+
 ## Flower pot
 
 Vaso
+
+## Fly
+
+Mosca
+
+## Fork
+
+Garfo
 
 ## Frog
 
@@ -200,6 +236,10 @@ Pedra luminosa
 
 Granito
 
+## Grass
+
+Grama
+
 ## Gravel
 
 Cascalho
@@ -228,9 +268,17 @@ Grades de ferro
 
 Toca-discos
 
+## Knife
+
+Faca
+
 ## Ladder
 
 Escada de mão
+
+## Lake
+
+Lago
 
 ## Lava
 
@@ -239,6 +287,10 @@ Lava
 ## Lectern
 
 Atril
+
+## Legs
+
+Pernas
 
 ## Log
 
@@ -251,6 +303,10 @@ Tear
 ## Magma
 
 Magma
+
+## Metal
+
+Metal
 
 ## Mossy Cobblestone
 
@@ -328,6 +384,10 @@ Arada
 
 Podzol
 
+## River
+
+Rio
+
 ## Roots
 
 Raízes
@@ -340,17 +400,45 @@ Areia
 
 Arenito
 
+## Sea
+
+Mar
+
 ## Sea Pickle
 
 Pepino-do-mar
+
+## Smoke
+
+Fumaça
+
+## Snow
+
+Neve
+
+## Spider
+
+Aranha
+
+## Spoon
+
+Colher
 
 ## Sprouts
 
 Brotos
 
+## Steam
+
+Vapor
+
 ## Table
 
 Mesa
+
+## Telephone
+
+Telefone
 
 ## Terracotta
 
@@ -391,6 +479,10 @@ Muro
 ## Weeping Vines
 
 Trepadeiras choronas
+
+## Wind
+
+Vento
 
 ## Wood
 
