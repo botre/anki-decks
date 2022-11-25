@@ -450,7 +450,7 @@ By reference, two such values are considered equal only if they are the very sam
 
 Metatables allow us to change the behavior of table.
 
-Lua always create new tables without metatables.
+Lua always creates new tables without metatables.
 
 ## Set the metatable of a table
 
