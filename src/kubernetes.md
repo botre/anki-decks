@@ -2,76 +2,40 @@
 
 ## Node
 
-TODO
-
-## Master node
-
-TODO
-
-## Master: API server
-
-TODO
-
-## Master: Controller manager
-
-TODO
-
-## Master: Scheduler
-
-TODO
-
-## Slave node
-
-TODO
-
-## Worker node
-
-TODO
+A node is a worker machine.
 
 ## Pod
 
-TODO
+A Pod represents a set of running containers on your cluster.
 
 ## Container
 
-TODO
-
-## Virtual network
-
-TODO
+A lightweight and portable executable image that contains software and all of its dependencies.
 
 ## Service
 
-TODO
+An abstract way to expose an application running on a set of Pods as a network service.
 
 ## Cluster
 
-TODO
+A set of nodes.
 
 ## Kubelet
 
-TODO
+An agent that runs on each node in the cluster. It makes sure that containers are running in a Pod.
 
 ## kubectl
 
-TODO
+Command line tool for communicating with a Kubernetes cluster's control plane, using the Kubernetes API.
 
 ## etcd
 
-TODO
+Consistent and highly-available key value store used as Kubernetes' backing store for all cluster data.
 
 ## Deployment
 
-TODO
-
-## Replica
-
-TODO
-
-## Helm
-
-TODO
+An API object that manages a replicated application, typically by running Pods with no local state
 
 ## Minikube
 
-TODO
+A tool for running Kubernetes locally.

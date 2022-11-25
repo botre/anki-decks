@@ -31,3 +31,8 @@ Ingress refers to traffic that enters the boundary of a network. This may also b
 
 Egress refers to any traffic that exits an entity, or a network boundary. This may also be referred to as outbound
 traffic.
+
+## Network virtualization
+
+The process of combining hardware and software network resources and network functionality into a single, software-based
+administrative entity.
