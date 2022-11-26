@@ -8,6 +8,10 @@ A node is a worker machine.
 
 A Pod represents a set of running containers on your cluster.
 
+A Pod can contain multiple containers.
+
+A multi-container microservice will usually be defined by a single Pod.
+
 ## Container
 
 A lightweight and portable executable image that contains software and all of its dependencies.
@@ -39,3 +43,7 @@ An API object that manages a replicated application, typically by running Pods w
 ## Minikube
 
 A tool for running Kubernetes locally.
+
+## ReplicaSet
+
+Manages the scale and health of Pods.
