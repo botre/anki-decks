@@ -609,7 +609,7 @@ When it explicitly requests to be suspended.
 
 ## Coroutine states (4)
 
-- "running", if the coroutine is running (that is, it called status)
+- "running", if the coroutine is running
 - "suspended", if the coroutine is suspended in a call to yield, or if it has not started running yet
 - "normal" if the coroutine is active but not running (that is, it has resumed another coroutine)
 - "dead" if the coroutine has finished its body function, or if it has stopped with an error
