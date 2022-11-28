@@ -294,14 +294,6 @@ Triad over a bass note that is not a chord tone.
 
 Two chords, most often triads, stacked on top of each other.
 
-## Alteration
-
-Half step up or down applied to:
-
-- 9ths
-- 11ths
-- 13ths
-
 ## Approach tone
 
 Note leading up to a chord tone.
