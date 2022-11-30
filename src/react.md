@@ -76,3 +76,8 @@ Hook:
 ```js
 const { user } = useContext(UserContext);
 ```
+
+## Difference between controlled and uncontrolled component
+
+- Controlled components in React are those in which form data is handled by the component’s state.
+- Uncontrolled components are those for which the form data is handled by the DOM itself. “Uncontrolled” refers to the fact that these components are not controlled by React state.

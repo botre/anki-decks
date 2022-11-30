@@ -979,6 +979,10 @@ Torch.
 
 LuaJIT.
 
+## Code formatter for Lua
+
+StyLua.
+
 ## When will a non-nil global variable be collected
 
 Never.

@@ -36,3 +36,27 @@ traffic.
 
 The process of combining hardware and software network resources and network functionality into a single, software-based
 administrative entity.
+
+## Difference between absolute and relative URLS
+
+An absolute URL contains all the information necessary to locate a resource. A relative URL locates a resource using an absolute URL as a starting point.
+
+## DNS: "A" record
+
+Points to an IPV4 address.
+
+## DNS: "AAAA" record
+
+Points to an IPV6 address.
+
+## DNS: "CNAME" record
+
+Points to another domain.
+
+## DNS: "NS" record
+
+Specifies the authoritative DNS server for a domain.
+
+## DNS: "MX" record
+
+Shows where emails for a domain should be routed to.
