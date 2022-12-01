@@ -151,3 +151,7 @@ Used to simultaneously delete or update an entry from both the child and parent 
 
 Procedural code that is automatically executed in response to certain events on a particular table or view in a
 database.
+
+## Row-security
+
+Row-security is a security feature which allows users to give access to a sub-set of data in their table to others.

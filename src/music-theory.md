@@ -300,7 +300,7 @@ Note leading up to a chord tone.
 
 ## Cadence
 
-Series of chords that lock you in the key of the tonic.
+End of a phrase in which the melody or harmony creates a sense of full or partial resolution.
 
 ## Chord
 

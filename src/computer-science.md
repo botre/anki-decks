@@ -246,3 +246,7 @@ To automatically convert a value to another type or subtype so that an operation
 ## Pointer
 
 The actual address in memory where something is stored. Usually displayed in hexadecimal notation.
+
+## Emscripten
+
+Emscripten is an LLVM/Clang-based compiler that compiles C and C++ source code to WebAssembly.
