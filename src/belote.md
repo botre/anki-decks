@@ -25,6 +25,8 @@ Fixer la couleur de l’atout ou le montant du contrat.
 
 L’équipe qui a pris doit marquer un minimum de 82 points sinon elle chute son contrat (elle est alors dedans).
 
+Le jouer qui prend, récupère la carte retournée.
+
 ## Passer
 
 Un joueur qui passe renonce à choisir l’atout
@@ -71,6 +73,8 @@ Couper une couleur, mais avec un atout plus faible que celui de l’adversaire q
 
 Jouer une carte plus haute que celles qui sont déjà sur le tapis.
 
+La force est obligatoire à atout.
+
 ## Sous-forcer
 
 Jouer une carte plus faible que celles déjà sur le tapis alors qu’on aurait la possibilité de jouer une carte plus
@@ -114,3 +118,12 @@ suivante.
 L’équipe qui a pris doit marquer un minimum de 82 points sinon elle chute son contrat (elle est alors dedans).
 
 Dans ce cas, l’adversaire marque 162 points.
+
+## Manche : que faire si j'ai la couleur demandée
+
+Je suis obligé de la jouer.
+
+## Manche : que faire si je n'ai pas la couleur demandée
+
+- Si mon partenaire est maître : je pose la carte de mon choix.
+- Si mon partenaire n'est pas maître : je suis obligé de couper avec un atout, sinon je pose la carte de mon choix.
