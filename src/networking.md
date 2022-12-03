@@ -39,7 +39,8 @@ administrative entity.
 
 ## Difference between absolute and relative URLS
 
-An absolute URL contains all the information necessary to locate a resource. A relative URL locates a resource using an absolute URL as a starting point.
+An absolute URL contains all the information necessary to locate a resource. A relative URL locates a resource using an
+absolute URL as a starting point.
 
 ## DNS: "A" record
 
@@ -60,3 +61,7 @@ Specifies the authoritative DNS server for a domain.
 ## DNS: "MX" record
 
 Shows where emails for a domain should be routed to.
+
+## Service discovery
+
+Service discovery is the automatic detection of devices and offered services over a network.

@@ -341,3 +341,9 @@ Non-chord notes
 ## Pickup
 
 A note or group of notes in the beginning of a musical piece or section thereof that comes before the first downbeat.
+
+## Sequence
+
+A sequence is where a passage of music is repeated at a higher or lower level of pitch.
+
+The repeat can be an exact transposition – a real sequence or the intervals can be changed – a tonal sequence.

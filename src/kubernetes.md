@@ -48,8 +48,21 @@ A tool for running Kubernetes locally.
 
 Manages the scale and health of Pods.
 
-A ReplicaSet's purpose is to maintain a stable set of replica Pods running at any given time. As such, it is often used to guarantee the availability of a specified number of identical Pods.
+A ReplicaSet's purpose is to maintain a stable set of replica Pods running at any given time. As such, it is often used
+to guarantee the availability of a specified number of identical Pods.
 
 ## Persistent volumes
 
 A persistent volume is a piece of storage that has a lifecycle independent of any individual pod that uses it.
+
+## Controllers
+
+Control loops that watch the state of your cluster, then make or request changes where needed.
+
+## Difference between a Service and a Deployment
+
+A Deployment is responsible for keeping a set of Pods running.
+
+A Service is responsible for enabling network access to a set of Pods.
+
+We could use a Deployment without a Service to keep a set of identical Pods running in the Kubernetes cluster.
