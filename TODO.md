@@ -10,3 +10,4 @@
 - Redux
 - Rust
 - TypeScript
+- YAML
