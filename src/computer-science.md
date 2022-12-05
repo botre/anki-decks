@@ -250,3 +250,21 @@ The actual address in memory where something is stored. Usually displayed in hex
 ## Emscripten
 
 Emscripten is an LLVM/Clang-based compiler that compiles C and C++ source code to WebAssembly.
+
+## Constant time
+
+An algorithm is said to be constant time (also written as time) if the value of is bounded by a value that does not
+depend on the size of the input.
+
+For example, accessing any single element in an array takes constant time as only one operation has to be performed to
+locate it.
+
+## Object pool pattern
+
+The object pool pattern is a software creational design pattern that uses a set of initialized objects kept ready to
+use – a "pool" – rather than allocating and destroying them on demand.
+
+A client of the pool will request an object from the pool and perform operations on the returned object.
+
+When the client has finished, it returns the object to the pool rather than destroying it; this can be done manually or
+automatically.
