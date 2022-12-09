@@ -8,6 +8,5 @@
 - MobX
 - Python
 - Redux
-- Rust
 - TypeScript
 - YAML
