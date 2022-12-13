@@ -48,6 +48,10 @@ Cama
 
 Rocha-mãe
 
+## Bee
+
+Abelha
+
 ## Beehive
 
 Colmeia
@@ -64,9 +68,17 @@ Pedra-negra
 
 Alto-forno
 
+## Boat
+
+Barco
+
 ## Bottle
 
 Garrafa
+
+## Box
+
+Caixa
 
 ## Brewing Stand
 
@@ -107,6 +119,10 @@ Cadeira
 ## Chest
 
 Baú
+
+## City
+
+Cidade
 
 ## Clay
 
@@ -160,9 +176,21 @@ Ovo de dragão
 
 Espeleotema
 
+## Dust
+
+Pó
+
+## Ears
+
+Ouvidos
+
 ## Enchanting Table
 
 Mesa de encantamentos
+
+## Eyes
+
+Olhos
 
 ## Farmland
 
@@ -195,6 +223,10 @@ Mosca
 ## Fork
 
 Garfo
+
+## Fridge
+
+Frigorífica
 
 ## Frog
 
@@ -312,6 +344,10 @@ Metal
 
 Pedregulho musgoso
 
+## Mouth
+
+Boca
+
 ## Mud
 
 Barro
@@ -323,6 +359,10 @@ Cogumelo
 ## Mycelium
 
 Micélio
+
+## Nose
+
+Nariz
 
 ## Obsidian
 
@@ -376,6 +416,10 @@ Pedra
 
 Cortador de pedras
 
+## Plane
+
+Avião
+
 ## Plowed
 
 Arada
@@ -391,6 +435,10 @@ Rio
 ## Roots
 
 Raízes
+
+## Room
+
+Quarto
 
 ## Sand
 
@@ -432,6 +480,10 @@ Brotos
 
 Vapor
 
+## Stomach
+
+Estômago
+
 ## Table
 
 Mesa
@@ -452,6 +504,10 @@ Vidro fosco
 
 Dinamite
 
+## Tree
+
+Árvore
+
 ## Tuff
 
 Tufo
@@ -468,9 +524,17 @@ Trepadeiras retorcidas
 
 Carregador USB
 
+## Village
+
+Vila
+
 ## Wall
 
 Muro
+
+## Wasp
+
+Vespa
 
 ## Water
 
