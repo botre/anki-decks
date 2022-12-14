@@ -68,6 +68,8 @@ Pipe
 
 Layer between the OS and underlying computer hardware.
 
+The lowest layer above the CPU.
+
 ## Bash: expands to the last command
 
 `!!`

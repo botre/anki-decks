@@ -44,15 +44,17 @@ absolute URL as a starting point.
 
 ## DNS: "A" record
 
-Points to an IPV4 address.
+Points a domain name to an IPV4 address.
 
 ## DNS: "AAAA" record
 
-Points to an IPV6 address.
+Points a domain name to an IPV6 address.
 
 ## DNS: "CNAME" record
 
-Points to another domain.
+"Canonical Name" record.
+
+Points a domain name to another domain.
 
 ## DNS: "NS" record
 
