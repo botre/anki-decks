@@ -1,5 +1,11 @@
 # AWS
 
-## Managed Kubernetes service
+## EKS
 
-EKS (Elastic Kubernetes Service)
+Elastic Kubernetes Service
+
+Managed Kubernetes service.
+
+## Fargate
+
+Serverless compute engine for containers.

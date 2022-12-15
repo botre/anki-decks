@@ -23,6 +23,25 @@ Takes two bits and returns 1 if either of the bits are 1. Otherwise, it returns 
 
 Takes two bits and returns 1 if exactly one the bits is 1. Otherwise, it returns 0.
 
+## Left bitshift
+
+When shifting left, the most-significant bit is lost, and a 0 bit is inserted on the other end.
+
+## Logical right bitshift
+
+When shifting right with a logical right shift, the least-significant bit is lost and a 0 is inserted on the other end.
+
+## Arithmetic right bitshift
+
+When shifting right with an arithmetic right shift, the least-significant bit is lost and the most-significant bit is
+copied.
+
+## Two's complement
+
+Mathematical operation to reversibly convert a positive binary number into a negative binary number with equivalent (but
+negative) value, using the binary digit with the greatest place value (the leftmost bit in big-endian numbers, rightmost
+bit in little-endian numbers) to indicate whether the binary number is positive or negative (the sign).
+
 ## Bitwise NOT
 
 Inverts bits. A 0 becomes a 1. A 1 becomes a 0.
