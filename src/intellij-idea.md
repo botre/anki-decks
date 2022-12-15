@@ -115,3 +115,19 @@
 ## Execute query
 
 `⌘ + Enter`
+
+## GitHub Copilot: accept an inline suggestion
+
+`Tab`
+
+## GitHub Copilot: dismiss an inline suggestion
+
+`Esc`
+
+## GitHub Copilot: show next inline suggestion
+
+`Alt + ]`
+
+## GitHub Copilot: show previous inline suggestion
+
+`Alt + [`
