@@ -8,7 +8,7 @@ What this means is that "Hello World" is a string, but a string is not "Hello Wo
 
 ## as const
 
-`as const` lets you create a literal type from an object or array.
+`as const` lets you create a literal type.
 
 ```typescript
 const foo = {
@@ -19,7 +19,7 @@ const foo = {
 
 ## readonly
 
-Allows you to make a property immutable.
+Lets you make a property immutable.
 
 ```typescript
 interface Person {
@@ -30,7 +30,7 @@ interface Person {
 
 ## satisfies operator
 
-Lets us validate a type without changing it.
+Lets you validate a type without changing it.
 
 ```ts
 type RGB = readonly [red: number, green: number, blue: number];
