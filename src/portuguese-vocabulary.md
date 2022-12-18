@@ -76,9 +76,17 @@ Barco
 
 Garrafa
 
+## Bowl
+
+Tigela
+
 ## Box
 
 Caixa
+
+## Brewery
+
+Cervejaria
 
 ## Brewing Stand
 
@@ -204,6 +212,10 @@ Fogo
 
 Peixe
 
+## Flag
+
+Bande
+
 ## Fletching Table
 
 Bancada de arco e flecha
@@ -264,6 +276,10 @@ Azulejo
 
 Pedra luminosa
 
+## Goldfish
+
+Peixe-dourado
+
 ## Granite
 
 Granito
@@ -283,6 +299,10 @@ Rebolo
 ## Head
 
 Cabeça
+
+## Honey
+
+Mel
 
 ## Honeycomb
 
@@ -316,6 +336,10 @@ Lago
 
 Lava
 
+## Leaves
+
+Folhas
+
 ## Lectern
 
 Atril
@@ -323,6 +347,10 @@ Atril
 ## Legs
 
 Pernas
+
+## Lighter
+
+Isqueiro
 
 ## Log
 
@@ -336,6 +364,10 @@ Tear
 
 Magma
 
+## Marble
+
+Mármore
+
 ## Metal
 
 Metal
@@ -343,6 +375,10 @@ Metal
 ## Mossy Cobblestone
 
 Pedregulho musgoso
+
+## Moth
+
+Mariposa
 
 ## Mouth
 
@@ -368,6 +404,10 @@ Nariz
 
 Obsidiana
 
+## Prison
+
+Prisão
+
 ## Scaffolding
 
 Andaime
@@ -375,6 +415,10 @@ Andaime
 ## Shrub
 
 Arbusto
+
+## Soup
+
+Sopa
 
 ## Sign
 
@@ -415,6 +459,18 @@ Pedra
 ## Stonecutter
 
 Cortador de pedras
+
+## Teeth
+
+Dentes
+
+## Thunder
+
+Trovão
+
+## Toes
+
+Dedos do pé
 
 ## Plane
 
@@ -520,6 +576,10 @@ Ovo de tartaruga
 
 Trepadeiras retorcidas
 
+## Unicorn
+
+Unicórnio
+
 ## USB Charger
 
 Carregador USB
@@ -540,6 +600,10 @@ Vespa
 
 Água
 
+## Waterfall
+
+Cachoeira
+
 ## Weeping Vines
 
 Trepadeiras choronas
@@ -547,6 +611,10 @@ Trepadeiras choronas
 ## Wind
 
 Vento
+
+## Window
+
+Janela
 
 ## Wood
 

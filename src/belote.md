@@ -9,8 +9,6 @@ Joueur distribuant les cartes en début de manche.
 La distribution des cartes selon l'ordre établi. Elle commence avec la coupe et se termine lorsque la dernière carte a
 été régulièrement distribuée.
 
-Par extension de sens, la donne désigne l'ensemble des mains des joueurs, résultant d'une donne.
-
 ## Main
 
 La main désigne toutes les cartes que possède un joueur.
@@ -34,6 +32,7 @@ Un joueur qui passe renonce à choisir l’atout
 ## Atout
 
 Couleur l’emportant sur les trois autres.
+
 Il est défini au début de la manche, soit par la couleur de la retourne, soit par la couleur choisit par le preneur.
 
 ## Levée
@@ -107,6 +106,14 @@ Partagé :
 - Le Roi vaut 4 points.
 - La Dame vaut 3 points.
 - Les 7 et 8 ne valent aucun point.
+
+## Combien de points vaut le Valet en atout
+
+Le Valet vaut 20 points.
+
+## Combien de points vaut le 9 en atout
+
+Le 9 vaut 14 points.
 
 ## Attaque
 

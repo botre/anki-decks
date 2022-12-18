@@ -77,17 +77,13 @@ print((example())) --> hello
 
 `nil`
 
-## What does it mean for functions to have "lexical scoping"
-
-It means that functions can access variables of its enclosing functions.
-
 ## Upvalue
 
 Local variable from an enclosing function, used by an enclosed function.
 
 ## Closure
 
-Persistent local variable scope.
+A closure is a function that has access to the parent scope, even after the parent function has closed.
 
 A closure is a function plus all it needs to access its upvalues correctly.
 
@@ -609,10 +605,22 @@ When it explicitly requests to be suspended.
 
 ## Coroutine states (4)
 
-- "running", if the coroutine is running
-- "suspended", if the coroutine is suspended in a call to yield, or if it has not started running yet
-- "normal" if the coroutine is active but not running (that is, it has resumed another coroutine)
-- "dead" if the coroutine has finished its body function, or if it has stopped with an error
+- `suspended`: coroutine is suspended, waiting to be resumed
+- `running`: coroutine is running
+- `normal`: coroutine is active but not running (that is, it is waiting to be resumed)
+- `dead`: coroutine has finished its body or has stopped with an error
+
+```lua
+local co = coroutine.create(function()
+    -- ...
+end)
+
+print(coroutine.status(co)) --suspended
+
+coroutine.resume(co) -- running
+
+print(coroutine.status(co)) -- dead
+```
 
 ## State of a coroutine when it is created
 

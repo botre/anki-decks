@@ -8,9 +8,6 @@ Approximate string pattern matching.
 
 Using as few bit as possible to store a piece of data.
 
-Example strategy: add an n-bit header identifying the size of the value followed by a known number of bits representing
-the value.
-
 ## Bitwise AND
 
 Takes two bits and returns 1 if both bits are 1. Otherwise, it returns 0.
@@ -22,6 +19,30 @@ Takes two bits and returns 1 if either of the bits are 1. Otherwise, it returns 
 ## Bitwise XOR
 
 Takes two bits and returns 1 if exactly one the bits is 1. Otherwise, it returns 0.
+
+## Bitwise NOT
+
+Inverts bits. A 0 becomes a 1. A 1 becomes a 0.
+
+## Bitmask
+
+A bitmask is a bit pattern used to mask a value. It is used to select specific bits from a value.
+
+## Big endian
+
+Big endian is a way of storing multi-byte data types. In big endian, the most significant byte is stored first.
+
+## Little endian
+
+Little endian is a way of storing multi-byte data types. In little endian, the least significant byte is stored first.
+
+## Least significant bit (LSB)
+
+The least significant bit is the bit with the lowest value.
+
+## Most significant bit (MSB)
+
+The most significant bit is the bit with the highest value.
 
 ## Left bitshift
 
@@ -38,21 +59,58 @@ copied.
 
 ## Two's complement
 
-Mathematical operation to reversibly convert a positive binary number into a negative binary number with equivalent (but
-negative) value, using the binary digit with the greatest place value (the leftmost bit in big-endian numbers, rightmost
-bit in little-endian numbers) to indicate whether the binary number is positive or negative (the sign).
+A way of representing negative numbers in binary.
 
-## Bitwise NOT
+## Binary notation
 
-Inverts bits. A 0 becomes a 1. A 1 becomes a 0.
+A way of representing numbers in base 2.
 
-## Least significant bit (LSB)
+```text
+1 = 00000001
+2 = 00000010
+3 = 00000011
+4 = 00000100
+5 = 00000101
+```
 
-Right-most bit.
+## Hexadecimal notation
 
-## Most significant bit (MSB)
+A way of representing numbers in base 16.
 
-Left-most bit.
+```text
+1 = 0x1
+2 = 0x2
+3 = 0x3
+4 = 0x4
+5 = 0x5
+6 = 0x6
+7 = 0x7
+8 = 0x8
+9 = 0x9
+10 = 0xA
+11 = 0xB
+12 = 0xC
+13 = 0xD
+14 = 0xE
+15 = 0xF
+16 = 0x10
+17 = 0x11
+18 = 0x12
+19 = 0x13
+20 = 0x14
+21 = 0x15
+22 = 0x16
+23 = 0x17
+24 = 0x18
+25 = 0x19
+26 = 0x1A
+27 = 0x1B
+28 = 0x1C
+29 = 0x1D
+30 = 0x1E
+31 = 0x1F
+32 = 0x20
+```
 
 ## Currying
 
@@ -75,7 +133,11 @@ const info = log("info");
 
 ## Closure
 
-Persistent local variable scope.
+A closure is a function that has access to the parent scope, even after the parent function has closed.
+
+## Endofunction
+
+A function that returns the same value as its input.
 
 ## Monad
 
@@ -162,22 +224,6 @@ As there is no task left after the recursive call, it will be easier for the com
 Indirect recursion occurs when a function is called not by itself but by another function that it called (either
 directly or indirectly).
 
-## Proper tail call
-
-```lua
-function f(x)
-    return g(x)
-end
-```
-
-After f calls g, it has nothing else to do. In such situations, the program does not need to return to the calling
-function when the called function ends.
-Therefore, after the tail call, the program does not need to keep any information about the calling function in the
-stack.
-Some language implementations, such as the Lua interpreter, take advantage of this fact and actually do not use any
-extra stack space when doing a tail call.
-We say that those implementations support proper tail calls.
-
 ## LSP
 
 The Language Server Protocol (LSP) defines the protocol used between an editor or IDE and a language server that
@@ -245,6 +291,10 @@ formal messaging protocol of the receiver.
 
 Physical computer server that is used by one consumer, or tenant, only.
 
+## Hypervisor
+
+A hypervisor is a software, firmware, or hardware that creates and runs virtual machines.
+
 ## Word
 
 Natural unit of data used by a particular processor design.
@@ -280,10 +330,5 @@ locate it.
 
 ## Object pool pattern
 
-The object pool pattern is a software creational design pattern that uses a set of initialized objects kept ready to
-use – a "pool" – rather than allocating and destroying them on demand.
-
-A client of the pool will request an object from the pool and perform operations on the returned object.
-
-When the client has finished, it returns the object to the pool rather than destroying it; this can be done manually or
-automatically.
+Object pool pattern is a software creational design pattern that uses a set of initialized objects kept ready to use - "
+borrowed" from the pool - rather than allocating and destroying them on demand.

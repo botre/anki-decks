@@ -6,7 +6,35 @@ Groups state updates within event handlers and inbuilt hooks.
 
 ## React.Suspense
 
-Lets you specify the loading indicator in case some components in the tree below it are not yet ready to render.
+Lets you specify a fallback component in case some components in the tree below it are not yet ready to render.
+
+```jsx
+<Suspense fallback={<div>Loading...</div>}>
+  <MyComponent />
+</Suspense>
+```
+
+## React.lazy
+
+Lets you lazy load components.
+
+This is useful for code splitting.
+
+```jsx
+const MyComponent = React.lazy(() => import("./MyComponent"));
+```
+
+## React.memo
+
+Lets you memoize a component.
+
+This is useful for performance.
+
+```jsx
+const MyComponent = React.memo((props) => {
+  /* render using props */
+});
+```
 
 ## Concurrent mode
 
@@ -29,9 +57,17 @@ Putting elements into the DOM.
 
 Cross-browser wrapper around the browser's native event.
 
-## Hook that let's you persist values between renders
+## Event delegation
 
-`useRef`
+Handling events on a parent element instead of the child element.
+
+## Difference between useState and useRef
+
+- `useState` returns a state variable and a function to update it.
+- `useState` will cause a rerender when the state variable is updated.
+
+- `useRef` returns a mutable ref object.
+- `useRef` will not cause a rerender when the ref object is updated.
 
 ## JavaScript engine optimized for React Native
 

@@ -12,6 +12,12 @@ ul>li*3
 img+div+p
 ```
 
+## A `div` containing a `p` and a `span`
+
+```text
+div>p+span
+```
+
 ## A `div` with the "application" id
 
 ```text
@@ -70,6 +76,18 @@ link:css
 
 ```text
 link:favicon
+```
+
+## Link a JavaScript file
+
+```text
+script:src
+```
+
+## Link a JavaScript file with the `defer` attribute
+
+```text
+script:src[defer]
 ```
 
 ## HTML document boilerplate

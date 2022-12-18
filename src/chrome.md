@@ -88,15 +88,15 @@ Alt + ⌘ + C
 
 ⌘ + Shift + J
 
-## Open link in new tab in the background
+## Open link in new tab in the background (using mouse)
 
 ⌘ + Click
 
-## Open link in new tab and switch to the newly opened tab
+## Open link in new tab and switch to the newly opened tab (using mouse)
 
 ⌘ + Shift + Click
 
-## Open link in a new window
+## Open link in a new window (using mouse)
 
 Shift + Click
 

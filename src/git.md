@@ -13,11 +13,13 @@ The tree of actual checked out files.
 The working tree normally contains the contents of the HEAD commit's tree, plus any local changes that you have made but
 not yet committed.
 
-`git status` shows the working tree status.
-
 ## Index
 
 The "staging area" between the files you have in your working tree and your commit history.
+
+## Staging
+
+Adding files to the index.
 
 ## Commit
 
@@ -104,8 +106,10 @@ git pull
 ## Adds file contents to the index
 
 ```bash
-git add
+git add <pattern>
 ```
+
+Use `.` to add all files.
 
 ## Records changes to the repository
 
@@ -113,16 +117,26 @@ git add
 git commit
 ```
 
+Use `-m` to add a commit message.
+
 ## Updates remote refs along with associated objects
 
 ```bash
 git push
 ```
 
+## Shows the working tree status
+
+```bash
+git status
+```
+
+It shows which files have been modified, which files are staged for the next commit, and which files are untracked.
+
 ## Switches branch
 
 ```bash
-git checkout
+git checkout <branch>
 ```
 
 ## Checks out the previous branch
@@ -134,13 +148,15 @@ git checkout -
 ## Restores specified paths in the working tree
 
 ```bash
-git restore
+git restore --staged <file>
 ```
+
+The `--staged` option is used to unstage a file.
 
 ## Makes a commit that reverts the changes made by other commits
 
 ```bash
-git revert
+git revert <commit>
 ```
 
 ## Undoes local changes to the state of a repository
@@ -202,7 +218,7 @@ git log
 ## Shows the log message and textual diff of a commit
 
 ```bash
-git show <COMMIT>
+git show <commit>
 ```
 
 ## Bisect

@@ -31,3 +31,7 @@ Focus message using `↑`, then press `e`.
 ## Command: list channel members
 
 `/who`
+
+## Command: send a new message
+
+`/msg`

@@ -232,9 +232,13 @@ Music that finds tension and release through colors of sound rather than through
 
 The role of a chord in relation to a diatonic key.
 
-- Tonic
-- Dominant
-- Subdominant
+- Tonic (I)
+- Dominant (V)
+- Subdominant (IV)
+
+## Seventh chord
+
+Chord with a seventh interval.
 
 ## Dominant
 
@@ -242,9 +246,13 @@ Seventh chord built on the fifth scale degree.
 
 Creates tension that wants to resolve to the tonic.
 
+Example: C major scale, G7 chord.
+
 ## Subdominant
 
 Chord build on the fourth scale degree.
+
+Example: C major scale, F major chord.
 
 ## Phrasing
 
@@ -278,9 +286,13 @@ Triad without a third. Using a second of fourth instead.
 
 The second takes the place of the third.
 
+Example: C major scale, Csus2 chord.
+
 ## sus4
 
 The fourth takes the place of the third.
+
+Example: C major scale, Csus4 chord.
 
 ## Chord tone
 
@@ -297,6 +309,10 @@ Two chords, most often triads, stacked on top of each other.
 ## Approach tone
 
 Note leading up to a chord tone.
+
+## Passing tone
+
+Note that is not a chord tone, but is used to get to a chord tone.
 
 ## Cadence
 
@@ -333,6 +349,8 @@ Musical expression of from soft to loud.
 ## Enharmonic
 
 Notes that sound the same but are named differently.
+
+Example: C# and Db.
 
 ## Extension notes
 

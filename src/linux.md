@@ -12,9 +12,18 @@ chmod +x filename.sh
 #!/bin/bash
 ```
 
-## Set of standard operating system interfaces based on the Unix operating system
+## POSIX
 
-POSIX
+Family of standards for maintaining compatibility between operating systems.
+
+Defines the API, along with command line shells and utility interfaces, for software compatibility with variants of Unix
+and other operating systems.
+
+## Difference between POSIX and Unix
+
+POSIX is a standard for maintaining compatibility between operating systems.
+
+Unix is a family of operating systems.
 
 ## FZF: search directory
 
@@ -56,9 +65,23 @@ Control + D
 
 `take`
 
-## Sends the output of one command/program/process to another one
+## Redirects the output of a command to another command
 
-Pipe
+Piping.
+
+Example: `ls -l | grep .txt`
+
+## Redirects the output of a command to a file
+
+Output redirection.
+
+Example: `ls -l > output.txt`
+
+## Difference between piping and output redirection
+
+Piping sends the output of one command to another one.
+
+Output redirection sends the output of a command to a file.
 
 ## Search for "format" inside package.json using grep
 
@@ -73,6 +96,8 @@ The lowest layer above the CPU.
 ## Bash: expands to the last command
 
 `!!`
+
+Example: `sudo !!`
 
 ## Clear terminal
 

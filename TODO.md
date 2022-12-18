@@ -9,6 +9,4 @@
 - Python
 - Redux
 - Svelte
-- TypeScript
-  - Satisfies
 - YAML

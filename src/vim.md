@@ -316,6 +316,12 @@ Up/down arrows.
 :%s/foo/bar/gc
 ```
 
+## Change each 'foo' to 'bar', in the current line only
+
+```text
+:s/foo/bar/g
+```
+
 ## Explain `:%s`
 
 `:` enters command mode.
@@ -642,14 +648,6 @@ Write and exits.
 ## Close fold under the cursor
 
 `zc`
-
-## Go to previous start of a method
-
-`[m`
-
-## Go to next start of a method
-
-`]m`
 
 ## Find word under cursor (backward)
 

@@ -4,6 +4,8 @@
 
 A node is a worker machine.
 
+Example: a virtual machine running on AWS EC2.
+
 ## Pod
 
 A Pod represents a set of running containers on your cluster.
@@ -12,9 +14,13 @@ A Pod can contain multiple containers.
 
 A multi-container microservice will usually be defined by a single Pod.
 
+Example: a Pod that runs a Node.js application with a MongoDB database.
+
 ## Container
 
 A lightweight and portable executable image that contains software and all of its dependencies.
+
+Example: an image of MongoDB.
 
 ## Service
 
@@ -23,6 +29,8 @@ An abstract way to expose an application running on a set of Pods as a network s
 ## Cluster
 
 A set of nodes.
+
+Example: a cluster of 3 node, 3 virtual machines running on AWS EC2.
 
 ## Kubelet
 
