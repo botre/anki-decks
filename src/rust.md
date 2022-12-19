@@ -1,12 +1,60 @@
 # Rust
 
+## Hello, World!
+
+```rust
+println!("Hello, World!");
+```
+
+## Insert a simple comment
+
+```rust
+// This is a simple comment
+```
+
+## Insert a block comment
+
+```rust
+/*
+This is a block comment
+ */
+```
+
+## Function
+
+```rust
+fn example() {
+    // ...
+}
+```
+
+## Function with two return values
+
+```rust
+fn example() -> (str, str) {
+    return ("Hello", "World");
+}
+
+fn main() {
+    let (a, b) = example();
+
+    println!(a); // --> Hello
+}
+```
+
+## Macro
+
+A macro is a way to define code that generates other code.
+
 ## Reference
 
 A pointer to a value.
 
 ```rust
-let x = 5;
-let y = &x; // y is a reference to x
+fn main() {
+    let x = 5;
+    let y = &x; // y is a reference to x
+}
 ```
 
 ## Difference between value and reference
@@ -22,8 +70,10 @@ A reference that cannot be changed.
 References are immutable by default.
 
 ```rust
-let x = 5;
-let y = &x; // y is an immutable reference to x
+fn main() {
+    let x = 5;
+    let y = &x; // y is an immutable reference to x
+}
 ```
 
 ## Mutable reference
@@ -31,8 +81,10 @@ let y = &x; // y is an immutable reference to x
 A reference that can be changed.
 
 ```rust
-let mut x = 5;
-let y = &mut x; // y is a mutable reference to x
+fn main() {
+    let mut x = 5;
+    let y = &mut x; // y is a mutable reference to x
+}
 ```
 
 ## Borrowing
