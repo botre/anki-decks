@@ -42,6 +42,86 @@ fn main() {
 }
 ```
 
+## Define an integer
+
+```rust
+fn main() {
+    let n: u32 = 1;
+}
+```
+
+## Define a float
+
+```rust
+fn main() {
+    let n: f32 = 3.14;
+}
+```
+
+## Define a string
+
+```rust
+fn main() {
+    let s: &str = "Hello, World!";
+}
+```
+
+## Define a boolean
+
+```rust
+fn main() {
+    let b: bool = true;
+}
+```
+
+## Package manager and build system
+
+Cargo
+
+## Cargo: create a new project
+
+```bash
+cargo new hello_world
+```
+
+## Cargo: build a project
+
+```bash
+cargo build
+```
+
+## Cargo: run a project
+
+```bash
+cargo run
+```
+
+## Cargo: install a crate
+
+```bash
+cargo install <crate>
+```
+
+## Cargo: uninstall a crate
+
+```bash
+cargo uninstall <crate>
+```
+
+## Cargo: update crates
+
+```bash
+cargo update
+```
+
+## Cargo: configuration file
+
+Cargo.toml
+
+## Shareable packages
+
+Crates
+
 ## Macro
 
 A macro is a way to define code that generates other code.
@@ -94,3 +174,21 @@ The act of taking a reference to a value.
 ## Borrow checker
 
 Compiler that checks that all borrows are valid.
+
+## rust-analyzer
+
+rust-analyzer is an implementation of Language Server Protocol for the Rust programming language.
+
+## Result
+
+A type that represents either success (Ok) or failure (Err).
+
+## Option
+
+A type that represents either some value (Some) or no value (None).
+
+## Difference between let and const
+
+`let` is used to create a variable.
+
+`const` is used to create a constant.
