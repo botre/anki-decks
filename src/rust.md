@@ -1,4 +1,4 @@
-# Rust
+[# Rust
 
 ## Hello, World!
 
@@ -71,6 +71,70 @@ fn main() {
 ```rust
 fn main() {
     let b: bool = true;
+}
+```
+
+## If
+
+```rust
+fn main() {
+    let condition = true;
+    if condition {
+        // ...
+    }
+}
+```
+
+## If/Else
+
+```rust
+fn main() {
+    let condition = true;
+    if condition {
+        // ...
+    } else {
+        // ...
+    }
+}
+```
+
+## If/Elseif
+
+```rust
+fn main() {
+    let a = false;
+    let b = true;
+    if a {
+        // ...
+    } else if b {
+        // ...
+    }
+}
+```
+
+## Loop
+
+```rust
+fn main() {
+    let i = 1;
+    loop {
+        i = i + 1;
+        if i == 10 {
+            break;
+        }
+    }
+}
+```
+
+## While
+
+```rust
+fn main() {
+    let i = 1;
+    while i < 10 {
+        println!("{}", i);
+        i += 1;
+    }
 }
 ```
 
@@ -192,3 +256,4 @@ A type that represents either some value (Some) or no value (None).
 `let` is used to create a variable.
 
 `const` is used to create a constant.
+]()

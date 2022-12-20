@@ -110,7 +110,7 @@ end
 ## If/Elseif
 
 ```lua
-local a = true
+local a = false
 local b = true
 if a then
     -- ...

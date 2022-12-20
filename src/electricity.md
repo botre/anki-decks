@@ -20,6 +20,12 @@ direction of the current also periodically changes accordingly.
 
 Impedance is the opposition to the flow of current. It is measured in ohms (Ω).
 
+## Ground
+
+Ground is a reference point for voltage.
+
+It is usually the earth, but it can also be a metal object that is connected to the earth.
+
 ## Short circuit
 
 A short circuit is an electrical circuit that allows a current to travel along an unintended path with no or very low

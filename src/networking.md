@@ -83,3 +83,9 @@ Shows where emails for a domain should be routed to.
 ## Service discovery
 
 Service discovery is the automatic detection of devices and offered services over a network.
+
+## SSL
+
+Secure Sockets Layer.
+
+SSL is a cryptographic protocol that provides security for communications over the internet.

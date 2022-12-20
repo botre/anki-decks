@@ -106,3 +106,11 @@ Example: `sudo !!`
 or
 
 `clear`
+
+## Secure Shell (SSH)
+
+Secure way to connect to a remote computer.
+
+## SCP
+
+Secure way to copy files to and from a remote computer.
