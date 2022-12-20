@@ -107,10 +107,14 @@ or
 
 `clear`
 
-## Secure Shell (SSH)
+## SSH
+
+Secure Shell.
 
 Secure way to connect to a remote computer.
 
 ## SCP
+
+Secure Copy.
 
 Secure way to copy files to and from a remote computer.
