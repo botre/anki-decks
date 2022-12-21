@@ -216,7 +216,14 @@ Scale degrees are the number values assigned to the steps of the musical scale.
 
 In typical seven note scales like the major scale and minor scale, the scale degrees are numbered from 1 to 7.
 
-The scale degree is the position of a particular note on a scale relative to the tonic.
+- I = tonic
+- II = supertonic
+- III = mediant
+- IV = subdominant
+- V = dominant
+- VI = submediant
+- VII = leading tone
+- VIII = octave
 
 ## Functional harmony
 
@@ -338,6 +345,10 @@ Refers to how many notes are played in a given time.
 
 Moving a note or group of notes up or down by a certain interval.
 
+## Beat
+
+The basic unit of time in music.
+
 ## Downbeat
 
 First beat of a bar.
@@ -364,4 +375,5 @@ A note or group of notes in the beginning of a musical piece or section thereof 
 
 A sequence is where a passage of music is repeated at a higher or lower level of pitch.
 
-The repeat can be an exact transposition – a real sequence or the intervals can be changed – a tonal sequence.
+- Real sequence: exact transposition
+- Tonal sequence: changed intervals
