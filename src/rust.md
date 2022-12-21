@@ -50,6 +50,35 @@ fn main() {
 }
 ```
 
+## Unsigned integer types
+
+- u8
+- u16
+- u32
+- u64
+- u128
+- usize (size of a pointer on the target platform)
+
+## Signed integer types
+
+- i8
+- i16
+- i32
+- i64
+- i128
+- isize (size of a pointer on the target platform)
+
+## Generate a range of integers
+
+```rust
+fn main() {
+    let range = 0..10; // 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+    for i in range {
+        println!("{}", i);
+    }
+}
+```
+
 ## Define a float
 
 ```rust
@@ -57,6 +86,11 @@ fn main() {
     let n: f32 = 3.14;
 }
 ```
+
+## Float types
+
+- f32
+- f64
 
 ## Define a string
 
