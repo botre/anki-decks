@@ -72,8 +72,15 @@ fn main() {
 
 ```rust
 fn main() {
-    let range = 0..10; // 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-    for i in range {
+    // exclusive range
+    let erange = 0..10; // 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+    for i in erange {
+        println!("{}", i);
+    }
+
+    // inclusive range
+    let irange = 0..=10; // 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+    for i in irange {
         println!("{}", i);
     }
 }
@@ -142,6 +149,33 @@ fn main() {
         // ...
     } else if b {
         // ...
+    }
+}
+```
+
+## Simulate a ternary operator
+
+```rust
+fn main() {
+    let age = 19;
+    let minor = if age < 18 { true } else { false };
+    println!("{}", minor); // --> false
+}
+```
+
+## Match
+
+`match` is similar to `switch` in other languages.
+
+```rust
+fn main() {
+    let n = 1;
+    match n {
+        1 => println!("one"),
+        2 => println!("two"),
+        3 | 4 | 5 => println!("three, four or five"), // multiple values
+        6..=10 => println!("six to ten"), // range
+        _ => println!("other"),  // _ is a catch-all pattern
     }
 }
 ```
