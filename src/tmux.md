@@ -68,6 +68,12 @@ tmux a -t <session-name>
 tmux kill-session -t <session-name>
 ```
 
+## Kill all sessions
+
+```bash
+tmux kill-server
+```
+
 ## Create a window
 
 `<prefix> c`
@@ -105,6 +111,10 @@ exit
 ## Split a pane vertically
 
 `<prefix> |`
+
+## Pane movement: next
+
+`<prefix> o`
 
 ## Pane movement: up
 
