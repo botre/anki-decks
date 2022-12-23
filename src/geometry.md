@@ -1,5 +1,9 @@
 # Geometry
 
+## Invariants
+
+Properties that never change.
+
 ## Polygon
 
 A closed shape with three or more sides.
@@ -55,3 +59,25 @@ Its base multiplied by its height.
 ## Sum of a polygon's exterior angles
 
 360 degrees.
+
+## Vertical angles
+
+When two lines intersect, the angles opposite from each other are called vertical angles.
+
+Vertical angles are always equal.
+
+## The sum of two interior angles of a triangle equals
+
+The external angle of the opposite angle.
+
+## Isoceles triangle
+
+In an isosceles triangle, two of the side lengths are equal.
+
+The two angles are also equal.
+
+## Equilateral triangle
+
+Triangle whose sides are all of equal length.
+
+All angles are also equal.
