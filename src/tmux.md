@@ -46,7 +46,7 @@ tmux ls
 
 ## Detach from a session
 
-`<leader> d`
+`<prefix> d`
 
 ## Attach to a session
 
@@ -70,27 +70,27 @@ tmux kill-session -t <session-name>
 
 ## Create a window
 
-`<leader> c`
+`<prefix> c`
 
 ## Rename a window
 
-`<leader> ,`
+`<prefix> ,`
 
 ## Go to next window
 
-`<leader> n`
+`<prefix> n`
 
 ## Go to previous window
 
-`<leader> p`
+`<prefix> p`
 
 ## Jump to a specific window
 
-`<leader> + 1` through `<leader> + 9`
+`<prefix> + 1` through `<prefix> + 9`
 
 ## Open a visual menu of windows
 
-`<leader> w`
+`<prefix> w`
 
 ## Close a window
 
@@ -100,24 +100,34 @@ exit
 
 ## Split a pane horizontally
 
-`<leader> -`
+`<prefix> -`
 
 ## Split a pane vertically
 
-`<leader> |`
+`<prefix> |`
 
 ## Pane movement: up
 
-`<leader> k`
+`<prefix> k`
 
 ## Pane movement: down
 
-`<leader> j`
+`<prefix> j`
 
 ## Pane movement: left
 
-`<leader> h`
+`<prefix> h`
 
 ## Pane movement: right
 
-`<leader> l`
+`<prefix> l`
+
+## Close a pane
+
+```bash
+exit
+```
+
+## Enter command mode
+
+`<prefix> :`
