@@ -1,5 +1,11 @@
 # tmux
 
+## Source configuration file
+
+```bash
+tmux source-file ~/.tmux.conf
+```
+
 ## Session
 
 A session is a collection of windows.
@@ -91,3 +97,27 @@ tmux kill-session -t <session-name>
 ```bash
 exit
 ```
+
+## Split a pane horizontally
+
+`<leader> -`
+
+## Split a pane vertically
+
+`<leader> |`
+
+## Pane movement: up
+
+`<leader> k`
+
+## Pane movement: down
+
+`<leader> j`
+
+## Pane movement: left
+
+`<leader> h`
+
+## Pane movement: right
+
+`<leader> l`
