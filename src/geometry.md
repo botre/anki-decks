@@ -81,3 +81,11 @@ The two angles are also equal.
 Triangle whose sides are all of equal length.
 
 All angles are also equal.
+
+## Perimeter
+
+The length of a figure's boundary.
+
+## Circumference
+
+Special name for the perimeter of a circle.
