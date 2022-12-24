@@ -18,7 +18,7 @@
 
 ## Forward 10 seconds
 
-`k`
+`l`
 
 ## Decrease playback speed
 
