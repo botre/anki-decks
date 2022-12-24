@@ -89,3 +89,21 @@ The length of a figure's boundary.
 ## Circumference
 
 Special name for the perimeter of a circle.
+
+C = 2πr
+
+## Pi (π)
+
+≈3.141
+
+## Radius
+
+The radius is the distance from the center of a circle to any point on its circumference.
+
+## Diameter
+
+The diameter is the length of the line through the center that touches two points on the edge of the circle.
+
+## Arc
+
+Part of a curve.
