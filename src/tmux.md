@@ -104,13 +104,13 @@ tmux kill-server
 exit
 ```
 
-## Split a pane horizontally
-
-`<prefix> -`
-
-## Split a pane vertically
+## Split a pane horizontally (a new pane next to the existing one)
 
 `<prefix> |`
+
+## Split a pane vertically (a new pane below the existing one)
+
+`<prefix> -`
 
 ## Pane movement: next
 
