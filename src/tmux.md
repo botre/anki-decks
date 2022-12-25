@@ -20,6 +20,10 @@ A window is similar to a tab in a browser.
 
 A pane is the entity that we actually use to run commands, scripts, and processes.
 
+## Layout
+
+Each window has a layout, which can be one of many preset dimensions or a custom one done through pane resizing.
+
 ## Start a session
 
 ```bash
@@ -137,6 +141,10 @@ exit
 ```bash
 exit
 ```
+
+## Switch to the next window layout
+
+`<leader> + space`
 
 ## Enter command mode
 
