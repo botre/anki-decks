@@ -16,19 +16,13 @@
 
 `l`
 
-## NERDTree: new
-
-```text
-<C-n>
-```
-
-## NERDTree: toggle
+## File tree: toggle
 
 ```text
 <C-t>
 ```
 
-## NERDTree: find
+## File tree: find
 
 ```text
 <C-f>
