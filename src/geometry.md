@@ -70,7 +70,7 @@ Its base multiplied by its height.
 
 ## Vertical angles
 
-When two lines intersect, the angles opposite from each other are called vertical angles.
+When two lines intersect, the angles opposite to each other are called vertical angles.
 
 Vertical angles are always equal.
 
@@ -88,7 +88,7 @@ The two angles are also equal.
 
 Triangle whose sides are all of equal length.
 
-All angles are also equal.
+All angles are also equal (60 degrees).
 
 ## Hypotenuse
 
@@ -171,3 +171,15 @@ A polyhedron with a polygonal base and triangular faces that meet at a common ve
 ## Cone
 
 A polyhedron with a circular base and triangular faces that meet at a common vertex.
+
+## The Pythagorean Theorem
+
+a² + b² = c²
+
+## Coordinate system
+
+A system for locating points in space.
+
+## Origin
+
+The point where the x and y axes intersect.
