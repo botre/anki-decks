@@ -183,3 +183,27 @@ A system for locating points in space.
 ## Origin
 
 The point where the x and y axes intersect.
+
+## Volume
+
+The amount of space a 3D object occupies.
+
+## Volume of a cube
+
+The cube's side length cubed.
+
+## Volume of a pyramid
+
+(1/3)Bh
+
+Where B is the area of the base.
+
+h is the height.
+
+## Volume of a cone
+
+(1/3)πr²h
+
+Where r is the radius.
+
+h is the height.
