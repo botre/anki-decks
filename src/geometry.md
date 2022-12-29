@@ -207,3 +207,15 @@ h is the height.
 Where r is the radius.
 
 h is the height.
+
+## Inscribed shape
+
+A shape that fits inside another shape.
+
+## Similarity
+
+Two shapes are similar if they have the same shape but not necessarily the same size.
+
+## Triangulation
+
+The process of dividing a polygon into triangles.
