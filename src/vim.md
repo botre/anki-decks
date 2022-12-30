@@ -691,7 +691,7 @@ Write and exits.
 <C-w> + l
 ```
 
-## Split: close the current window
+## Split: cycle through windows
 
 ```text
 <C-w> + w
