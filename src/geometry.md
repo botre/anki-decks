@@ -64,6 +64,16 @@ Its base multiplied by its height.
 
 180 degrees.
 
+## Sum of a convex polygon's interior angles
+
+Given n sides.
+
+The sum of interior and exterior angles is n × 180 degrees.
+
+The sum of exterior angles is always 360 degrees.
+
+The sum of interior angles = n × 180 - 360 = (n - 2) × 180 degrees.
+
 ## Sum of a polygon's exterior angles
 
 360 degrees.
@@ -219,3 +229,31 @@ Two shapes are similar if they have the same shape but not necessarily the same 
 ## Triangulation
 
 The process of dividing a polygon into triangles.
+
+## Rhombus
+
+A rhombus is a parallelogram which has four sides that are all the same length.
+
+## Acute triangle
+
+An acute triangle is a triangle with all three angles less than 90 degrees.
+
+## Obtuse triangle
+
+An obtuse triangle is a triangle with one angle greater than 90 degrees.
+
+## Axiom
+
+A statement that is accepted as true without proof.
+
+## Convex polygon
+
+A polygon that has no interior angles greater than 180 degrees.
+
+The exterior angles of a convex polygon add up to 360 degrees.
+
+## Concave polygon
+
+A polygon that has at least one interior angle greater than 180 degrees.
+
+The exterior angles of a concave polygon add up to less than 360 degrees.
