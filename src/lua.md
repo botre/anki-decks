@@ -1025,3 +1025,18 @@ collectgarbage()
 ## Chunk
 
 A block of Lua code that can be compiled successfully by itself. It consists of one or more statements.
+
+## Get the character at a specific index
+
+```lua
+local s = "Hello"
+local index = 1
+print(s:sub(index, 1)) --> H
+```
+
+## Check if a string contains punctuation
+
+```lua
+local s = "Hello World"
+print(s:match("%p")) -- nil
+```
