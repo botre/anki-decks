@@ -53,3 +53,10 @@ myColor.value.toUpperCase(); // Works because we know it's a string
 
 const myIncorrectColor = {value: 100} satisfies Color; // Error: Type 'number' is not assignable to type 'string | RGB'
 ```
+
+## What is the difference between `[string]` and `string[]`
+
+```typescript
+const x: [string] = ["hello"]; // This is a string tuple of length 1
+const y: string[] = ["hello"]; // This is an array of strings
+```
