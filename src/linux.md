@@ -25,6 +25,10 @@ POSIX is a standard for maintaining compatibility between operating systems.
 
 Unix is a family of operating systems.
 
+## GNU
+
+Collection of free software.
+
 ## FZF: search directory
 
 Control + T
@@ -65,6 +69,10 @@ Control + D
 
 `take`
 
+## Remove all files with a certain extension
+
+`rm *.gif`
+
 ## Redirects the output of a command to another command
 
 Piping.
@@ -86,6 +94,12 @@ Output redirection sends the output of a command to a file.
 ## Search for "format" inside package.json using grep
 
 `grep "format" package.json`
+
+## Search for "TODO" inside the current directory using grep
+
+`grep -r "TODO" .`
+
+`-r` is for recursive search.
 
 ## Kernel
 
