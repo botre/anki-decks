@@ -119,10 +119,30 @@ git commit
 
 Use `-m` to add a commit message.
 
+## Modifies the most recent commit
+
+```bash
+git commit --amend
+```
+
+## Modifies the most recent commit message
+
+```bash
+git commit --amend -m "New commit message"
+```
+
 ## Updates remote refs along with associated objects
 
 ```bash
 git push
+```
+
+## Force push
+
+A force push is a push that overwrites remote history with your local history.
+
+```bash
+git push -f
 ```
 
 ## Shows the working tree status
