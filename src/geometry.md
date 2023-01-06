@@ -72,7 +72,11 @@ The sum of interior and exterior angles is n × 180 degrees.
 
 The sum of exterior angles is always 360 degrees.
 
-The sum of interior angles = n × 180 - 360 = (n - 2) × 180 degrees.
+The sum of interior angles = (n × 180) - 360 = (n - 2) × 180 degrees.
+
+- Quadrilateral: 360 degrees
+- Pentagon: 540 degrees
+- Hexagon: 720 degrees
 
 ## Sum of a polygon's exterior angles
 
