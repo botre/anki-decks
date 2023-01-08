@@ -110,7 +110,7 @@ All angles are also equal (60 degrees).
 
 ## Triangle inequality theorem
 
-The sum of the lengths of any two sides of a triangle must be greater than or equal to the length of the third side.
+The sum of the lengths of any two sides of a triangle must be larger than the length of the third side.
 
 ## Hypotenuse
 
@@ -269,3 +269,15 @@ The exterior angles of a convex polygon add up to 360 degrees.
 A polygon that has at least one interior angle greater than 180 degrees.
 
 The exterior angles of a concave polygon add up to less than 360 degrees.
+
+## Explementary angles
+
+Two angles that add up to 180 degrees.
+
+## Angle of a diagonal passing through the center of a square
+
+45 degrees.
+
+## Which angle is the largest in a triangle
+
+The angle opposite the longest side.
