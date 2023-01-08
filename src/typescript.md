@@ -60,3 +60,7 @@ const myIncorrectColor = {value: 100} satisfies Color; // Error: Type 'number' i
 const x: [string] = ["hello"]; // This is a string tuple of length 1
 const y: string[] = ["hello"]; // This is an array of strings
 ```
+
+## Default class member visibility
+
+Public.
