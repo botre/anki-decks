@@ -1040,3 +1040,19 @@ print(s:sub(index, 1)) --> H
 local s = "Hello World"
 print(s:match("%p")) -- nil
 ```
+
+## Split string by newlines
+
+```lua
+local s = [[A
+B
+C]]
+
+for line in s:gmatch("[^\r\n]+") do
+    print(line)
+end
+
+-- A
+-- B
+-- C
+```

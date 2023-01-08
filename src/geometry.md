@@ -92,6 +92,10 @@ Vertical angles are always equal.
 
 The external angle of the opposite angle.
 
+## Scalene triangle
+
+A triangle with no equal sides.
+
 ## Isosceles triangle
 
 In an isosceles triangle, two of the side lengths are equal.
@@ -103,6 +107,10 @@ The two angles are also equal.
 Triangle whose sides are all of equal length.
 
 All angles are also equal (60 degrees).
+
+## Triangle inequality theorem
+
+The sum of the lengths of any two sides of a triangle must be greater than or equal to the length of the third side.
 
 ## Hypotenuse
 
