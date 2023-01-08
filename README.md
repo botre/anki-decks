@@ -8,3 +8,7 @@
 - https://degoes.net/articles/fp-glossary
 - https://learnxinyminutes.com
 - https://www.belote.com/lexique-belote
+
+## PDF
+
+`cat ./src/*.md | npx md-to-pdf > ./decks.pdf`
