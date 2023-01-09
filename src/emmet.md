@@ -42,6 +42,12 @@ div.class-1.class-2.class-3
 button{Click me}
 ```
 
+## A `button` of type "submit"
+
+```text
+button:submit
+```
+
 ## A `p` containing Lorem Ipsum
 
 ```text

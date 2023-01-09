@@ -9,13 +9,11 @@
 
 ## Atomicity
 
-An atomic transaction is an indivisible and irreducible series of database operations such that either all occurs, or
-nothing occurs.
+An atomic transaction is an indivisible and irreducible series of database operations such that either all occurs, or nothing occurs.
 
 ## Consistency
 
-Any data written to the database must be valid according to all defined rules, including constraints, cascades,
-triggers, and any combination thereof.
+Any data written to the database must be valid according to all defined rules, including constraints, cascades, triggers, and any combination thereof.
 
 ## Isolation
 
@@ -28,6 +26,7 @@ Guarantees that transactions that have committed will survive permanently.
 ## Difference between left join and right join
 
 The left (outer) join includes all records from the left side and matched rows from the right table.
+
 The right (outer) join includes all records from the right side and matched rows from the left table.
 
 ## Cross join
@@ -64,8 +63,7 @@ Index which defines the physical order in which table records are stored in a da
 
 ## Index hunting
 
-The process of boosting the collection of indexes which help in improving the query performance as well as the speed of
-the database.
+The process of boosting the collection of indexes which help in improving the query performance as well as the speed of the database.
 
 ## View
 
@@ -79,8 +77,7 @@ Materialized views are disk based and are updated periodically based upon the qu
 
 ## Normalization
 
-Process of structuring a relational database in accordance with a series of so-called normal forms in order to reduce
-data redundancy and improve data integrity.
+Process of structuring a relational database in accordance with a series of so-called normal forms in order to reduce data redundancy and improve data integrity.
 
 ## PostgreSQL: CTE
 
@@ -154,6 +151,18 @@ Generated columns.
 - Virtual
 - Stored
 
+## PostgreSQL: create an array
+
+```postgresql
+SELECT ARRAY[1, 2, 3];
+```
+
+## PostgreSQL: convert an array to a string
+
+```postgresql
+SELECT ARRAY_TO_STRING(ARRAY[1, 2, 3], ',');
+```
+
 ## Page
 
 A page is a unit of data storage in a database management system.
@@ -200,8 +209,7 @@ Used to simultaneously delete or update an entry from both the child and parent 
 
 ## Trigger
 
-Procedural code that is automatically executed in response to certain events on a particular table or view in a
-database.
+Procedural code that is automatically executed in response to certain events on a particular table or view in a database.
 
 ## Row-security
 
