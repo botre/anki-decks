@@ -281,3 +281,7 @@ Two angles that add up to 180 degrees.
 ## Which angle is the largest in a triangle
 
 The angle opposite the longest side.
+
+## Pythagorean triplet
+
+A set of three positive integers a, b, and c such that `a² + b² = c²` and `a < b < c`.

@@ -462,8 +462,7 @@ setmetatable(t, mt)
 
 ## Metamethod
 
-A user-supplied function that is called to perform an operation, bypassing the default action, usually because the
-operation would otherwise be undefined.
+A user-supplied function that is called to perform an operation, bypassing the default action, usually because the operation would otherwise be undefined.
 
 ## Metamethod: addition
 
@@ -596,8 +595,7 @@ A line of execution, that can be stopped and re-started mid-execution.
 
 A program with threads runs several threads concurrently.
 
-Coroutines, on the other hand, are collaborative: a program with coroutines is, at any given time, running only one of
-its coroutines.
+Coroutines, on the other hand, are collaborative: a program with coroutines is, at any given time, running only one of its coroutines.
 
 ## When does a coroutine suspend its execution
 
@@ -913,8 +911,7 @@ printer.print()
 
 ## Colon operator
 
-The effect of the colon is to add an extra hidden parameter (self) in a method definition and to add an extra argument
-in a method cal.
+The effect of the colon is to add an extra hidden parameter (self) in a method definition and to add an extra argument in a method cal.
 
 It lets us write:
 
@@ -1001,8 +998,9 @@ Reference to an object that is not considered by the garbage collector.
 
 ## Weak table
 
-A weak table is a table where all references are weak. That means that, if an object is only held inside weak tables,
-Lua will collect the object eventually.
+A weak table is a table where all references are weak.
+
+That means that, if an object is only held inside weak tables, Lua will collect the object eventually.
 
 ```lua
 local a = {}
@@ -1056,3 +1054,28 @@ end
 -- B
 -- C
 ```
+
+## Character class
+
+A character class is an item in a pattern that can match any character in a specific set.
+
+```lua
+local s = "Hello World"
+print(s:match("[aeiou]")) --> e (custom character class using brackets)
+```
+
+Table of character classes:
+
+| Character class | Matches                             |
+| --------------- | ----------------------------------- |
+| .               | Any character                       |
+| %a              | Any letter                          |
+| %c              | Any control character               |
+| %d              | Any digit                           |
+| %l              | Any lowercase letter                |
+| %p              | Any punctuation character           |
+| %s              | Any whitespace character            |
+| %u              | Any uppercase letter                |
+| %w              | Any alphanumeric character          |
+| %x              | Any hexadecimal digit               |
+| %z              | The character with representation 0 |
