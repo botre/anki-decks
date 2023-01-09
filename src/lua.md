@@ -802,23 +802,24 @@ print(greetings[3]) --> nil
 ## Create (or empty) a file
 
 ```lua
-io.output("example.txt")
+local file = io.output('example.txt')
+file:close()
 ```
 
 ## Write to a file
 
 ```lua
-io.write("Hello, World!")
-io.close()
+local file = io.output('example.txt')
+file:write('Hello World!')
+file:close()
 ```
 
 ## Read a file
 
 ```lua
-io.input("example.txt")
-local content = io.read()
-print(content)
-io.close()
+local file = io.input('example.txt')
+print(file:read('*all'))
+file:close()
 ```
 
 ## Read all lines
@@ -836,8 +837,8 @@ io.read("*line")
 ## Open a file with specific permissions
 
 ```lua
-local file = io.open("example.txt", "w")
-file:write("Hello, World!")
+local file = io.open('example.txt', 'w')
+file:write('Hello World!')
 file:close()
 ```
 
