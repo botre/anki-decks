@@ -149,3 +149,7 @@ exit
 ## Enter command mode
 
 `<prefix> :`
+
+## Open a URL while in mouse mode
+
+Press `shift` to disable mouse mode, then click the URL.
