@@ -153,3 +153,11 @@ exit
 ## Open a URL while in mouse mode
 
 Press `shift` to disable mouse mode, then click the URL.
+
+## Convert selected pane to a window
+
+`<prefix> !`
+
+## Toggle pane full screen
+
+`<prefix> z`
