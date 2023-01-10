@@ -85,9 +85,22 @@ It joins the new upstream changes into the local branch.
 
 Squashing.
 
+```bash
+# Start an interactive rebase (3 commits in the past), you can then select which commits to squash.
+git rebase -i HEAD~3
+```
+
 ## Takes the dirty state of your working tree and saves it on a stack of unfinished changes that you can reapply at any time
 
 Stashing.
+
+```bash
+# Stash changes
+git stash
+
+# Pop the last stashed changes
+git stash pop
+```
 
 ## Creates an empty Git repository
 
