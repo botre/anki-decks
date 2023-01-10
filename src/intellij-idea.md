@@ -80,10 +80,6 @@
 
 `⌘ + 9`
 
-## Jump to next error
-
-`F2`
-
 ## Navigate with the Select In popup
 
 `⌥ + F1`
