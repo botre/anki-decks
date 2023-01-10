@@ -10,8 +10,7 @@ Tracks all changes made to files in the project, building a history of commits o
 
 The tree of actual checked out files.
 
-The working tree normally contains the contents of the HEAD commit's tree, plus any local changes that you have made but
-not yet committed.
+The working tree normally contains the contents of the HEAD commit's tree, plus any local changes that you have made but not yet committed.
 
 ## Index
 
@@ -74,8 +73,7 @@ Both of these commands are designed to integrate changes from one branch into an
 
 Merging is a non-destructive operation that creates an extraneous merge commit (joining the new upstream changes).
 
-Rebasing replays local changes on top of the upstream changes. It re-writes the project history by creating
-brand-new commits.
+Rebasing replays local changes on top of the upstream changes. It re-writes the project history by creating brand-new commits.
 
 ## What does a merge commit contain
 
