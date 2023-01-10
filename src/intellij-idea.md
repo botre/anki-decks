@@ -52,14 +52,6 @@
 
 `⌘ + N`
 
-## View recent files
-
-`⌘ + E`
-
-## View recent locations
-
-`⌘ + Shift + E`
-
 ## View commit tool
 
 `⌘ + K`

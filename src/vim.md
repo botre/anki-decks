@@ -710,3 +710,11 @@ Write and exits.
 ## Jump to previous error
 
 `<leader>e[`
+
+## Search files
+
+`<leader>ff`
+
+## Search recent files
+
+`<leader>fr`
