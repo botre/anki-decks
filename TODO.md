@@ -5,6 +5,7 @@
 - Docker
 - Go
 - GraphQL
+- Greek prefixes and suffixes
 - MobX
 - Python
 - Redux
