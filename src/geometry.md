@@ -285,3 +285,7 @@ The angle opposite the longest side.
 ## Pythagorean triplet
 
 A set of three positive integers a, b, and c such that `a² + b² = c²` and `a < b < c`.
+
+## Leg length ratios of a 30-60-90 triangle
+
+1, 2, and √3.
