@@ -202,6 +202,9 @@ Take the lowest note and place it up an octave.
 
 Using only notes from a specific scale.
 
+- dia: through
+- tonos: tones
+
 ## Chromatic
 
 Using all 12 notes.
@@ -287,19 +290,31 @@ Voicing in which all the notes in the chord are arranged as far apart as possibl
 
 ## Suspended chord
 
-Triad without a third. Using a second of fourth instead.
+Triad without a third. Using a second (sus2) of fourth (sus4) instead.
+
+Example:
+
+C Major: C E G
+C Sus2: C D G
+C Sus4: C F G
 
 ## sus2
 
 The second takes the place of the third.
 
-Example: C major scale, Csus2 chord.
+Example:
+
+C Major: C E G
+C Sus2: C D G
 
 ## sus4
 
 The fourth takes the place of the third.
 
-Example: C major scale, Csus4 chord.
+Example:
+
+C Major: C E G
+C Sus4: C F G
 
 ## Chord tone
 
@@ -308,6 +323,8 @@ A chord tone is a note that exists within a certain chord.
 ## Slash chord
 
 Triad over a bass note that is not a chord tone.
+
+Example: C/E chord.
 
 ## Polychord
 
@@ -333,9 +350,15 @@ The sounding of more than two notes together.
 
 Two or more tones sounding together in a pleasant way.
 
+- con: with/together
+- sonare: to sound
+
 ## Dissonant
 
 Two or more tones sounding together in a harsh way.
+
+- dis: apart
+- sonare: to sound
 
 ## Density
 
